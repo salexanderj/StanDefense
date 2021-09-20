@@ -1,0 +1,62 @@
+"dota_shops"
+{
+	"consumables"
+	{
+	}
+
+	"attributes"
+	{
+		"item"		"item_standef_redring"
+		"item"		"item_standef_warmredring"
+		"item"		"item_standef_burningredring"
+		"item"		"item_standef_ringoftheguardian"
+		"item"		"item_standef_ringofhercules"
+		"item"		"item_standef_mysteriousbracelet"
+		"item"		"item_standef_shinyrock"	
+	}
+
+	"weapons_armor"
+	{
+	}
+			
+	"misc"
+	{
+
+	}	
+	
+	"basics"
+	{			
+	}
+
+	"support"
+	{		
+	}
+				
+	"magics"			
+	{
+	}
+		
+	"defense"
+	{	
+	}
+			
+	"weapons"
+	{			
+	}
+					
+	"artifacts"
+	{		
+	}
+
+	"sideshop1"
+	{
+	}
+
+	"sideshop2"
+	{
+	}
+	
+	"secretshop"
+	{							
+	}	
+}

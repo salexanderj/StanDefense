@@ -1,0 +1,120 @@
+"dota_shops"
+{
+	"consumables"
+	{
+		"item"		"item_standef_tomeofagility"
+		"item"		"item_standef_tomeofstrength"
+		"item"		"item_standef_tomeofintelligence"
+		"item"		"item_standef_tomeofpotential"
+	}
+
+	"attributes"
+	{
+		"item"		"item_standef_redring"
+		"item"		"item_standef_warmredring"
+		"item"		"item_standef_burningredring"
+		"item"		"item_standef_ringoftheguardian"
+		"item"		"item_standef_ringofhercules"
+		"item"		"item_standef_mysteriousbracelet"
+		"item"		"item_standef_twitchingbracelet"
+		"item"		"item_standef_vibratingbracelet"
+		"item"		"item_standef_braceletofdexterity"
+		"item"		"item_standef_armbandofartemis"
+		"item"		"item_standef_shinyrock"
+		"item"		"item_standef_glowingrock"
+		"item"		"item_standef_incandescentrock"
+		"item"		"item_standef_gemofthearchmage"
+		"item"		"item_standef_eyeofzeus"	
+	}
+
+	"weapons_armor"
+	{
+		"item"		"item_standef_sharpstick"
+		"item"		"item_standef_bentpole"
+		"item"		"item_standef_dullsword"
+		"item"		"item_standef_sharpsword"
+		"item"		"item_standef_razorsharpsword"
+		"item"		"item_standef_reinforcedclothes"
+		"item"		"item_standef_leatherarmor"
+		"item"		"item_standef_chainmailarmor"
+		"item"		"item_standef_platearmor"
+		"item"		"item_standef_titaniumarmor"
+	}
+			
+	"misc"
+	{
+		"item"		"item_standef_clothwraps"
+		"item"		"item_standef_sandals"
+		"item"		"item_standef_leatherboots"
+		"item"		"item_standef_reinforcedboots"
+		"item"		"item_standef_enchantedboots"
+		"item"		"item_standef_clothgloves"
+		"item"		"item_standef_buzzinggloves"
+		"item"		"item_standef_shimmeringgloves"
+		"item"		"item_standef_glovesofhaste"
+		"item"		"item_standef_supersonicgloves"
+		"item"		"item_standef_morbidmask"
+		"item"		"item_standef_maskofmadness"
+		"item"		"item_standef_insidiousfaceplate"
+		"item"		"item_standef_evilhelmet"
+		"item"		"item_standef_helmofcancer"
+	}	
+	
+	"basics"
+	{	
+		"item"		"item_standef_blessedboots"		
+	}
+
+	"support"
+	{		
+	}
+				
+	"magics"			
+	{
+		"item"		"item_standef_crownoftheimmortal"
+	}
+		
+	"defense"
+	{	
+		"item"		"item_standef_cloakofimpunity"
+	}
+			
+	"weapons"
+	{	
+		"item"		"item_standef_ungodlypenetrator"
+		"item"		"item_standef_deviousrapier"
+		"item"		"item_standef_nuclearblade"		
+	}
+					
+	"artifacts"
+	{	
+		"item"		"item_standef_burningbroach"
+		"item"		"item_standef_sliverofpuremagic"
+		"item"		"item_standef_novaorb"
+		"item"		"item_standef_gemofopulence"
+	}
+
+	"sideshop1"
+	{
+	}
+
+	"sideshop2"
+	{
+	}
+	
+	"secretshop"
+	{	
+		"item"		"item_standef_phasegem"
+		"item"		"item_standef_pendantofmending"
+		"item"		"item_standef_energycondenser"
+		"item"		"item_standef_orbofhealth"
+		"item"		"item_standef_ringofpower"
+		"item"		"item_standef_omnicrystal"
+		"item"		"item_standef_omnicrown"
+		"item"		"item_standef_enchantedpickle"
+		"item"		"item_standef_blessedponcho"
+		"item"		"item_standef_energylens"
+		"item"		"item_standef_libertymedallion"
+		"item"		"item_standef_daggerofswiftness"
+	}	
+}

@@ -1,0 +1,1376 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"SetModel",
+				"SetModelScale"
+			],
+			[
+				"DOTA",
+				"DOTA_TEAM_GOODGUYS"
+			],
+			[
+				"b",
+				"bPingTimeout"
+			],
+			[
+				"e",
+				"eTarget"
+			],
+			[
+				"ent",
+				"EntIndexToHScript"
+			],
+			[
+				"q",
+				"qInversedDirection"
+			],
+			[
+				"Initial",
+				"qInitialRotation"
+			],
+			[
+				"v",
+				"vInitialEyePosition"
+			],
+			[
+				"bIs",
+				"bIsMoving"
+			],
+			[
+				"Get",
+				"GetAcquisitionRange"
+			],
+			[
+				"vIn",
+				"vInitialEyePosition"
+			],
+			[
+				"Movetopo",
+				"MoveToPosition"
+			],
+			[
+				"bre",
+				"bReturningAggressive"
+			],
+			[
+				"retur",
+				"bReturning"
+			],
+			[
+				"bretur",
+				"bReturningAggressive"
+			],
+			[
+				"eve",
+				"eventInfo"
+			],
+			[
+				"get",
+				"GetParent"
+			],
+			[
+				"iper",
+				"iPercentChance"
+			],
+			[
+				"Onattack",
+				"MODIFIER_EVENT_ON_ATTACK_LANDED"
+			],
+			[
+				"MOdpreatt",
+				"MODIFIER_PROPERTY_PREATTACK_CRITICALSTRIKE"
+			],
+			[
+				"Modpreatt",
+				"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"
+			],
+			[
+				"C",
+				"CalculateStatBonus"
+			],
+			[
+				"ecin",
+				"eCurrentModifierIntelligence"
+			],
+			[
+				"G",
+				"GetParent"
+			],
+			[
+				"mod",
+				"modifier_item_standef_tomeofagility"
+			],
+			[
+				"eC",
+				"eCaster"
+			],
+			[
+				"i",
+				"iCurrentStacks"
+			],
+			[
+				"MODIFIER_PROPERTY_Pre",
+				"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"
+			],
+			[
+				"Modimana",
+				"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"
+			],
+			[
+				"iC",
+				"iCurrentNumber"
+			],
+			[
+				"s",
+				"sNextWaypointName"
+			],
+			[
+				"ic",
+				"iCurrentNumber"
+			],
+			[
+				"Ent",
+				"EntIndexToHScript"
+			],
+			[
+				"MoveTo",
+				"MoveToPosition"
+			],
+			[
+				"Move",
+				"MoveToPositionAggressive"
+			],
+			[
+				"max",
+				"fMaxFollowDistance"
+			],
+			[
+				"iCur",
+				"iCurrentWaypointNumber"
+			],
+			[
+				"bis",
+				"bIsCloseToWaypoint"
+			],
+			[
+				"Ish",
+				"IsHero"
+			],
+			[
+				"MODIFIERattack",
+				"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"
+			],
+			[
+				"DOTAT",
+				"DOTA_TEAM_BADGUYS"
+			],
+			[
+				"DOTA_TEAM",
+				"DOTA_TEAM_GOODGUYS"
+			],
+			[
+				"Check",
+				"CheckSecondBarracks"
+			],
+			[
+				"eb",
+				"eBarracksMelee2"
+			],
+			[
+				"eb2",
+				"eBarracksMelee2"
+			],
+			[
+				"Is",
+				"IsIllusion"
+			],
+			[
+				"modifier",
+				"modifier_item_standef_agility_only"
+			],
+			[
+				"el",
+				"elseif"
+			],
+			[
+				"mo",
+				"modifier_functions"
+			],
+			[
+				"m",
+				"modifier_item_constant_movespeed_only"
+			],
+			[
+				"modi",
+				"modifier_item_constant_intelligence_only"
+			],
+			[
+				"fli",
+				"fLifestealMultiplierPercent"
+			],
+			[
+				"fl",
+				"fLifestealMultiplier"
+			],
+			[
+				"Particle",
+				"CreateParticle"
+			],
+			[
+				"fLi",
+				"fLifestealHeal"
+			],
+			[
+				"Modifiermovespeed",
+				"MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"
+			],
+			[
+				"modifierpropertymove",
+				"MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"
+			],
+			[
+				"Set",
+				"SetBaseMoveSpeed"
+			],
+			[
+				"f",
+				"fBoostMultiplier"
+			],
+			[
+				"SetMovesp",
+				"SetBaseMoveSpeed"
+			],
+			[
+				"GetMovespee",
+				"GetBaseMoveSpeed"
+			],
+			[
+				"ib",
+				"iBoostTimeLeft"
+			],
+			[
+				"t",
+				"tSpawnTable"
+			],
+			[
+				"SetMove",
+				"SetBaseMoveSpeed"
+			],
+			[
+				"D",
+				"DOTA_TEAM_BADGUYS"
+			],
+			[
+				"CLa",
+				"CLaneCreepManager"
+			],
+			[
+				"SE",
+				"SetForceAttackTarget"
+			],
+			[
+				"Lengt",
+				"Length2D"
+			],
+			[
+				"FOrc",
+				"ForceKill"
+			],
+			[
+				"entin",
+				"entindex"
+			],
+			[
+				"entindex",
+				"entindex"
+			],
+			[
+				"SetAtta",
+				"SetAttacking"
+			],
+			[
+				"en",
+				"entityKeyValues"
+			],
+			[
+				"Getabs",
+				"GetAbsOrigin"
+			],
+			[
+				"Precache",
+				"PrecacheUnitByNameSync"
+			],
+			[
+				"DOTA_TE",
+				"DOTA_TEAM_NEUTRALS"
+			],
+			[
+				"CreateUnitByName",
+				"CreateUnitByNameAsync"
+			],
+			[
+				"iOriginalGold",
+				"iOriginalGoldBountyMax"
+			],
+			[
+				"iOr",
+				"iOriginalGoldBountyMin"
+			],
+			[
+				"iOri",
+				"iOriginalXPBounty"
+			],
+			[
+				"Getbounty",
+				"GetMinimumGoldBounty"
+			],
+			[
+				"SetBaseD",
+				"SetBaseDamageMax"
+			],
+			[
+				"iOriginalDam",
+				"iOriginalDamageMin"
+			],
+			[
+				"GetPhysicalAr",
+				"GetPhysicalArmorBaseValue"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"cook",
+				"cookie_dict"
+			],
+			[
+				"sess",
+				"session_id"
+			],
+			[
+				"gener",
+				"generate_random_int"
+			],
+			[
+				"new",
+				"new_password_salt"
+			],
+			[
+				"pass",
+				"password_key"
+			],
+			[
+				"nick",
+				"nickname_length"
+			],
+			[
+				"ju",
+				"justify-content-center"
+			],
+			[
+				"password",
+				"password_salt"
+			],
+			[
+				"dark",
+				"darkgray"
+			],
+			[
+				"grey",
+				"dimgrey"
+			],
+			[
+				"class",
+				"classmethod"
+			],
+			[
+				"voi",
+				"VoicePlayer"
+			],
+			[
+				"voice",
+				"voice_player"
+			],
+			[
+				"pla",
+				"play_next"
+			],
+			[
+				"vo",
+				"voice_channel"
+			],
+			[
+				"ch",
+				"channel"
+			],
+			[
+				"is",
+				"is_alive"
+			],
+			[
+				"up",
+				"update_all"
+			],
+			[
+				"heal",
+				"health_regenerated"
+			],
+			[
+				"he",
+				"heal_part"
+			],
+			[
+				"hea",
+				"health_regenerated"
+			],
+			[
+				"part",
+				"parts_that_need_more"
+			],
+			[
+				"h",
+				"health_regenerated"
+			],
+			[
+				"needed",
+				"needed_health"
+			],
+			[
+				"health",
+				"health_to_regenerate"
+			],
+			[
+				"Combat",
+				"CombatantManager"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"upd",
+				"update_injury_multiplier"
+			],
+			[
+				"upda",
+				"update_stan"
+			],
+			[
+				"RES",
+				"RESET_ALL"
+			],
+			[
+				"new_",
+				"new_dict"
+			],
+			[
+				"pl",
+				"player_infos"
+			],
+			[
+				"stans_",
+				"stans_queued_for_offload"
+			],
+			[
+				"plaers_",
+				"players_queued_for_offload"
+			],
+			[
+				"cach",
+				"cached_players"
+			],
+			[
+				"is_",
+				"is_injured"
+			],
+			[
+				"tot",
+				"get_current_total_health"
+			],
+			[
+				"offload",
+				"offload_player"
+			],
+			[
+				"cached",
+				"cached_stans"
+			],
+			[
+				"ca",
+				"cached_players"
+			],
+			[
+				"cac",
+				"cached_stans"
+			],
+			[
+				"cache",
+				"cached_players"
+			],
+			[
+				"save_",
+				"save_player"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "npc/npc_units_custom.txt",
+			"settings":
+			{
+				"buffer_size": 366080,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					8,
+					1,
+					"",
+					null,
+					"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"
+				],
+				[
+					16,
+					1,
+					"",
+					null,
+					"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"
+				],
+				[
+					87,
+					1,
+					"",
+					null,
+					"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"
+				],
+				[
+					98,
+					1,
+					"",
+					null,
+					"HAAAAOaLBQAAAAAA/IsFAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIuV8BQAAAAAA+3wFAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIhluBQAAAAAAL24FAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwInHmBAAAAAAAh+YEAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIsPWBAAAAAAA2dYEAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIiHqAwAAAAAAN+oDAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIlzbAwAAAAAActsDAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIqDMAwAAAAAAtswDAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIuG9AwAAAAAA970DAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIq90AwAAAAAAxXQDAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIsBlAwAAAAAA1mUDAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIvdWAwAAAAAADVcDAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIldIAwAAAAAAbUgDAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIgjxAgAAAAAAHvECAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIohtAgAAAAAAnm0CAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIrpeAgAAAAAA0F4CAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIvNPAgAAAAAACVACAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIihBAgAAAAAAPkECAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwImn3AQAAAAAAf/cBAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIrnoAQAAAAAAz+gBAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIvfZAQAAAAAADdoBAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIr5mAQAAAAAA1GYBAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIgNYAQAAAAAAGVgBAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIlZJAQAAAAAAbEkBAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIqY6AQAAAAAAvDoBAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIre2AAAAAAAAzbYAAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIkSJAAAAAAAAWokAAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIup5AAAAAAAAAHoAAAAAAAAWAAAAIkF0dGFja1JhbmdlIgkJCQkiODAwIg",
+					"AQAAAAAAAAABAAAAvDoBAAAAAACmOgEAAAAAAAAAAAAAAPC/"
+				],
+				[
+					107,
+					1,
+					"insert",
+					{
+						"characters": "6"
+					},
+					"AgAAALd5AAAAAAAAuHkAAAAAAAAAAAAAuHkAAAAAAAC4eQAAAAAAAAEAAAA0",
+					"AQAAAAAAAAABAAAAuHkAAAAAAAC3eQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					110,
+					1,
+					"insert",
+					{
+						"characters": "6"
+					},
+					"AgAAAPx5AAAAAAAA/XkAAAAAAAAAAAAA/XkAAAAAAAD9eQAAAAAAAAEAAAA0",
+					"AQAAAAAAAAABAAAA/XkAAAAAAAD8eQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					147,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"BQAAANWDAAAAAAAA1oMAAAAAAAAAAAAA1oMAAAAAAADYgwAAAAAAAAAAAADYgwAAAAAAANmDAAAAAAAAAAAAANmDAAAAAAAA24MAAAAAAAAAAAAA1oMAAAAAAADWgwAAAAAAAAIAAAAJCQ",
+					"AQAAAAAAAAABAAAA1YMAAAAAAADVgwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					149,
+					1,
+					"reindent",
+					null,
+					"AQAAANaDAAAAAAAA2IMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1oMAAAAAAADWgwAAAAAAAAAAAAAAgFFA"
+				],
+				[
+					150,
+					1,
+					"paste",
+					null,
+					"AQAAANiDAAAAAAAAE4QAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2IMAAAAAAADYgwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					155,
+					2,
+					"left_delete",
+					null,
+					"AwAAANqDAAAAAAAA2oMAAAAAAAABAAAACROEAAAAAAAAE4QAAAAAAAACAAAACQnZgwAAAAAAANmDAAAAAAAAAQAAAAk",
+					"AQAAAAAAAAABAAAA24MAAAAAAADbgwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					158,
+					1,
+					"insert",
+					{
+						"characters": "friendly_tower"
+					},
+					"DwAAAPmDAAAAAAAA+oMAAAAAAAAAAAAA+oMAAAAAAAD6gwAAAAAAABMAAABsYW5lX2NyZWVwX2JhZF9iYXNl+oMAAAAAAAD7gwAAAAAAAAAAAAD7gwAAAAAAAPyDAAAAAAAAAAAAAPyDAAAAAAAA/YMAAAAAAAAAAAAA/YMAAAAAAAD+gwAAAAAAAAAAAAD+gwAAAAAAAP+DAAAAAAAAAAAAAP+DAAAAAAAAAIQAAAAAAAAAAAAAAIQAAAAAAAABhAAAAAAAAAAAAAABhAAAAAAAAAKEAAAAAAAAAAAAAAKEAAAAAAAAA4QAAAAAAAAAAAAAA4QAAAAAAAAEhAAAAAAAAAAAAAAEhAAAAAAAAAWEAAAAAAAAAAAAAAWEAAAAAAAABoQAAAAAAAAAAAAABoQAAAAAAAAHhAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADIQAAAAAAAD5gwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					161,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAJAQAAAAAAAAkRAAAAAAAAAAAAAAkRAAAAAAAACUEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkBAAAAAAAACQEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					163,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJMQAAAAAAAAkxAAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAAlBAAAAAAAACUEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					164,
+					1,
+					"paste",
+					null,
+					"AQAAAJMQAAAAAAAAshAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkxAAAAAAAACTEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					170,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAJMeAAAAAAAAlB4AAAAAAAAAAAAAlB4AAAAAAACXHgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkx4AAAAAAACTHgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					171,
+					1,
+					"paste",
+					null,
+					"AQAAAJceAAAAAAAAtR4AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlx4AAAAAAACXHgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					176,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAEItAAAAAAAAQy0AAAAAAAAAAAAAQy0AAAAAAABGLQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQi0AAAAAAABCLQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					177,
+					1,
+					"paste",
+					null,
+					"AQAAAEYtAAAAAAAAZC0AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARi0AAAAAAABGLQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					180,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAIE7AAAAAAAAgjsAAAAAAAAAAAAAgjsAAAAAAACFOwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgTsAAAAAAACBOwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					181,
+					1,
+					"paste",
+					null,
+					"AQAAAIU7AAAAAAAAozsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhTsAAAAAAACFOwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					186,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAADJKAAAAAAAAM0oAAAAAAAAAAAAAM0oAAAAAAAA2SgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMkoAAAAAAAAySgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					187,
+					1,
+					"paste",
+					null,
+					"AQAAADZKAAAAAAAAVEoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANkoAAAAAAAA2SgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					190,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAOVYAAAAAAAA5lgAAAAAAAAAAAAA5lgAAAAAAADpWAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5VgAAAAAAADlWAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					191,
+					1,
+					"paste",
+					null,
+					"AQAAAOlYAAAAAAAAB1kAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6VgAAAAAAADpWAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					196,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAKxnAAAAAAAArWcAAAAAAAAAAAAArWcAAAAAAACwZwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArGcAAAAAAACsZwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					197,
+					1,
+					"paste",
+					null,
+					"AQAAALBnAAAAAAAAzmcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAsGcAAAAAAACwZwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					200,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAIV2AAAAAAAAhnYAAAAAAAAAAAAAhnYAAAAAAACJdgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhXYAAAAAAACFdgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					201,
+					1,
+					"paste",
+					null,
+					"AQAAAIl2AAAAAAAAp3YAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiXYAAAAAAACJdgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					204,
+					2,
+					"left_delete",
+					null,
+					"AgAAAAqFAAAAAAAACoUAAAAAAAANAAAAcmllbmRseV90b3dlcgmFAAAAAAAACYUAAAAAAAABAAAAZg",
+					"AQAAAAAAAAABAAAAF4UAAAAAAAAKhQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					205,
+					1,
+					"insert",
+					{
+						"characters": "tower_friendly"
+					},
+					"DgAAAAmFAAAAAAAACoUAAAAAAAAAAAAACoUAAAAAAAALhQAAAAAAAAAAAAALhQAAAAAAAAyFAAAAAAAAAAAAAAyFAAAAAAAADYUAAAAAAAAAAAAADYUAAAAAAAAOhQAAAAAAAAAAAAAOhQAAAAAAAA+FAAAAAAAAAAAAAA+FAAAAAAAAEIUAAAAAAAAAAAAAEIUAAAAAAAARhQAAAAAAAAAAAAARhQAAAAAAABKFAAAAAAAAAAAAABKFAAAAAAAAE4UAAAAAAAAAAAAAE4UAAAAAAAAUhQAAAAAAAAAAAAAUhQAAAAAAABWFAAAAAAAAAAAAABWFAAAAAAAAFoUAAAAAAAAAAAAAFoUAAAAAAAAXhQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACYUAAAAAAAAJhQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					224,
+					1,
+					"insert",
+					{
+						"characters": "7"
+					},
+					"AgAAACdFAAAAAAAAKEUAAAAAAAAAAAAAKEUAAAAAAAAoRQAAAAAAAAEAAAA2",
+					"AQAAAAAAAAABAAAAKEUAAAAAAAAnRQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					229,
+					1,
+					"insert",
+					{
+						"characters": "1"
+					},
+					"AgAAANpTAAAAAAAA21MAAAAAAAAAAAAA21MAAAAAAADbUwAAAAAAAAEAAAAw",
+					"AQAAAAAAAAABAAAA2lMAAAAAAADbUwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					234,
+					1,
+					"insert",
+					{
+						"characters": "6"
+					},
+					"AgAAAFRNAAAAAAAAVU0AAAAAAAAAAAAAVU0AAAAAAABVTQAAAAAAAAEAAAA1",
+					"AQAAAAAAAAABAAAAVU0AAAAAAABUTQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					237,
+					1,
+					"insert",
+					{
+						"characters": "4"
+					},
+					"AgAAAM9qAAAAAAAA0GoAAAAAAAAAAAAA0GoAAAAAAADQagAAAAAAAAEAAAAz",
+					"AQAAAAAAAAABAAAAz2oAAAAAAADQagAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					240,
+					1,
+					"insert",
+					{
+						"characters": "5"
+					},
+					"AQAAAPZxAAAAAAAA93EAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9nEAAAAAAAD2cQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					245,
+					1,
+					"insert",
+					{
+						"characters": "5"
+					},
+					"AgAAAPZxAAAAAAAA93EAAAAAAAAAAAAA93EAAAAAAAD3cQAAAAAAAAIAAAA1MA",
+					"AQAAAAAAAAABAAAA+HEAAAAAAAD2cQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					248,
+					1,
+					"insert",
+					{
+						"characters": "7"
+					},
+					"AgAAAKh5AAAAAAAAqXkAAAAAAAAAAAAAqXkAAAAAAACpeQAAAAAAAAEAAAA2",
+					"AQAAAAAAAAABAAAAqXkAAAAAAACoeQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					253,
+					1,
+					"insert",
+					{
+						"characters": "5"
+					},
+					"AgAAAPSAAAAAAAAA9YAAAAAAAAAAAAAA9YAAAAAAAAD1gAAAAAAAAAEAAAAw",
+					"AQAAAAAAAAABAAAA9IAAAAAAAAD1gAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Install packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/npc",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/shops",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts"
+	],
+	"file_history":
+	[
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/neutral_creep_manager.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/constants.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/lane_creep_manager.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/modifier_alert_when_damaged.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/npc/tower_friendly.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/npc/friendly_tower.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/addon_game_mode.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/game_setup.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/npc/neutral_base.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/shops/main_shops.txt",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_deviousrapier.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/utilities.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_deviousrapier.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_ungodlypenetrator.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_blessedponcho.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_attackspeed_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_ungodlypenetrator.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_agility_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_armbandofartemis.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_tomeofagility.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_tomeofpotential.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_tomeofstrength.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_tomeofintelligence.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_tomeofintelligence.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_tomeofagility.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_tomeofstrength.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/item_standef_tomeofintelligence.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_libertymedallion.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_phasegem.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_phasegem.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_ringofpower.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_daggerofswiftness.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_enchantedpickle.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_energycondenser.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_energylens.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_orbofhealth.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_omnicrystal.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_omnicrown.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_pendantofmending.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_daggerofswiftness.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_libertymedallion.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_energylens.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_blessedponcho.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_enchantedpickle.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_omnicrown.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_omnicrystal.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_ringofpower.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_orbofhealth.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_energycondenser.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_pendantofmending.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_buzzinggloves.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_dullsword.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/npc/npc_units_custom.txt",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/player_manager.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/modifier_courier.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/npc/stan.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_platearmor.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/npc/lane_creep_good_base.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/npc/lane_creep_bad_base.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/npc/lane_creep_bad.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/modifier_courier_invulnerability.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_courier_invulnerability.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/npc/herolist.txt",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_supersonicgloves.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_glovesofhaste.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_shimmeringgloves.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_clothgloves.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_reinforcedboots.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_reinforcedclothes.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_titaniumarmor.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_platemail.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_chainmailarmor.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_leatherarmor.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_armor_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_movespeed_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/npc/npc_abilities_override.txt",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_damage_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_lifesteal_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_helmofcancer.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_morbidmask.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_evilhelmet.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_insidiousfaceplate.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_maskofmadness.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_mysteriousbracelet.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_enchantedboots.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_leatherboots.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_sandals.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_clothwraps.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_razorsharpsword.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_sharpsword.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_bentpole.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_sharpstick.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_eyeofzeus.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_gemofthearchmage.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_incandescentrock.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_glowingrock.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_shinyrock.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_ringofhercules.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_ringoftheguardian.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_burningredring.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_warmredring.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_redring.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_vibratingbracelet.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_braceletofdexterity.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_twitchingbracelet.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/utility.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/constant_modifiers.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_strength_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_intelligence_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/item_modifier_constants.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_constant_agility_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_stats_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_constant_lifesteal_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_constant_intelligence_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_constant_strength_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_constant_damage_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_constant_movespeed_only.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/npc/npc_items_custom.txt",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_gemofthemagi.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/shops.txt",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/libraries/timers.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/python_kv_editor/kv_editor.py",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/neutral_creep_spawner.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/npc/neutral.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/ai/neutral.lua",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/npc/neutral_creep",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/cum.kv",
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/scripts.sublime-project"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"bIsAggroed",
+			"bIsMoving",
+			"\"AttackRange\"\t\t\t\t\"800\"",
+			"\"AttackAnimationPoint\"\t\t\"0.0\"",
+			"\"AttackRange\"\t\t\t\t\"800\"",
+			"\"AttackAnimationPoint\"\t\t\"0.0\"",
+			"\"TeamName\"\t\t\t\t\t\"DOTA_TEAM_NEUTRALS\"",
+			"\"AttackAcquisitionRange\"\t\"800\"",
+			"\"UseNeutralCreepBehavior\" \t\"1\"",
+			"modifier_item_standef_ungodlypenetrator",
+			"item_standef_blessedponcho",
+			"modifier_item_standef_agility_only",
+			"item_standef_armbandofartemis",
+			"item_standef_ungodlypenetrator",
+			"item_standef_tomeofagility",
+			"item_standef_tomeofpotential",
+			"modifier_item_standef_tomeofagility",
+			"Agility",
+			"item_standef_tomeofagility",
+			"Agility",
+			"modifier_item_standef_tomeofagility",
+			"item_standef_tomeofagility",
+			"modifier_item_standef_damage_only",
+			"item_standef_armbandofartemis",
+			"modifier_item_standef_phasegem",
+			"item_standef_phasegem",
+			"modifier_item_standef_phasegem",
+			"item_standef_phasegem",
+			"modifier_item_standef_phasegem",
+			"item_standef_phasegem",
+			"modifier_item_standef_phasegem",
+			"item_standef_phasegem",
+			"modifier_item_standef_phasegem",
+			"item_standef_phasegem",
+			"modifier_item_standef_phasegem",
+			"item_standef_phasegem",
+			"modifier_item_standef_phasegem",
+			"item_standef_phasegem",
+			"modifier_item_standef_phasegem",
+			"item_standef_phasegem",
+			"modifier_modifier_item_standef_orbofhealth",
+			"item_standef_phasegem",
+			"modifier_item_standef_phasegem",
+			"item_standef_phasegem",
+			"modifier_item_standef_phasegem",
+			"item_standef_phasegem",
+			"modifier_item_standef_agility_only",
+			"bad",
+			"fMaxFo",
+			"npc_dota_creep",
+			"models/creeps/neutral_creeps/n_creep_troll_dark_b/n_creep_troll_dark_b.vmdl",
+			"modifier_item_standef_attackspeed_only",
+			"shadows",
+			"book",
+			"stygian",
+			"sygian",
+			"ninja",
+			"powder",
+			"fae",
+			"\"\t",
+			"{\n  \t\t\"ItemPurchasable\"   \"0\"\n  \t\t\"ItemIsNeutralDrop\"\t\"0\"\n  \t\t\"ItemDroppable\"\t\"0\"\n\t}\n",
+			"\t{\n  \t\t\"ItemPurchasable\"   \"0\"\n  \t\t\"ItemIsNeutralDrop\"\t\"0\"\n  \t\t\"ItemDroppable\"\t\"0\"\n\t}",
+			"\"ItemIsNeutralDrop\"\t\"0\"",
+			"shovel",
+			"arcane",
+			"\"ItemPurchasable\"   \"0\"",
+			"modifier_item_constant_strength_only",
+			"modifier_item_constant_movespeed_only",
+			"modifier_item_constant_lifesteal_only",
+			"modifier_item_constant_intelligence_only",
+			"modifier_item_constant_damage_only",
+			"arg",
+			"modifier_functions",
+			"modifier_class",
+			"\"AttackAnimationPoint\"\t\t\"0.0\"",
+			"modifier_item_constant_agility_only",
+			"modifier_item_constant_lifesteal_only",
+			"modifier_item_constant_intelligence_only",
+			"modifier_item_constant_agility_only",
+			"\"CombatClassDefend\"\t\t\t\"DOTA_COMBAT_CLASS_ATTACK_BASIC\"",
+			"\"REMOVE\"",
+			"DOTA_COMBAT_CLASS_ATTACK_SIEGE",
+			"CStanDefenseGameMode",
+			"vmdl",
+			"CNeutralCreepSpawner",
+			"CLaneCreepSpawner"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"bAggroed",
+			"bMoving",
+			"\"AttackRange\"\t\t\t\t\"400\"",
+			"\"AttackAnimationPoint\"\t\t\"0.1\"",
+			"\"AttackRange\"\t\t\t\t\"400\"",
+			"\"AttackAnimationPoint\"\t\t\"0.1\"",
+			"\"TeamName\"\t\t\t\t\t\"DOTA_TEAM_BADGUYS\"",
+			"\"TeamName\"\t\t\t\t\t\"DOTA_TEAM_CUSTOM_1\"",
+			"\"AttackAcquisitionRange\"\t\"400\"",
+			"\"UseNeutralCreepBehavior\" \t\"0\"",
+			"modifier_item_standef_deviousrapier",
+			"item_standef_deviousrapier",
+			"modifier_item_standef_ungodlypenetrator",
+			"item_standef_ungodlypenetrator",
+			"item_standef_tomeofpotential",
+			"modifier_item_standef_tomeofintelligence",
+			"Intelligence",
+			"item_standef_tomeofintelligence",
+			"Strength",
+			"modifier_item_standef_tomeofstrength",
+			"item_standef_tomeofstrength",
+			"modifier_item_standef_tomeofstrength",
+			"modifier_item_standef_tomeofagility",
+			"modifier_item_standef_daggerofswiftness",
+			"item_standef_daggerofswiftness",
+			"modifier_item_standef_libertymedallion",
+			"item_standef_libertymedallion",
+			"modifier_item_standef_energylens",
+			"item_standef_energylens",
+			"modifier_item_standef_blessedponcho",
+			"item_standef_blessedponcho",
+			"modifier_item_standef_enchantedpickle",
+			"item_standef_enchantedpickle",
+			"modifier_item_standef_omnicrown",
+			"item_standef_omnicrown",
+			"modifier_item_standef_omnicrystal",
+			"item_standef_omnicrystal",
+			"modifier_item_standef_ringofpower",
+			"item_standef_ringofpower",
+			"modifier_item_standef_orbofhealth",
+			"item_standef_orbofhealth",
+			"modifier_item_standef_energycondenser",
+			"item_standef_energycondenser",
+			"modifier_item_standef_pendantofmending",
+			"item_standef_pendantofmending",
+			"modifier_item_standef_phasegem",
+			"npc_dota_creature",
+			"modifier_item_standef_armor_only",
+			"\"\t\"REMOVE\"",
+			"",
+			"\"ItemIsNeutralDrop\"\t\"0\"\n  \t\t\"ItemDroppable\"\t\"0\"",
+			"\"ItemPurchasable\"   \"0\"\n  \t\t\"ItemIsNeutralDrop\"\t\"0\"",
+			"\"ItemPurchasable\"   \"0\"\n  \t\t\"ItemIsNeutralDrop\"\t\"1\"",
+			"\"ItemPurchasable\"   \"0\"\n  \t\t\"ItemIsNeutralDrop\"\t\t\t\t\"1\"",
+			"modifier_item_standef_strength_only",
+			"modifier_item_standef_movespeed_only",
+			"modifier_item_standef_lifesteal_only",
+			"modifier_item_standef_intelligence_only",
+			"modifier_item_standef_damage_only",
+			"bStatFlags",
+			"FFunctions",
+			"CModifier",
+			"\"AttackAnimationPoint\"\t\t\"0.1\"",
+			"modifier_item_constant_strength_only",
+			"modifier_item_constant_movespeed_only",
+			"modifier_item_constant_lifesteal_only",
+			"modifier_item_constant_intelligence_only",
+			"modifier_item_constant_damage_only",
+			"\"CombatClassDefend\"\t\t\t\"DOTA_COMBAT_CLASS_DEFEND_BASIC\"",
+			"\"CombatClassDefend\"\t\t\t\"DOTA_COMBAT_CLASS_DEFEND_BASIC\"\n",
+			"\t\t\t\n\t{\n  \t\t\"ItemPurchasable\"   \"0\"\n\t}\n",
+			"DOTA_COMBAT_CLASS_ATTACK_BASIC",
+			"CStanDefence",
+			"CNeutralCreepManager",
+			"CLaneCreepManager"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "npc/npc_units_custom.txt",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 366080,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146541,
+								146541
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1515.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 132.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "scripts.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 356.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
