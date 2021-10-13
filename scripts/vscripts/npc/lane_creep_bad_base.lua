@@ -54,7 +54,7 @@ function Update()
 
 	if fWaypointDistance < thisEntity:GetAcquisitionRange() * 0.25 then
 		thisEntity.eCurrentWaypoint = eNextWaypoint
-
+		
 		if not bIsAggroed then
 			thisEntity:MoveToPositionAggressive(vNextWaypointPosition)
 		end

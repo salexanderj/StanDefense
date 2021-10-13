@@ -81,9 +81,6 @@ end
 function ZapThem(caster, ability, source, target, damage)
         -- Draw particle
         local particle = "particles/items_fx/chain_lightning.vpcf"
-        if ability:GetAbilityName() == "item_imba_jarnbjorn" then
-                particle = "particles/items_fx/chain_lightning_jarnbjorn.vpcf"
-        end
 
         local bounce_pfx = ParticleManager:CreateParticle(particle, PATTACH_ABSORIGIN_FOLLOW, source)
         ParticleManager:SetParticleControlEnt(bounce_pfx, 0, target, PATTACH_POINT_FOLLOW, "attach_hitloc", target:GetAbsOrigin(), true)

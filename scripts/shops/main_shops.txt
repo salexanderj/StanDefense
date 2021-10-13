@@ -83,7 +83,8 @@
 	{	
 		"item"		"item_standef_ungodlypenetrator"
 		"item"		"item_standef_deviousrapier"
-		"item"		"item_standef_nuclearblade"		
+		"item"		"item_standef_nuclearblade"
+		"item"		"item_standef_ragehammer"		
 	}
 					
 	"artifacts"

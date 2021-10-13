@@ -1,5 +1,8 @@
 require("constants")
+require("constants_tables")
 require("libraries/timers")
+
+LinkLuaModifier("modifier_creep_strength", "modifiers/modifier_creep_strength", LUA_MODIFIER_MOTION_NONE)
 
 if CLaneCreepManager == nil then
   CLaneCreepManager = class({})
@@ -8,9 +11,12 @@ end
 function CLaneCreepManager:init()
   GameRules:GetGameModeEntity():SetThink(CLaneCreepManager.Update, "LaneUpdate", 10)
   ListenToGameEvent("entity_killed", CLaneCreepManager.OnEntityKilled, self)
+
+  self.iCurrentGood = 0
+  self.iCurrentBad = 0
+
   self.iLastSpawnedTime = 0
-  self.fFriendlyCreepMultiplier = 1
-  self.fCreepSayTimeout = false
+  self.fCreepBuffStacks = 0
 end
 
 function CLaneCreepManager:Update()
@@ -36,23 +42,22 @@ function CLaneCreepManager:OnEntityKilled(eventInfo)
   local sName = eKilledEntity:GetUnitName()
 
   if sName == "npc_standef_barracks_melee" or sName == "npc_standef_barracks_ranged" then
-   self.fFriendlyCreepMultiplier = self.fFriendlyCreepMultiplier + 0.5
-
-   if not self.fCreepSayTimeout then
-
-    if not IsServer() then
-      return
-    end
-
-    Say(nil, "Your creeps grow stronger.", false)
-    self.fCreepSayTimeout = true
-    Timers:CreateTimer({
-      endTime = 5,
-      callback = function()
-        self.fCreepSayTimeout = false
-      end})
+    self.fCreepBuffStacks = self.fCreepBuffStacks + CREEP_STRENGTH_BARRACKS_POINTS
+  elseif sName == "npc_standef_tower_enemy_veryeasy" then
+    self.fCreepBuffStacks = self.fCreepBuffStacks + CREEP_STRENGTH_TOWER_VERYEASY_POINTS
+  elseif sName == "npc_standef_tower_enemy_easy" then
+    self.fCreepBuffStacks = self.fCreepBuffStacks + CREEP_STRENGTH_TOWER_EASY_POINTS
+  elseif sName == "npc_standef_tower_enemy_medium" then
+    self.fCreepBuffStacks = self.fCreepBuffStacks + CREEP_STRENGTH_TOWER_MEDIUM_POINTS
+  elseif sName == "npc_standef_tower_enemy_hard" then
+    self.fCreepBuffStacks = self.fCreepBuffStacks + CREEP_STRENGTH_TOWER_HARD_POINTS
+  elseif sName == "npc_standef_tower_enemy_extreme" then
+    self.fCreepBuffStacks = self.fCreepBuffStacks + CREEP_STRENGTH_TOWER_EXTREME_POINTS
+  elseif sName == "npc_standef_tower_enemy_ultimate" then
+    self.fCreepBuffStacks = self.fCreepBuffStacks + CREEP_STRENGTH_TOWER_ULTIMATE_POINTS
+  elseif sName == "npc_standef_barracks_ranged_good" or sName == "npc_standef_barracks_melee_good" then
+    self.fCreepBuffStacks = math.max(self.fCreepBuffStacks - CREEP_STRENGTH_BARRACKS_FRIENDLY_POINTS_LOSS, 0)
   end
- end
 end
 
 function CLaneCreepManager:SpawnGoodCreeps()
@@ -65,8 +70,9 @@ function CLaneCreepManager:SpawnGoodCreeps()
   local tSpawnTable = {}
 
   for k, v in pairs(LANE_CREEP_TABLE_GOOD) do
-    if fCurrentTime >= k then
+    if fCurrentTime >= k and k >= self.iCurrentGood then
       tSpawnTable = v
+      self.iCurrentGood = k
     end
   end
 
@@ -74,6 +80,8 @@ function CLaneCreepManager:SpawnGoodCreeps()
     for i = 1, v do
       local eNewUnit = CLaneCreepManager:CreateUnit(k, eGoodSpawner:GetAbsOrigin(), eWaypoint, iTeam)
       CLaneCreepManager:SetUnitStats(eNewUnit)
+      local hBuff = eNewUnit:AddNewModifier(eNewUnit, nil, "modifier_creep_strength", {})
+      hBuff:SetStackCount(self.fCreepBuffStacks)
     end
   end
 end
@@ -85,16 +93,16 @@ function CLaneCreepManager:SpawnBadCreeps()
 
     if CLaneCreepManager:CheckFirstBarracks() then 
       eBadSpawner = Entities:FindByName(nil, "forward_spawn_1") 
-      eWaypoint = Entities:FindByName(nil, "path_bad_38")
+      eWaypoint = Entities:FindByName(nil, "path_bad_103")
     elseif CLaneCreepManager:CheckSecondBarracks() then
       eBadSpawner = Entities:FindByName(nil, "forward_spawn_2") 
-      eWaypoint = Entities:FindByName(nil, "path_bad_37")
+      eWaypoint = Entities:FindByName(nil, "path_bad_98")
     elseif CLaneCreepManager:CheckThirdBarracks() then
       eBadSpawner = Entities:FindByName(nil, "forward_spawn_3") 
-      eWaypoint = Entities:FindByName(nil, "path_bad_36") 
+      eWaypoint = Entities:FindByName(nil, "path_bad_93") 
     elseif CLaneCreepManager:CheckFourthBarracks() then
       eBadSpawner = Entities:FindByName(nil, "forward_spawn_4") 
-      eWaypoint = Entities:FindByName(nil, "path_bad_33")      
+      eWaypoint = Entities:FindByName(nil, "path_bad_79")      
     end
 
   local fCurrentTime = GameRules:GetDOTATime(false, false)
@@ -103,8 +111,9 @@ function CLaneCreepManager:SpawnBadCreeps()
   local tSpawnTable = {}
 
   for k, v in pairs(LANE_CREEP_TABLE_BAD) do
-    if fCurrentTime >= k then
+    if fCurrentTime >= k and k >= self.iCurrentBad then
       tSpawnTable = v
+      self.iCurrentBad = k
     end
   end
 
@@ -152,20 +161,15 @@ function CLaneCreepManager:SetUnitStats(eUnit)
   eUnit:SetDeathXP(iOriginalXPBounty * fMultiplier)
   eUnit:SetMinimumGoldBounty(iOriginalGoldBountyMin * fMultiplier)
   eUnit:SetMaximumGoldBounty(iOriginalGoldBountyMax * fMultiplier)
-
-  if eUnit:GetTeam() == DOTA_TEAM_GOODGUYS then
-    local fModelMultiplier = 1 + ((self.fFriendlyCreepMultiplier - 1) / 8)
-    eUnit:SetModelScale(fModelMultiplier)
-  end
 end
 
 function CLaneCreepManager:GetMultiplier(iTeam)
   local fCurrentTime = GameRules:GetDOTATime(false, false)
 
   if iTeam == DOTA_TEAM_GOODGUYS then
-    return 1 + (((1/25) * (1/60) * fCurrentTime) * self.fFriendlyCreepMultiplier)
+    return 1 + ((1/25) * (1/60) * fCurrentTime) + (self.fCreepBuffStacks * CREEP_STRENGTH_MULTIPLIER)
   else
-    return 1 + ((1/20) * (1/60) * fCurrentTime)
+    return 1 + ((1/15) * (1/60) * fCurrentTime)
   end
 end
 

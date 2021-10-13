@@ -3,14 +3,20 @@ require("player_manager")
 require("lane_creep_manager")
 require("neutral_creep_manager")
 require("constants")
+require("libraries/CosmeticLib")
 
 if CStanDefence == nil then
 	CStanDefence = class({})
 end
 
 function Precache(context)
-	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_ogre_magi.vsndevts", context )
-	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_sniper.vsndevts", context )
+	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_ogre_magi.vsndevts", context)
+	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_sniper.vsndevts", context)
+
+	--CosmeticLib
+	PrecacheResource("model", "models/development/invisiblebox.vmdl", context)
+	PrecacheResource("model_folder", "models/heroes/antimage", context)
+	PrecacheResource("model_folder", "models/items/antimage", context)
 end
 
 -- Create the game mode when we activate

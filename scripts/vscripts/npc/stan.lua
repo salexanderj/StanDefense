@@ -7,6 +7,8 @@ function Spawn(entityKeyValues)
 		return
 	end
 
+	GameRules.eStanEntity = thisEntity
+
 	thisEntity:SetThink(Update, "Update")
 	ListenToGameEvent("entity_killed", OnEntityKilled, self)
 end

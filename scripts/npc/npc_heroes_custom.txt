@@ -1,18 +1,194 @@
 //File edited with Simple Dota 2 Editor
 //https://github.com/Oplkill/Simple-Dota-2-Editor
 
+//File edited with Simple Dota 2 Editor
+//https://github.com/Oplkill/Simple-Dota-2-Editor
+
+//File edited with Simple Dota 2 Editor
+//https://github.com/Oplkill/Simple-Dota-2-Editor
+
 // Dota Heroes File
 // NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
 // the specified key-value combinations.  Use override_hero <hero_to_override> for this.
 "DOTAHeroes"
-{
-	//=================================================================================================================
-	// HERO: Templar Assassin
-	//=================================================================================================================
-	"npc_dota_hero_templar_assassin_template"
+{	
+	"npc_dota_hero_antimage"
 	{
-		"override_hero"				"npc_dota_hero_templar_assassin"			// Hero to override
-		"Ability1"					"templar_assassin_refraction_holdout"		// Ability 1
-		"VisionNighttimeRange"		"1800"										// Range of vision at night time.
-	}
-}
+		"override_hero"				"npc_dota_hero_antimage"
+		"Ability1"					"hero_heretic_hunter_abduct"
+		"Ability2"					"hero_heretic_hunter_decimate"
+		"Ability3"					"hero_heretic_hunter_pray"
+		"Ability4"					"hero_heretic_hunter_stanswill"
+		"Ability5"					"hero_heretic_hunter_favorofstan"
+		"Ability6"					"hero_heretic_hunter_clobber"
+		"Ability10"					"special_bonus_hp_regen_5"
+		"Ability11"					"special_bonus_cleave_15"
+		"Ability12"					"special_bonus_agility_15"
+		"Ability13"					"special_bonus_evasion_8"
+		"Ability14"					"special_bonus_attack_speed_30"
+		"Ability15"					"special_bonus_armor_15"
+		"Ability16"					"special_bonus_attack_damage_70"
+		"Ability17"					"special_bonus_all_stats_20"
+	
+
+
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackDamageMin"			"10"										// Damage range min.
+		"AttackDamageMax"			"30"										// Damage range max.
+		"AttackRate"				"2.2"									// Speed of attack.
+		"ProjectileSpeed"			"1550"									// Speed of projectile.
+		"AttackAnimationPoint"		"0.3"
+
+
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------
+		"ArmorPhysical"				"0"									// Physical protection.
+		"MagicalResistance"			"10"									// Magical protection (percentage).
+
+
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"		"19"										// Base strength
+		"AttributeStrengthGain"		"2"										// Strength bonus per level.
+		"AttributeBaseIntelligence"	"9"										// Base intelligence
+		"AttributeIntelligenceGain"	"1.25"										// Intelligence bonus per level.
+		"AttributeBaseAgility"		"27"										// Base agility
+		"AttributeAgilityGain"		"3.4"										// Agility bonus per level.
+
+		// Movement
+		//-------------------------------------------------------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"325"									// Speed.
+		"MovementTurnRate"			"0.5"									// Turning rate.
+
+		// Status
+		//-------------------------------------------------------------------------------------------------------------
+		"StatusHealth"				"200"									// Base health.
+		"StatusHealthRegen"			"0.5"									// Health regeneration rate.
+		"StatusMana"				"100"											// Base mana.
+		"StatusManaRegen"			"1"									// Mana regeneration rate.
+
+		"VisionNighttimeRange"		"1000"
+		"VisionDaytimeRange"		"1500"}
+"npc_dota_hero_faceless_void"{
+		"override_hero"				"npc_dota_hero_faceless_void"
+		"Ability1"					"hero_executioner_instantaneousadaptation"
+		"Ability2"					"hero_executioner_unimaginablestrength"
+		"Ability3"					"hero_executioner_terrorecho"
+		"Ability4"					"hero_executioner_execute"
+		"Ability5"					"hero_executioner_unstoppable"
+		"Ability6"					"hero_executioner_hammerofstan"
+		"Ability10"					"special_bonus_hp_regen_5"
+		"Ability11"					"special_bonus_cleave_15"
+		"Ability12"					"special_bonus_strength_15"
+		"Ability13"					"special_bonus_attack_damage_30"
+		"Ability14"					"special_bonus_attack_speed_30"
+		"Ability15"					"special_bonus_armor_15"
+		"Ability16"					"special_bonus_attack_damage_70"
+		"Ability17"					"special_bonus_all_stats_20"
+	
+
+
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackDamageMin"			"18"										// Damage range min.
+		"AttackDamageMax"			"42"										// Damage range max.
+		"AttackRate"				"1.9"									// Speed of attack.
+		"ProjectileSpeed"			"1550"									// Speed of projectile.
+		"AttackAnimationPoint"		"0.5"
+
+
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------
+		"ArmorPhysical"				"0"									// Physical protection.
+		"MagicalResistance"			"10"									// Magical protection (percentage).
+
+
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"30"										// Base strength
+		"AttributeStrengthGain"		"4"										// Strength bonus per level.
+		"AttributeBaseIntelligence"	"6"										// Base intelligence
+		"AttributeIntelligenceGain"	"1.1"										// Intelligence bonus per level.
+		"AttributeBaseAgility"		"13"										// Base agility
+		"AttributeAgilityGain"		"1.65"										// Agility bonus per level.
+
+		// Movement
+		//-------------------------------------------------------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"150"									// Speed.
+		"MovementTurnRate"			"0.5"									// Turning rate.
+
+		// Status
+		//-------------------------------------------------------------------------------------------------------------
+		"StatusHealth"				"300"									// Base health.
+		"StatusHealthRegen"			"0.5"									// Health regeneration rate.
+		"StatusMana"				"100"											// Base mana.
+		"StatusManaRegen"			"1"									// Mana regeneration rate.
+
+		"VisionNighttimeRange"		"1000"
+		"VisionDaytimeRange"		"1500"}"npc_dota_hero_lion"{
+		"override_hero"				"npc_dota_hero_lion"
+		"Ability1"					"hero_deformed_cultist_psychichemorrhage"
+		"Ability2"					"hero_deformed_cultist_telepathiceruption"
+		"Ability3"					"hero_deformed_cultist_crudetransmutation"
+		"Ability4"					"hero_deformed_cultist_mindcrusher"
+		"Ability5"					"hero_deformed_cultist_twistedmind"
+		"Ability6"					"hero_deformed_cultist_kneecapmassacre"
+		"Ability10"					"special_bonus_hp_regen_5"
+		"Ability11"					"special_bonus_spell_amplify_5"
+		"Ability12"					"special_bonus_cooldown_reduction_6"
+		"Ability13"					"special_bonus_intelligence_15"
+		"Ability14"					"special_bonus_movement_speed_50"
+		"Ability15"					"special_bonus_magic_resistance_15"
+		"Ability16"					"special_bonus_spell_amplify_25"
+		"Ability17"					"special_bonus_cooldown_reduction_10"
+	
+
+
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"			"20"										// Damage range min.
+		"AttackDamageMax"			"38"										// Damage range max.
+		"AttackRate"				"1.7"									// Speed of attack.
+		"ProjectileSpeed"			"900"									// Speed of projectile.
+		"AttackAnimationPoint"		"0.43"
+		"AttackRange"				"600"
+		"ProjectileModel"			"particles/units/heroes/hero_lion/lion_base_attack.vpcf"
+
+
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------
+		"ArmorPhysical"				"0"									// Physical protection.
+		"MagicalResistance"			"10"									// Magical protection (percentage).
+
+
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"		"18"										// Base strength
+		"AttributeStrengthGain"		"2.4"										// Strength bonus per level.
+		"AttributeBaseIntelligence"	"22"										// Base intelligence
+		"AttributeIntelligenceGain"	"3.5"										// Intelligence bonus per level.
+		"AttributeBaseAgility"		"15"										// Base agility
+		"AttributeAgilityGain"		"1.6"										// Agility bonus per level.
+
+		// Movement
+		//-------------------------------------------------------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"330"									// Speed.
+		"MovementTurnRate"			"0.6"									// Turning rate.
+
+		// Status
+		//-------------------------------------------------------------------------------------------------------------
+		"StatusHealth"				"210"									// Base health.
+		"StatusHealthRegen"			"0.5"									// Health regeneration rate.
+		"StatusMana"				"100"											// Base mana.
+		"StatusManaRegen"			"1"									// Mana regeneration rate.
+
+		"VisionNighttimeRange"		"1000"
+		"VisionDaytimeRange"		"1500"}}
