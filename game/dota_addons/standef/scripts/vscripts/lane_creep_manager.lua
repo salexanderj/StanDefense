@@ -22,6 +22,7 @@ end
 function CLaneCreepManager:Update()
 
   local fCurrentTime = GameRules:GetDOTATime(false, false)
+  local iCurrentMinute = math.floor(fCurrentTime / 60)
   local iCurrentSecond = math.floor(fCurrentTime + 0.5)
 
   if GameRules:IsGamePaused() then
@@ -34,6 +35,7 @@ function CLaneCreepManager:Update()
     CLaneCreepManager:SpawnBadCreeps()
     CLaneCreepManager.iLastSpawnedTime = iCurrentSecond
   end
+
   return 1
 end
 

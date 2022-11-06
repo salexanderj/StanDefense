@@ -1,6 +1,7 @@
 require("game_setup")
 require("player_manager")
 require("lane_creep_manager")
+require("lane_boss_manager")
 require("neutral_creep_manager")
 require("constants")
 require("libraries/CosmeticLib")
@@ -12,6 +13,15 @@ end
 function Precache(context)
 	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_ogre_magi.vsndevts", context)
 	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_sniper.vsndevts", context)
+	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_bounty_hunter.vsndevts", context)
+	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_tiny.vsndevts", context)
+	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_chaos_knight.vsndevts", context)
+	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_sven.vsndevts", context)
+	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_dragon_knight.vsndevts", context)
+	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_beastmaster.vsndevts", context)
+	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_invoker.vsndevts", context)
+	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_nightstalker.vsndevts", context)
+
 
 	--CosmeticLib
 	PrecacheResource("model", "models/development/invisiblebox.vmdl", context)
@@ -27,6 +37,7 @@ function Activate()
 	CGameSetup:init()
 	CPlayerManager:init()
 	CLaneCreepManager:init()
+	CLaneBossManager:init()
 	CNeutralCreepManager:init()
 end
 

@@ -1,3 +1,17 @@
+function EmitSoundOnAll(soundname)
+        for i = 0, PlayerResource:GetPlayerCount() - 1 do
+                local ePlayer = PlayerResource:GetPlayer(i)
+                local eHero = ePlayer:GetAssignedHero()
+                EmitSoundOnEntityForPlayer(soundname, eHero, i)
+        end
+end
+
+function LastDigit(number)
+        local s = tostring(number)
+        last = string.sub(s, #s)
+        return tonumber(last)
+end
+
 function Split(inputstr, sep)
         if sep == nil then
                 sep = "%s"

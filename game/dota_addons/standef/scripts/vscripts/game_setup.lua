@@ -71,7 +71,6 @@ function CGameSetup:OnStateChange()
   end
 end
 
-
 function CGameSetup:RandomForNoHeroSelected()
     --NOTE: GameRules state must be in HERO_SELECTION or STRATEGY_TIME to pick heroes
     --loop through each player on every team and random a hero if they haven't picked

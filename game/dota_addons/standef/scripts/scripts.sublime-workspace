@@ -4,6 +4,106 @@
 		"selected_items":
 		[
 			[
+				"iC",
+				"iCurrentSecond"
+			],
+			[
+				"iL",
+				"iLastAnnouncedTime"
+			],
+			[
+				"iCur",
+				"iCurrentMinute"
+			],
+			[
+				"to",
+				"tonumber"
+			],
+			[
+				"Get",
+				"GetAbsOrigin"
+			],
+			[
+				"eP",
+				"eParent"
+			],
+			[
+				"iBonus",
+				"iBonusMovespeed"
+			],
+			[
+				"get",
+				"GetParent"
+			],
+			[
+				"nam",
+				"GetName"
+			],
+			[
+				"GetAss",
+				"GetAssignedHero"
+			],
+			[
+				"GetPlayer",
+				"GetPlayer"
+			],
+			[
+				"npc_standef_boss_lane_br",
+				"npc_standef_boss_lane_brute"
+			],
+			[
+				"np",
+				"npc_standef_boss_lane_crusher"
+			],
+			[
+				"npc",
+				"npc_standef_boss_lane_mage"
+			],
+			[
+				"npc_standef_lane_",
+				"npc_standef_boss_lane_berserker"
+			],
+			[
+				"SetmanaRe",
+				"SetBaseManaRegen"
+			],
+			[
+				"iOriginalM",
+				"iOriginalMana"
+			],
+			[
+				"fOrigi",
+				"fOriginalHealthRegen"
+			],
+			[
+				"GetMaxM",
+				"GetMaxMana"
+			],
+			[
+				"GetBaseH",
+				"GetBaseHealthRegen"
+			],
+			[
+				"DOTA_TEA",
+				"DOTA_TEAM_BADGUYS"
+			],
+			[
+				"DOTA",
+				"DOTA_TEAM_BADGUYS"
+			],
+			[
+				"fC",
+				"fCurrentTime"
+			],
+			[
+				"f",
+				"fCurrentTime"
+			],
+			[
+				"Rand",
+				"RandomInt"
+			],
+			[
 				"MODIFIER_PROPERTY_Pre",
 				"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"
 			],
@@ -32,10 +132,6 @@
 				"GetCaster"
 			],
 			[
-				"Get",
-				"GetAbility"
-			],
-			[
 				"h",
 				"hero_deformed_cultist_twistedmind"
 			],
@@ -61,10 +157,6 @@
 			],
 			[
 				"fCurrent",
-				"fCurrentArmor"
-			],
-			[
-				"fC",
 				"fCurrentArmor"
 			],
 			[
@@ -128,10 +220,6 @@
 				"eOriginGroupTargets"
 			],
 			[
-				"iC",
-				"iCounter"
-			],
-			[
 				"fM",
 				"fMultiplierPercent"
 			],
@@ -170,10 +258,6 @@
 			[
 				"fCr",
 				"fCritMultiplierPercent"
-			],
-			[
-				"f",
-				"fCritPercentPerAgility"
 			],
 			[
 				"fstr",
@@ -348,10 +432,6 @@
 				"SetModelScale"
 			],
 			[
-				"DOTA",
-				"DOTA_TEAM_GOODGUYS"
-			],
-			[
 				"b",
 				"bPingTimeout"
 			],
@@ -396,10 +476,6 @@
 				"eventInfo"
 			],
 			[
-				"get",
-				"GetParent"
-			],
-			[
 				"iper",
 				"iPercentChance"
 			],
@@ -438,203 +514,11 @@
 			[
 				"Modimana",
 				"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"
-			],
-			[
-				"s",
-				"sNextWaypointName"
-			],
-			[
-				"ic",
-				"iCurrentNumber"
-			],
-			[
-				"Ent",
-				"EntIndexToHScript"
-			],
-			[
-				"Move",
-				"MoveToPositionAggressive"
-			],
-			[
-				"max",
-				"fMaxFollowDistance"
-			],
-			[
-				"iCur",
-				"iCurrentWaypointNumber"
-			],
-			[
-				"bis",
-				"bIsCloseToWaypoint"
-			],
-			[
-				"Ish",
-				"IsHero"
-			],
-			[
-				"MODIFIERattack",
-				"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"
-			],
-			[
-				"DOTAT",
-				"DOTA_TEAM_BADGUYS"
-			],
-			[
-				"DOTA_TEAM",
-				"DOTA_TEAM_GOODGUYS"
-			],
-			[
-				"Check",
-				"CheckSecondBarracks"
-			],
-			[
-				"eb",
-				"eBarracksMelee2"
-			],
-			[
-				"eb2",
-				"eBarracksMelee2"
-			],
-			[
-				"Is",
-				"IsIllusion"
-			],
-			[
-				"modifier",
-				"modifier_item_standef_agility_only"
-			],
-			[
-				"el",
-				"elseif"
-			],
-			[
-				"m",
-				"modifier_item_constant_movespeed_only"
-			],
-			[
-				"modi",
-				"modifier_item_constant_intelligence_only"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "vscripts/constants.lua",
-			"settings":
-			{
-				"buffer_size": 383,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					5,
-					1,
-					"insert",
-					{
-						"characters": "33"
-					},
-					"AwAAAB4AAAAAAAAAHwAAAAAAAAAAAAAAHwAAAAAAAAAfAAAAAAAAAAIAAAAzNR8AAAAAAAAAIAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAHgAAAAAAAAAgAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "vscripts/modifiers/modifier_creep_strength.lua",
-			"settings":
-			{
-				"buffer_size": 420,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					11,
-					1,
-					"left_delete",
-					null,
-					"AQAAAJwBAAAAAAAAnAEAAAAAAAABAAAAMQ",
-					"AQAAAAAAAAABAAAAnQEAAAAAAACdAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					12,
-					1,
-					"insert",
-					{
-						"characters": "2"
-					},
-					"AQAAAJwBAAAAAAAAnQEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAnAEAAAAAAACcAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					13,
-					1,
-					"left_delete",
-					null,
-					"AQAAAJwBAAAAAAAAnAEAAAAAAAABAAAAMg",
-					"AQAAAAAAAAABAAAAnQEAAAAAAACdAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					14,
-					1,
-					"insert",
-					{
-						"characters": "0.75"
-					},
-					"BAAAAJwBAAAAAAAAnQEAAAAAAAAAAAAAnQEAAAAAAACeAQAAAAAAAAAAAACeAQAAAAAAAJ8BAAAAAAAAAAAAAJ8BAAAAAAAAoAEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAnAEAAAAAAACcAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					15,
-					6,
-					"left_delete",
-					null,
-					"BgAAAJ8BAAAAAAAAnwEAAAAAAAABAAAANZ4BAAAAAAAAngEAAAAAAAABAAAAN50BAAAAAAAAnQEAAAAAAAABAAAALpwBAAAAAAAAnAEAAAAAAAABAAAAMJsBAAAAAAAAmwEAAAAAAAABAAAAIJoBAAAAAAAAmgEAAAAAAAABAAAALw",
-					"AQAAAAAAAAABAAAAoAEAAAAAAACgAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"insert",
-					{
-						"characters": "*"
-					},
-					"AQAAAJoBAAAAAAAAmwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAmgEAAAAAAACaAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					17,
-					1,
-					"insert",
-					{
-						"characters": " 0.76"
-					},
-					"BQAAAJsBAAAAAAAAnAEAAAAAAAAAAAAAnAEAAAAAAACdAQAAAAAAAAAAAACdAQAAAAAAAJ4BAAAAAAAAAAAAAJ4BAAAAAAAAnwEAAAAAAAAAAAAAnwEAAAAAAACgAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAmwEAAAAAAACbAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					18,
-					2,
-					"left_delete",
-					null,
-					"AgAAAJ8BAAAAAAAAnwEAAAAAAAABAAAANp4BAAAAAAAAngEAAAAAAAABAAAANw",
-					"AQAAAAAAAAABAAAAoAEAAAAAAACgAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					19,
-					1,
-					"insert",
-					{
-						"characters": "9"
-					},
-					"AQAAAJ4BAAAAAAAAnwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAngEAAAAAAACeAQAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -648,11 +532,11 @@
 		"selected_items":
 		[
 			[
-				"Install packa",
+				"Package Control: ",
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: ",
+				"Install packa",
 				"Package Control: Install Package"
 			]
 		],
@@ -676,13 +560,39 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities"
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc"
 	],
 	"file_history":
 	[
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/lane_boss_manager.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/utilities.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/lane_creep_manager.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/modifier_lane_boss.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/lane_bosses.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/boss_lane.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/addon_game_mode.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/player_manager.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_libertymedallion.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/bosses.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_sniper.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_mage.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_horseman.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_guard.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_crusher.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_berserker.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_brute.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_captain.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_assassin.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/lane_boss_manager",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/constants.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/game_setup.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/lane_creep_bad_base.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_lanecreep_bad_melee_0.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_heroes_custom.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/modifier_creep_strength.lua",
 		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_ragehammer.lua",
 		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/shops/main_shops.txt",
 		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_ragehammer.lua",
@@ -782,39 +692,11 @@
 		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_gemofopulence.lua",
 		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_gemofopulence.lua",
 		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_omnicrown.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_blessedboots.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_novaorb_armor_reduction.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_sliverofpuremagic.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_nuclearblade.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_cloakofimpunity.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_daggerofswiftness.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_daggerofswiftness.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_crownoftheimmortal.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_cloakofimpunity.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/item_standef_nuclearblade.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_blessedboots.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_novaorb.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_sliverofpuremagic.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_burningbroach.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/neutral_creep_manager.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/npc/tower_friendly.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/npc/friendly_tower.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/npc/neutral_base.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_deviousrapier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_deviousrapier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_ungodlypenetrator.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_blessedponcho.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_attackspeed_only.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_ungodlypenetrator.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_armbandofartemis.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_tomeofagility.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_tomeofpotential.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_tomeofstrength.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_tomeofintelligence.lua"
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_blessedboots.lua"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -828,6 +710,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"mind",
+			"]",
+			"[",
 			"modifier_item_standef_armor_only",
 			"fFriendlyCreepMultiplier",
 			"eUnit",
@@ -952,9 +837,6 @@
 			"modifier_functions",
 			"modifier_class",
 			"\"AttackAnimationPoint\"\t\t\"0.0\"",
-			"modifier_item_constant_agility_only",
-			"modifier_item_constant_lifesteal_only",
-			"modifier_item_constant_intelligence_only",
 			"modifier_item_constant_agility_only"
 		],
 		"highlight": true,
@@ -963,6 +845,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"{",
+			"}",
 			"modifier_item_standef_ragehammer",
 			"self.eParent",
 			"modifier_generic_stun",
@@ -1095,67 +979,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "vscripts/constants.lua",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 383,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								383,
-								383
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "vscripts/modifiers/modifier_creep_strength.lua",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 420,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								420,
-								420
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1202,7 +1025,7 @@
 	"project": "scripts.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
