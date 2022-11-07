@@ -8,6 +8,7 @@
 *.vpk
 *.vmdl_c
 *.vmesh_c
+*.vphys_c
 *.vsndevts_c
 *.vsnd_c
 ProjectStuffSettings.kv
