@@ -55,13 +55,7 @@ function Update()
 	if fWaypointDistance < thisEntity:GetAcquisitionRange() * 0.25 then
 		thisEntity.eCurrentWaypoint = eNextWaypoint
 
-		if not bIsAggroed then
-			thisEntity:MoveToPositionAggressive(vNextWaypointPosition)
-		end
-	elseif fWaypointDistance < thisEntity:GetAcquisitionRange() * 1.5 then
-		if thisEntity:IsIdle() then
-			thisEntity:MoveToPositionAggressive(vCurrentWaypointPosition)
-		end
+		thisEntity:MoveToPositionAggressive(vNextWaypointPosition)
 	else
 		if thisEntity:IsIdle() then
 			thisEntity:MoveToPositionAggressive(vCurrentWaypointPosition)

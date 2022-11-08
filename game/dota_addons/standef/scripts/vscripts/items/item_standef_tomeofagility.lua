@@ -2,6 +2,10 @@ LinkLuaModifier("modifier_item_standef_tomeofagility", "modifiers/items/modifier
 
 item_standef_tomeofagility = class({})
 
+function item_standef_tomeofagility:Precache(context)
+	PrecacheResource("soundfile", "soundevents/game_sounds_items.vsndevts", context)
+end
+
 function item_standef_tomeofagility:GetBehavior()
 	return DOTA_ABILITY_BEHAVIOR_IMMEDIATE + DOTA_ABILITY_BEHAVIOR_NO_TARGET
 end
@@ -25,6 +29,8 @@ function item_standef_tomeofagility:OnSpellStart()
 	local iCurrentStacks = eCaster:GetModifierStackCount("modifier_item_standef_tomeofagility", self)
 
 	eCaster:SetModifierStackCount("modifier_item_standef_tomeofagility", self, iCurrentStacks + 1)
+
+	EmitSoundOn("Item.TomeOfKnowledge", eCaster)
 
 	self:SpendCharge()
 end

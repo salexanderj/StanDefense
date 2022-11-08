@@ -96,5 +96,5 @@ end
 function CLaneBossManager:GetMultiplier()
 	local fCurrentTime = GameRules:GetDOTATime(false, false)
 	local iMinute = (1/60) * fCurrentTime
-	return 1 + ((1/10) * math.max(iMinute - 10, 0))
+	return 1 + ((1/8) * math.max(iMinute - 10, 0))
 end

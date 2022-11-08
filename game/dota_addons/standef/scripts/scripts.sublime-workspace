@@ -4,6 +4,82 @@
 		"selected_items":
 		[
 			[
+				"DOTA",
+				"DOTA_TEAM_GOODGUYS"
+			],
+			[
+				"EmitSoundOn",
+				"EmitSoundOnAll"
+			],
+			[
+				"CREE",
+				"CREEP_STRENGTH_TOWER_HARD_POINTS"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mod",
+				"modifier_item_standef_learningelixir"
+			],
+			[
+				"P",
+				"PATTACH_ABSORIGIN_FOLLOW"
+			],
+			[
+				"Get",
+				"GetCursorTarget"
+			],
+			[
+				"GetEff",
+				"GetEffectAttachType"
+			],
+			[
+				"GEt",
+				"GetParent"
+			],
+			[
+				"DOTA_UNIT_TARGET_TEAM",
+				"DOTA_UNIT_TARGET_TEAM_CUSTOM"
+			],
+			[
+				"GetAbilityTarge",
+				"GetAbilityTargetTeam"
+			],
+			[
+				"DOTA_ABILITY_BEHAVIOR_UI",
+				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+			],
+			[
+				"UF",
+				"UF_FAIL_CUSTOM"
+			],
+			[
+				"Filter",
+				"CastFilterResultTarget"
+			],
+			[
+				"UF_",
+				"UF_FAIL_CUSTOM"
+			],
+			[
+				"TEAM",
+				"DOTA_TEAM_GOODGUYS"
+			],
+			[
+				"GetRange",
+				"GetCastRange"
+			],
+			[
+				"DOTA_ABILITY_Tar",
+				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+			],
+			[
+				"f",
+				"fPercentCleave"
+			],
+			[
 				"iC",
 				"iCurrentSecond"
 			],
@@ -18,10 +94,6 @@
 			[
 				"to",
 				"tonumber"
-			],
-			[
-				"Get",
-				"GetAbsOrigin"
 			],
 			[
 				"eP",
@@ -88,15 +160,7 @@
 				"DOTA_TEAM_BADGUYS"
 			],
 			[
-				"DOTA",
-				"DOTA_TEAM_BADGUYS"
-			],
-			[
 				"fC",
-				"fCurrentTime"
-			],
-			[
-				"f",
 				"fCurrentTime"
 			],
 			[
@@ -118,10 +182,6 @@
 			[
 				"fOrigin",
 				"fOriginalArmor"
-			],
-			[
-				"GEt",
-				"GetStackCount"
 			],
 			[
 				"iOr",
@@ -288,10 +348,6 @@
 				"iCurrentBonusStats"
 			],
 			[
-				"fun",
-				"function"
-			],
-			[
 				"hero",
 				"hero_heretic_hunter_stanswill_modifier"
 			],
@@ -342,10 +398,6 @@
 			[
 				"Leng2",
 				"Length2D"
-			],
-			[
-				"P",
-				"ParticleManager"
 			],
 			[
 				"fMax",
@@ -462,58 +514,6 @@
 			[
 				"bre",
 				"bReturningAggressive"
-			],
-			[
-				"retur",
-				"bReturning"
-			],
-			[
-				"bretur",
-				"bReturningAggressive"
-			],
-			[
-				"eve",
-				"eventInfo"
-			],
-			[
-				"iper",
-				"iPercentChance"
-			],
-			[
-				"Onattack",
-				"MODIFIER_EVENT_ON_ATTACK_LANDED"
-			],
-			[
-				"MOdpreatt",
-				"MODIFIER_PROPERTY_PREATTACK_CRITICALSTRIKE"
-			],
-			[
-				"Modpreatt",
-				"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"
-			],
-			[
-				"C",
-				"CalculateStatBonus"
-			],
-			[
-				"ecin",
-				"eCurrentModifierIntelligence"
-			],
-			[
-				"mod",
-				"modifier_item_standef_tomeofagility"
-			],
-			[
-				"eC",
-				"eCaster"
-			],
-			[
-				"i",
-				"iCurrentStacks"
-			],
-			[
-				"Modimana",
-				"MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"
 			]
 		]
 	},
@@ -561,17 +561,68 @@
 	"expanded_folders":
 	[
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc"
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/shops",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts"
 	],
 	"file_history":
 	[
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/boss_lane.lua",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/lane_boss_manager.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/utilities.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/(BACKUP 1-30-41 PM)npc_units_custom.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/constants.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/lane_creep_bad_base.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/lane_creep_good_base.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_crusher.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/modifier_creep_strength.lua",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/lane_creep_manager.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/(BACKUP 12-11-26 PM)npc_units_custom.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_stan.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/addon_game_mode.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_berserker.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_brute.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_elixiroflearning.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/shops/main_shops.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_daggerofswiftness.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_healingsalve.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_elixiroflearning.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_elixiroflearning.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_minorpotionofpower.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_minorpotionofpower.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_healingsalve.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_minorpotionofpower.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_energylens.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_healingsalve.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_vampiricdraught.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_learningelixir.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_vampiricdraught.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_vampiricdraught.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_lifesteal_only.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_tomeofagility.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_tomeofintelligence.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_tomeofstrength.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_axe.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_tomeofpotential.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_learningelixir.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_intelligence_only.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_woodenaxe.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_diamondaxe.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_ironaxe.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_woodenaxe.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_bronzeaxe.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_stoneaxe.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_stoneaxe.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_ironaxe.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_bronzeaxe.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_diamondaxe.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_ironaxe.txt",
+		"/C/Users/samco/Downloads/addon_english.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_diamondaxe.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_bronzeaxe.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_stoneaxe.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/utilities.lua",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/modifier_lane_boss.lua",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/lane_bosses.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/boss_lane.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/addon_game_mode.lua",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/player_manager.lua",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_libertymedallion.lua",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/bosses.lua",
@@ -579,20 +630,14 @@
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_mage.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_horseman.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_guard.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_crusher.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_berserker.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_brute.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_captain.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_assassin.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/lane_boss_manager",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/constants.lua",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/game_setup.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/lane_creep_bad_base.lua",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_lanecreep_bad_melee_0.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_heroes_custom.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/modifier_creep_strength.lua",
 		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_ragehammer.lua",
 		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/shops/main_shops.txt",
 		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_ragehammer.lua",
@@ -649,50 +694,7 @@
 		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/abilities/generic_talents/generic_talent_cooldown_reduction.lua",
 		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/abilities/generic_talents/generic_talent_attackspeed.lua",
 		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/abilities/generic_talents/generic_talent_armor.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/abilities/generic_talents/generic_talent_all_stats.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/abilities/generic_talents/generic_talent_agility.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/generic_talents/generic_talent_cooldown_reduction_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/generic_talents/generic_talent_strength_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/generic_talents/generic_talent_spell_amp_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/generic_talents/generic_talent_mana_regen_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/generic_talents/generic_talent_intelligence_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/generic_talents/generic_talent_health_regen_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/generic_talents/generic_talent_damage_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/generic_talents/generic_talent_attackspeed_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/generic_talents/generic_talent_armor_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/generic_talents/generic_talent_all_stats_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/generic_talents/generic_talent_agility_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/hero_heretic_hunter/hero_heretic_hunter_stanswill_crit_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/hero_heretic_hunter/hero_heretic_hunter_abduct_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/hero_heretic_hunter/hero_heretic_hunter_stanswill_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/abilities/hero_heretic_hunter/hero_heretic_hunter_decimate.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/hero_heretic_hunter/hero_heretic_hunter_favorofstan_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/libraries/timers.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/npc/npc_abilities_custom.txt",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/npc/npc_heroes_custom.txt",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/abilities/hero_heretic_hunter/hero_heretic_hunter_pray_modifier.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/npc/stan.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/utilities.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/addon_game_mode.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_burningbroach.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/libraries/CosmeticLib.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/abilities/hero_heretic_hunter/heretic_hunter_decimate.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/abilities/hero_heretic_hunter/heretic_hunter_pray.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/abilities/hero_heretic_hunter/heretic_hunter_decimation.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/abilities/hero_heretic_hunter/heretic_hunter_clobber.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/abilities/hero_heretic_hunter/heretic_hunter_stanswill.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/abilities/hero_heretic_hunter/heretic_hunter_favorofstan.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/constant_tables.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/abilities/hero_heretic_hunter/heretic_hunter_abduct.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/kv/lane_creep_spawn_tables.txt",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/npc/npc_units_custom.txt",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/modifier_alert_when_damaged.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_novaorb.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_crownoftheimmortal.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_gemofopulence.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/items/item_standef_gemofopulence.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_omnicrown.lua",
-		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/modifiers/items/modifier_item_standef_blessedboots.lua"
+		"/D/Programs/Steam/steamapps/common/dota 2 beta/game/dota_addons/standefence/scripts/vscripts/abilities/generic_talents/generic_talent_all_stats.lua"
 	],
 	"find":
 	{
@@ -710,6 +712,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"fCreepBuffStacks",
 			"mind",
 			"]",
 			"[",
@@ -836,8 +839,7 @@
 			"arg",
 			"modifier_functions",
 			"modifier_class",
-			"\"AttackAnimationPoint\"\t\t\"0.0\"",
-			"modifier_item_constant_agility_only"
+			"\"AttackAnimationPoint\"\t\t\"0.0\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -845,6 +847,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"iFriendlyCreepBuffStacks",
 			"{",
 			"}",
 			"modifier_item_standef_ragehammer",
@@ -984,7 +987,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -1063,7 +1066,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 356.0,
+	"side_bar_width": 355.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

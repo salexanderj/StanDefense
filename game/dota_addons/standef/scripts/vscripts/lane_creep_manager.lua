@@ -1,6 +1,7 @@
 require("constants")
 require("constants_tables")
 require("libraries/timers")
+require("utilities")
 
 LinkLuaModifier("modifier_creep_strength", "modifiers/modifier_creep_strength", LUA_MODIFIER_MOTION_NONE)
 
@@ -16,7 +17,8 @@ function CLaneCreepManager:init()
   self.iCurrentBad = 0
 
   self.iLastSpawnedTime = 0
-  self.fCreepBuffStacks = 0
+  self.iFriendlyCreepBuffStacks = 0
+  self.iEnemyCreepBuffStacks = 0
 end
 
 function CLaneCreepManager:Update()
@@ -44,21 +46,31 @@ function CLaneCreepManager:OnEntityKilled(eventInfo)
   local sName = eKilledEntity:GetUnitName()
 
   if sName == "npc_standef_barracks_melee" or sName == "npc_standef_barracks_ranged" then
-    self.fCreepBuffStacks = self.fCreepBuffStacks + CREEP_STRENGTH_BARRACKS_POINTS
+    self.iFriendlyCreepBuffStacks = self.iFriendlyCreepBuffStacks + CREEP_STRENGTH_BARRACKS_POINTS
+    self.iEnemyCreepBuffStacks = math.max(self.iEnemyCreepBuffStacks - CREEP_STRENGTH_BARRACKS_POINTS_LOSS, 0)
   elseif sName == "npc_standef_tower_enemy_veryeasy" then
-    self.fCreepBuffStacks = self.fCreepBuffStacks + CREEP_STRENGTH_TOWER_VERYEASY_POINTS
+    self.iFriendlyCreepBuffStacks = self.iFriendlyCreepBuffStacks + CREEP_STRENGTH_TOWER_VERYEASY_POINTS
   elseif sName == "npc_standef_tower_enemy_easy" then
-    self.fCreepBuffStacks = self.fCreepBuffStacks + CREEP_STRENGTH_TOWER_EASY_POINTS
+    self.iFriendlyCreepBuffStacks = self.iFriendlyCreepBuffStacks + CREEP_STRENGTH_TOWER_EASY_POINTS
   elseif sName == "npc_standef_tower_enemy_medium" then
-    self.fCreepBuffStacks = self.fCreepBuffStacks + CREEP_STRENGTH_TOWER_MEDIUM_POINTS
+    self.iFriendlyCreepBuffStacks = self.iFriendlyCreepBuffStacks + CREEP_STRENGTH_TOWER_MEDIUM_POINTS
   elseif sName == "npc_standef_tower_enemy_hard" then
-    self.fCreepBuffStacks = self.fCreepBuffStacks + CREEP_STRENGTH_TOWER_HARD_POINTS
+    self.iFriendlyCreepBuffStacks = self.iFriendlyCreepBuffStacks + CREEP_STRENGTH_TOWER_HARD_POINTS
   elseif sName == "npc_standef_tower_enemy_extreme" then
-    self.fCreepBuffStacks = self.fCreepBuffStacks + CREEP_STRENGTH_TOWER_EXTREME_POINTS
+    self.iFriendlyCreepBuffStacks = self.iFriendlyCreepBuffStacks + CREEP_STRENGTH_TOWER_EXTREME_POINTS
   elseif sName == "npc_standef_tower_enemy_ultimate" then
-    self.fCreepBuffStacks = self.fCreepBuffStacks + CREEP_STRENGTH_TOWER_ULTIMATE_POINTS
+    self.iFriendlyCreepBuffStacks = self.iFriendlyCreepBuffStacks + CREEP_STRENGTH_TOWER_ULTIMATE_POINTS
+  elseif sName == "npc_standef_tower_friendly" then
+   self.iEnemyCreepBuffStacks = self.iEnemyCreepBuffStacks + CREEP_STRENGTH_TOWER_HARD_POINTS
+   EmitSoundOnAll("Building_RadiantTower.Destruction.Distant")
+   GameRules:ExecuteTeamPing(DOTA_TEAM_GOODGUYS, eKilledEntity:GetOrigin().x, eKilledEntity:GetOrigin().y, eKilledEntity, 3)
+   GameRules:SendCustomMessage("<font color='#FF0000'>".."A tower has fallen!...".."</font>",-1,0)
   elseif sName == "npc_standef_barracks_ranged_good" or sName == "npc_standef_barracks_melee_good" then
-    self.fCreepBuffStacks = math.max(self.fCreepBuffStacks - CREEP_STRENGTH_BARRACKS_FRIENDLY_POINTS_LOSS, 0)
+    self.iFriendlyCreepBuffStacks = math.max(self.iFriendlyCreepBuffStacks - CREEP_STRENGTH_BARRACKS_POINTS_LOSS, 0)
+    self.iEnemyCreepBuffStacks = self.iEnemyCreepBuffStacks + CREEP_STRENGTH_BARRACKS_POINTS
+    EmitSoundOnAll("Building_RadiantTower.Destruction.Distant")
+    GameRules:ExecuteTeamPing(DOTA_TEAM_GOODGUYS, eKilledEntity:GetOrigin().x, eKilledEntity:GetOrigin().y, eKilledEntity, 3)
+    GameRules:SendCustomMessage("<font color='#FF0000'>".."A barracks has fallen!...".."</font>",-1,0)
   end
 end
 
@@ -83,7 +95,7 @@ function CLaneCreepManager:SpawnGoodCreeps()
       local eNewUnit = CLaneCreepManager:CreateUnit(k, eGoodSpawner:GetAbsOrigin(), eWaypoint, iTeam)
       CLaneCreepManager:SetUnitStats(eNewUnit)
       local hBuff = eNewUnit:AddNewModifier(eNewUnit, nil, "modifier_creep_strength", {})
-      hBuff:SetStackCount(self.fCreepBuffStacks)
+      hBuff:SetStackCount(self.iFriendlyCreepBuffStacks)
     end
   end
 end
@@ -123,6 +135,8 @@ function CLaneCreepManager:SpawnBadCreeps()
     for i = 1, v do
       local eNewUnit = CLaneCreepManager:CreateUnit(k, eBadSpawner:GetAbsOrigin(), eWaypoint, iTeam)
       CLaneCreepManager:SetUnitStats(eNewUnit)
+      local hBuff = eNewUnit:AddNewModifier(eNewUnit, nil, "modifier_creep_strength", {})
+      hBuff:SetStackCount(self.iEnemyCreepBuffStacks)
     end
   end
 end
@@ -169,9 +183,9 @@ function CLaneCreepManager:GetMultiplier(iTeam)
   local fCurrentTime = GameRules:GetDOTATime(false, false)
 
   if iTeam == DOTA_TEAM_GOODGUYS then
-    return 1 + ((1/25) * (1/60) * fCurrentTime) + (self.fCreepBuffStacks * CREEP_STRENGTH_MULTIPLIER)
+    return 1 + ((1/30) * (1/60) * fCurrentTime) + (self.iFriendlyCreepBuffStacks * CREEP_STRENGTH_MULTIPLIER)
   else
-    return 1 + ((1/15) * (1/60) * fCurrentTime)
+    return 1 + ((1/15) * (1/60) * fCurrentTime) + (self.iEnemyCreepBuffStacks * CREEP_STRENGTH_MULTIPLIER)
   end
 end
 

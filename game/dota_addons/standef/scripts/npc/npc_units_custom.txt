@@ -203,7 +203,7 @@
 		"vscripts"	"npc/boss_lane.lua"
 		"BaseClass"	"npc_dota_creature"
 		"Model"	"models/heroes/beastmaster/beastmaster.vmdl"
-		"SoundSet"	"Hero_TrollWarlord"
+		"SoundSet"	"Hero_Beastmaster"
 		"MinimapIcon"	""
 		"Level"	"25"
 		"ModelScale"	"1.5"
@@ -277,7 +277,7 @@
 		"vscripts"	"npc/boss_lane.lua"
 		"BaseClass"	"npc_dota_creature"
 		"Model"	"models/heroes/nightstalker/nightstalker.vmdl"
-		"SoundSet"	"Hero_AbyssalUnderlord"
+		"SoundSet"	"Hero_Nightstalker"
 		"MinimapIcon"	""
 		"Level"	"25"
 		"ModelScale"	"1.5"
@@ -490,10 +490,6 @@
 				"Wearable4"
 				{
 					"ItemDef"	"496"
-				}
-				"Wearable5"
-				{
-					"ItemDef"	"497"
 				}
 			}
 		}
@@ -6089,13 +6085,13 @@
 		"Ability6"	""
 		"Ability7"	""
 		"Ability8"	""
-		"ArmorPhysical"	"69"
+		"ArmorPhysical"	"17"
 		"MagicalResistance"	"0"
 		"AttackCapabilities"	"DOTA_UNIT_CAP_MELEE_ATTACK"
 		"AttackDamageMin"	"200"
 		"AttackDamageMax"	"250"
 		"AttackDamageType"	"DAMAGE_TYPE_ArmorPhysical"
-		"AttackRate"	"0.25"
+		"AttackRate"	"0.3"
 		"AttackAnimationPoint"	"0.1"
 		"AttackAcquisitionRange"	"400"
 		"AttackRange"	"400"
@@ -6116,8 +6112,8 @@
 		"MovementCapabilities"	"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"	"100"
 		"MovementTurnRate"	"1"
-		"StatusHealth"	"6666"
-		"StatusHealthRegen"	"66"
+		"StatusHealth"	"10000"
+		"StatusHealthRegen"	"0"
 		"StatusMana"	"0"
 		"StatusManaRegen"	"0"
 		"TeamName"	"DOTA_TEAM_GOODGUYS"

@@ -2,6 +2,10 @@
 {
 	"consumables"
 	{
+		"item"		"item_standef_healingsalve"
+		"item"		"item_standef_minorpotionofpower"
+		"item"		"item_standef_vampiricdraught"
+		"item"		"item_standef_elixiroflearning"
 		"item"		"item_standef_tomeofagility"
 		"item"		"item_standef_tomeofstrength"
 		"item"		"item_standef_tomeofintelligence"
@@ -10,53 +14,22 @@
 
 	"attributes"
 	{
-		"item"		"item_standef_redring"
-		"item"		"item_standef_warmredring"
-		"item"		"item_standef_burningredring"
-		"item"		"item_standef_ringoftheguardian"
 		"item"		"item_standef_ringofhercules"
-		"item"		"item_standef_mysteriousbracelet"
-		"item"		"item_standef_twitchingbracelet"
-		"item"		"item_standef_vibratingbracelet"
-		"item"		"item_standef_braceletofdexterity"
 		"item"		"item_standef_armbandofartemis"
-		"item"		"item_standef_shinyrock"
-		"item"		"item_standef_glowingrock"
-		"item"		"item_standef_incandescentrock"
-		"item"		"item_standef_gemofthearchmage"
 		"item"		"item_standef_eyeofzeus"	
 	}
 
 	"weapons_armor"
 	{
-		"item"		"item_standef_sharpstick"
-		"item"		"item_standef_bentpole"
-		"item"		"item_standef_dullsword"
-		"item"		"item_standef_sharpsword"
+		"item"		"item_standef_diamondaxe"
 		"item"		"item_standef_razorsharpsword"
-		"item"		"item_standef_reinforcedclothes"
-		"item"		"item_standef_leatherarmor"
-		"item"		"item_standef_chainmailarmor"
-		"item"		"item_standef_platearmor"
 		"item"		"item_standef_titaniumarmor"
 	}
 			
 	"misc"
 	{
-		"item"		"item_standef_clothwraps"
-		"item"		"item_standef_sandals"
-		"item"		"item_standef_leatherboots"
-		"item"		"item_standef_reinforcedboots"
 		"item"		"item_standef_enchantedboots"
-		"item"		"item_standef_clothgloves"
-		"item"		"item_standef_buzzinggloves"
-		"item"		"item_standef_shimmeringgloves"
-		"item"		"item_standef_glovesofhaste"
 		"item"		"item_standef_supersonicgloves"
-		"item"		"item_standef_morbidmask"
-		"item"		"item_standef_maskofmadness"
-		"item"		"item_standef_insidiousfaceplate"
-		"item"		"item_standef_evilhelmet"
 		"item"		"item_standef_helmofcancer"
 	}	
 	

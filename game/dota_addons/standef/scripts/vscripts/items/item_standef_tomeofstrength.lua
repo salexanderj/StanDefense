@@ -2,6 +2,10 @@ LinkLuaModifier("modifier_item_standef_tomeofstrength", "modifiers/items/modifie
 
 item_standef_tomeofstrength = class({})
 
+function item_standef_tomeofstrength:Precache(context)
+	PrecacheResource("soundfile", "soundevents/game_sounds_items.vsndevts", context)
+end
+
 function item_standef_tomeofstrength:GetBehavior()
 	return DOTA_ABILITY_BEHAVIOR_IMMEDIATE + DOTA_ABILITY_BEHAVIOR_NO_TARGET
 end
@@ -26,5 +30,7 @@ function item_standef_tomeofstrength:OnSpellStart()
 
 	eCaster:SetModifierStackCount("modifier_item_standef_tomeofstrength", self, iCurrentStacks + 1)
 
+	EmitSoundOn("Item.TomeOfKnowledge", eCaster)
+	
 	self:SpendCharge()
 end

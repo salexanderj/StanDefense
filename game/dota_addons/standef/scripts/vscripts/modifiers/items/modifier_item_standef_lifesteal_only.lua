@@ -18,15 +18,11 @@ end
 
 function modifier_item_standef_lifesteal_only:OnAttackLanded(eventInfo)
 
-	local bFlags = {
-		not IsServer(),
-		eventInfo.target:IsBuilding(),
-		eventInfo.attacker ~= self:GetParent(),
-		eventInfo.attacker:IsIllusion(),
-		self:GetParent():IsIllusion()
-	}
-
-	if bFlags[1] or bFlags[2] or bFlags[3] or bFlags[4] or bFlags[5] then
+	if not IsServer() or
+	 eventInfo.target:IsBuilding() or
+	  eventInfo.attacker ~= self:GetParent() or
+	   eventInfo.attacker:IsIllusion() or
+	    self:GetParent():IsIllusion() then
 		return
 	end
 
