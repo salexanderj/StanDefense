@@ -20,17 +20,17 @@ end
 
 function item_standef_tomeofagility:OnSpellStart()
 
+	local iBonusAmount = self:GetSpecialValueFor("bonus_agility")
 	local eCaster = self:GetCaster()
 	local eCurrentModifier = eCaster:FindModifierByName("modifier_item_standef_tomeofagility")
 	if eCurrentModifier == nil then
-		eCaster:AddNewModifier(eCaster, self, "modifier_item_standef_tomeofagility", {duration = -1})
+		eCurrentModifier = eCaster:AddNewModifier(eCaster, self, "modifier_item_standef_tomeofagility", {duration = -1})
+		eCurrentModifier:SetStackCount(iBonusAmount)
+	else
+		local iCurrentStacks = eCaster:GetModifierStackCount("modifier_item_standef_tomeofagility", self)
+		eCurrentModifier:SetStackCount(iCurrentStacks + iBonusAmount)
 	end
 
-	local iCurrentStacks = eCaster:GetModifierStackCount("modifier_item_standef_tomeofagility", self)
-
-	eCaster:SetModifierStackCount("modifier_item_standef_tomeofagility", self, iCurrentStacks + 1)
-
 	EmitSoundOn("Item.TomeOfKnowledge", eCaster)
-
 	self:SpendCharge()
 end

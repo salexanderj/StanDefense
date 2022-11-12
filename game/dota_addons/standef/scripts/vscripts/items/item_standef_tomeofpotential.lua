@@ -22,30 +22,36 @@ end
 
 function item_standef_tomeofpotential:OnSpellStart()
 
+	local iBonusAmount = self:GetSpecialValueFor("bonus_stats")
 	local eCaster = self:GetCaster()
 	local eCurrentModifierAgility = eCaster:FindModifierByName("modifier_item_standef_tomeofagility")
 	local eCurrentModifierStrength = eCaster:FindModifierByName("modifier_item_standef_tomeofstrength")
 	local eCurrentModifierIntelligence = eCaster:FindModifierByName("modifier_item_standef_tomeofintelligence")
 	
 	if eCurrentModifierAgility == nil then
-		eCaster:AddNewModifier(eCaster, self, "modifier_item_standef_tomeofagility", {duration = -1})
+		eCurrentModifierAgility = eCaster:AddNewModifier(eCaster, self, "modifier_item_standef_tomeofagility", {duration = -1})
+		eCurrentModifierAgility:SetStackCount(iBonusAmount)
+	else
+		local iCurrentStacks = eCurrentModifierAgility:GetStackCount()
+		eCurrentModifierAgility:SetStackCount(iCurrentStacks + iBonusAmount)
 	end
+
 	if eCurrentModifierStrength == nil then
-		eCaster:AddNewModifier(eCaster, self, "modifier_item_standef_tomeofstrength", {duration = -1})
+		eCurrentModifierStrength = eCaster:AddNewModifier(eCaster, self, "modifier_item_standef_tomeofstrength", {duration = -1})
+		eCurrentModifierStrength:SetStackCount(iBonusAmount)
+	else
+		local iCurrentStacks = eCurrentModifierStrength:GetStackCount()
+		eCurrentModifierStrength:SetStackCount(iCurrentStacks + iBonusAmount)
 	end
+
 	if eCurrentModifierIntelligence == nil then
-		eCaster:AddNewModifier(eCaster, self, "modifier_item_standef_tomeofintelligence", {duration = -1})
+		eCurrentModifierIntelligence = eCaster:AddNewModifier(eCaster, self, "modifier_item_standef_tomeofintelligence", {duration = -1})
+		eCurrentModifierIntelligence:SetStackCount(iBonusAmount)
+	else
+		local iCurrentStacks = eCurrentModifierIntelligence:GetStackCount()
+		eCurrentModifierIntelligence:SetStackCount(iCurrentStacks + iBonusAmount)
 	end
-
-	local eCurrentModifierAgility = eCaster:GetModifierStackCount("modifier_item_standef_tomeofagility", eCaster)
-	local eCurrentModifierStrength = eCaster:GetModifierStackCount("modifier_item_standef_tomeofstrength", eCaster)
-	local eCurrentModifierIntelligence = eCaster:GetModifierStackCount("modifier_item_standef_tomeofintelligence", eCaster)
-
-	eCaster:SetModifierStackCount("modifier_item_standef_tomeofagility", self, eCurrentModifierAgility + 1)
-	eCaster:SetModifierStackCount("modifier_item_standef_tomeofstrength", self, eCurrentModifierStrength + 1)
-	eCaster:SetModifierStackCount("modifier_item_standef_tomeofintelligence", self, eCurrentModifierIntelligence + 1)
 
 	EmitSoundOn("Item.TomeOfKnowledge", eCaster)
-
 	self:SpendCharge()
 end

@@ -75,8 +75,6 @@ function CLaneBossManager:SetBossStats(eBoss)
 	local iOriginalDamageMax = eBoss:GetBaseDamageMax()
 
 	local iOriginalXPBounty = eBoss:GetDeathXP()
-	local iOriginalGoldBountyMin = eBoss:GetMinimumGoldBounty()
-	local iOriginalGoldBountyMax = eBoss:GetMaximumGoldBounty()
 
 	eBoss:SetBaseMaxHealth(iOriginalHealth * fMultiplier)
 	eBoss:SetMaxHealth(iOriginalHealth * fMultiplier)
@@ -89,12 +87,23 @@ function CLaneBossManager:SetBossStats(eBoss)
 	eBoss:SetBaseDamageMax(iOriginalDamageMax * fMultiplier)
 
 	eBoss:SetDeathXP(iOriginalXPBounty * fMultiplier)
-	eBoss:SetMinimumGoldBounty(iOriginalGoldBountyMin * fMultiplier)
-	eBoss:SetMaximumGoldBounty(iOriginalGoldBountyMax * fMultiplier)
 end
 
 function CLaneBossManager:GetMultiplier()
 	local fCurrentTime = GameRules:GetDOTATime(false, false)
 	local iMinute = (1/60) * fCurrentTime
-	return 1 + ((1/8) * math.max(iMinute - 10, 0))
+	local iScaledMinute = math.max(iMinute - 10, 0)
+	if iMinute <= 30 then
+		return CLaneBossManager:LinearFunction(iScaledMinute)
+	else
+		return CLaneBossManager:ExponentionalFunction(iScaledMinute)
+	end
+end
+
+function CLaneBossManager:LinearFunction(iValue)
+	return 1 + ((1/8) * iValue)
+end
+
+function CLaneBossManager:ExponentionalFunction(iValue)
+	return 1 + ((1/8) * (iValue ^ 1.25) - 5)
 end

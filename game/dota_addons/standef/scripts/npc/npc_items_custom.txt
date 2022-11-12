@@ -529,6 +529,19 @@
 			"01"	"item_standef_eyeofzeus;item_standef_energycondenser;item_standef_ringofpower"
 		}
 	}
+	"item_recipe_standef_spiritgem"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3142"
+		"ItemRecipe"	"1"
+		"ItemCost"	"14250"
+		"ItemResult"	"item_standef_spiritgem"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_spiritlace;item_standef_spiritpelt;item_standef_spiritjavelin"
+		}
+	}
 	"item_recipe_standef_spiritjavelin"
 	{
 		"BaseClass"	"item_datadriven"
@@ -2735,6 +2748,56 @@
 			}
 		}
 	}
+	"item_standef_spiritgem"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_spiritgem"
+		"ScriptFile"	"items/item_standef_spiritgem.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3141"
+		"ItemCost"	"30000"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"xp_bonus_pct"	"50"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_damage"	"48"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_attackspeed"	"48"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_movement"	"95"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_armor"	"24"
+			}
+			"06"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_health_regen"	"30"
+			}
+		}
+	}
 	"item_standef_spiritjavelin"
 	{
 		"BaseClass"	"item_lua"
@@ -3092,17 +3155,7 @@
 			"01"
 			{
 				"var_type"	"FIELD_INTEGER"
-				"bonus_agility"	"10"
-			}
-			"02"
-			{
-				"var_type"	"FIELD_INTEGER"
-				"bonus_strength"	"10"
-			}
-			"03"
-			{
-				"var_type"	"FIELD_INTEGER"
-				"bonus_intelligence"	"10"
+				"bonus_stats"	"10"
 			}
 		}
 	}

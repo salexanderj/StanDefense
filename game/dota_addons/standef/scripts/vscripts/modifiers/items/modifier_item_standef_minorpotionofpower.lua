@@ -4,6 +4,10 @@ function modifier_item_standef_minorpotionofpower:GetEffectName()
 	return "particles/items_fx/healing_clarity.vpcf"
 end
 
+function modifier_item_standef_minorpotionofpower:GetTexture()
+	return "item_standef_minorpotionofpower"
+end
+
 function modifier_item_standef_minorpotionofpower:GetEffectAttachType()
 	return PATTACH_ABSORIGIN_FOLLOW
 end

@@ -48,27 +48,42 @@ function CLaneCreepManager:OnEntityKilled(eventInfo)
   if sName == "npc_standef_barracks_melee" or sName == "npc_standef_barracks_ranged" then
     self.iFriendlyCreepBuffStacks = self.iFriendlyCreepBuffStacks + CREEP_STRENGTH_BARRACKS_POINTS
     self.iEnemyCreepBuffStacks = math.max(self.iEnemyCreepBuffStacks - CREEP_STRENGTH_BARRACKS_POINTS_LOSS, 0)
+    GameRules:SendCustomMessage("<font color='#00FFFF'>".."Your creeps gain ".. CREEP_STRENGTH_BARRACKS_POINTS .." points of Creep Strength!".."</font>",-1,0)
+    GameRules:SendCustomMessage("<font color='#E4D00A'>".."The enemy's creeps lose ".. CREEP_STRENGTH_BARRACKS_POINTS_LOSS .." points of Creep Strength!".."</font>",-1,0)
+    EmitSoundOnAll("ui.badge_levelup")
   elseif sName == "npc_standef_tower_enemy_veryeasy" then
     self.iFriendlyCreepBuffStacks = self.iFriendlyCreepBuffStacks + CREEP_STRENGTH_TOWER_VERYEASY_POINTS
+    GameRules:SendCustomMessage("<font color='#00FFFF'>".."Your creeps gain ".. CREEP_STRENGTH_TOWER_VERYEASY_POINTS .." points of Creep Strength!".."</font>",-1,0)
+    EmitSoundOnAll("ui.badge_levelup")
   elseif sName == "npc_standef_tower_enemy_easy" then
     self.iFriendlyCreepBuffStacks = self.iFriendlyCreepBuffStacks + CREEP_STRENGTH_TOWER_EASY_POINTS
+    GameRules:SendCustomMessage("<font color='#00FFFF'>".."Your creeps gain ".. CREEP_STRENGTH_TOWER_EASY_POINTS .." points of Creep Strength!".."</font>",-1,0)
+    EmitSoundOnAll("ui.badge_levelup")
   elseif sName == "npc_standef_tower_enemy_medium" then
     self.iFriendlyCreepBuffStacks = self.iFriendlyCreepBuffStacks + CREEP_STRENGTH_TOWER_MEDIUM_POINTS
+    GameRules:SendCustomMessage("<font color='#00FFFF'>".."Your creeps gain ".. CREEP_STRENGTH_TOWER_MEDIUM_POINTS .." points of Creep Strength!".."</font>",-1,0)
+    EmitSoundOnAll("ui.badge_levelup")
   elseif sName == "npc_standef_tower_enemy_hard" then
     self.iFriendlyCreepBuffStacks = self.iFriendlyCreepBuffStacks + CREEP_STRENGTH_TOWER_HARD_POINTS
+    GameRules:SendCustomMessage("<font color='#00FFFF'>".."Your creeps gain ".. CREEP_STRENGTH_TOWER_HARD_POINTS .." points of Creep Strength!".."</font>",-1,0)
+    EmitSoundOnAll("ui.badge_levelup")
   elseif sName == "npc_standef_tower_enemy_extreme" then
     self.iFriendlyCreepBuffStacks = self.iFriendlyCreepBuffStacks + CREEP_STRENGTH_TOWER_EXTREME_POINTS
+    GameRules:SendCustomMessage("<font color='#00FFFF'>".."Your creeps gain ".. CREEP_STRENGTH_TOWER_EXTREME_POINTS .." points of Creep Strength!".."</font>",-1,0)
+    EmitSoundOnAll("ui.badge_levelup")
   elseif sName == "npc_standef_tower_enemy_ultimate" then
     self.iFriendlyCreepBuffStacks = self.iFriendlyCreepBuffStacks + CREEP_STRENGTH_TOWER_ULTIMATE_POINTS
+    GameRules:SendCustomMessage("<font color='#00FFFF'>".."Your creeps gain ".. CREEP_STRENGTH_TOWER_ULTIMATE_POINTS .." points of Creep Strength!".."</font>",-1,0)
+    EmitSoundOnAll("ui.badge_levelup")
   elseif sName == "npc_standef_tower_friendly" then
    self.iEnemyCreepBuffStacks = self.iEnemyCreepBuffStacks + CREEP_STRENGTH_TOWER_HARD_POINTS
-   EmitSoundOnAll("Building_RadiantTower.Destruction.Distant")
+   EmitSoundOnAll("ui.quest_select")
    GameRules:ExecuteTeamPing(DOTA_TEAM_GOODGUYS, eKilledEntity:GetOrigin().x, eKilledEntity:GetOrigin().y, eKilledEntity, 3)
    GameRules:SendCustomMessage("<font color='#FF0000'>".."A tower has fallen!...".."</font>",-1,0)
   elseif sName == "npc_standef_barracks_ranged_good" or sName == "npc_standef_barracks_melee_good" then
     self.iFriendlyCreepBuffStacks = math.max(self.iFriendlyCreepBuffStacks - CREEP_STRENGTH_BARRACKS_POINTS_LOSS, 0)
     self.iEnemyCreepBuffStacks = self.iEnemyCreepBuffStacks + CREEP_STRENGTH_BARRACKS_POINTS
-    EmitSoundOnAll("Building_RadiantTower.Destruction.Distant")
+    EmitSoundOnAll("ui.quest_select")
     GameRules:ExecuteTeamPing(DOTA_TEAM_GOODGUYS, eKilledEntity:GetOrigin().x, eKilledEntity:GetOrigin().y, eKilledEntity, 3)
     GameRules:SendCustomMessage("<font color='#FF0000'>".."A barracks has fallen!...".."</font>",-1,0)
   end

@@ -4,6 +4,10 @@ function modifier_item_standef_vampiricdraught:GetEffectName()
 	return "particles/units/heroes/hero_bloodseeker/bloodseeker_bloodrage.vpcf"
 end
 
+function modifier_item_standef_vampiricdraught:GetTexture()
+	return "item_standef_vampiricdraught"
+end
+
 function modifier_item_standef_vampiricdraught:GetEffectAttachType()
 	return PATTACH_ROOTBONE_FOLLOW
 end

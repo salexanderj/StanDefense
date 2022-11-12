@@ -4,6 +4,10 @@ function modifier_item_standef_healingsalve:GetEffectName()
 	return "particles/items_fx/healing_flask.vpcf"
 end
 
+function modifier_item_standef_healingsalve:GetTexture()
+	return "item_standef_healingsalve"
+end
+
 function modifier_item_standef_healingsalve:GetEffectAttachType()
 	return PATTACH_ABSORIGIN_FOLLOW
 end
