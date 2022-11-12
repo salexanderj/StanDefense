@@ -185,6 +185,45 @@
 			"01"	"item_standef_reinforcedboots;item_standef_reinforcedboots"
 		}
 	}
+	"item_recipe_standef_enchantedbracer"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3125"
+		"ItemRecipe"	"1"
+		"ItemCost"	"3500"
+		"ItemResult"	"item_standef_enchantedbracer"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_bracer"
+		}
+	}
+	"item_recipe_standef_enchantedtalisman"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3131"
+		"ItemRecipe"	"1"
+		"ItemCost"	"3500"
+		"ItemResult"	"item_standef_enchantedtalisman"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_talisman"
+		}
+	}
+	"item_recipe_standef_enchantedwraithband"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3128"
+		"ItemRecipe"	"1"
+		"ItemCost"	"3500"
+		"ItemResult"	"item_standef_enchantedwraithband"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_wraithband"
+		}
+	}
 	"item_recipe_standef_evilhelmet"
 	{
 		"BaseClass"	"item_datadriven"
@@ -490,6 +529,45 @@
 			"01"	"item_standef_eyeofzeus;item_standef_energycondenser;item_standef_ringofpower"
 		}
 	}
+	"item_recipe_standef_spiritjavelin"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3140"
+		"ItemRecipe"	"1"
+		"ItemCost"	"4500"
+		"ItemResult"	"item_standef_spiritjavelin"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_charmedjavelin"
+		}
+	}
+	"item_recipe_standef_spiritlace"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3134"
+		"ItemRecipe"	"1"
+		"ItemCost"	"4500"
+		"ItemResult"	"item_standef_spiritlace"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_windlace"
+		}
+	}
+	"item_recipe_standef_spiritpelt"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3137"
+		"ItemRecipe"	"1"
+		"ItemCost"	"4500"
+		"ItemResult"	"item_standef_spiritpelt"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_wolfpelt"
+		}
+	}
 	"item_recipe_standef_stoneaxe"
 	{
 		"BaseClass"	"item_datadriven"
@@ -517,6 +595,7 @@
 	"item_recipe_standef_titaniumarmor"
 	{
 		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
 		"ID"	"3061"
 		"ItemRecipe"	"1"
 		"ItemCost"	"0"
@@ -529,6 +608,7 @@
 	"item_recipe_standef_twitchingbracelet"
 	{
 		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
 		"ID"	"3021"
 		"ItemRecipe"	"1"
 		"ItemCost"	"0"
@@ -554,6 +634,7 @@
 	"item_recipe_standef_vibratingbracelet"
 	{
 		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
 		"ID"	"3022"
 		"ItemRecipe"	"1"
 		"ItemCost"	"0"
@@ -566,6 +647,7 @@
 	"item_recipe_standef_warmredring"
 	{
 		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
 		"ID"	"3023"
 		"ItemRecipe"	"1"
 		"ItemCost"	"0"
@@ -703,6 +785,51 @@
 			{
 				"var_type"	"FIELD_INTEGER"
 				"bonus_agility"	"32"
+			}
+		}
+	}
+	"item_standef_bracer"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_bracer"
+		"ScriptFile"	"items/item_standef_bracer.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3123"
+		"ItemCost"	"500"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_gold_per_kill"	"5"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_strength"	"8"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_health_regen"	"4"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"stun_chance_pct"	"7.5"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"stun_duration"	"2"
 			}
 		}
 	}
@@ -863,6 +990,51 @@
 			{
 				"var_type"	"FIELD_FLOAT"
 				"bonus_armor"	"6"
+			}
+		}
+	}
+	"item_standef_charmedjavelin"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_charmedjavelin"
+		"ScriptFile"	"items/item_standef_charmedjavelin.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_BASIC"
+		"AbilityCastRange"	"300"
+		"AbilityCastPoint"	"0"
+		"AbilityCooldown"	"50"
+		"ID"	"3138"
+		"ItemCost"	"750"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"xp_bonus_pct"	"10"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_damage"	"8"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_attackspeed"	"12"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"active_damage"	"500"
 			}
 		}
 	}
@@ -1202,6 +1374,56 @@
 			}
 		}
 	}
+	"item_standef_enchantedbracer"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_enchantedbracer"
+		"ScriptFile"	"items/item_standef_enchantedbracer.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3124"
+		"ItemCost"	"4000"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_gold_per_kill"	"25"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"stun_chance_pct"	"15"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"stun_duration"	"2.5"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_strength"	"32"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_health_regen"	"16"
+			}
+			"06"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_status_resist_pct"	"10"
+			}
+		}
+	}
 	"item_standef_enchantedpickle"
 	{
 		"BaseClass"	"item_lua"
@@ -1230,6 +1452,102 @@
 			{
 				"var_type"	"FIELD_INTEGER"
 				"bonus_attackspeed"	"8"
+			}
+		}
+	}
+	"item_standef_enchantedtalisman"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_enchantedtalisman"
+		"ScriptFile"	"items/item_standef_enchantedtalisman.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"600"
+		"ID"	"3130"
+		"ItemCost"	"500"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_gold_per_kill"	"25"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"pulse_damage"	"60"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"pulse_range"	"600"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_intelligence"	"32"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_mana_regen"	"16"
+			}
+			"06"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"spell_amp_pct"	"7.5"
+			}
+		}
+	}
+	"item_standef_enchantedwraithband"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_enchantedwraithband"
+		"ScriptFile"	"items/item_standef_enchantedwraithband.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3127"
+		"ItemCost"	"500"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_gold_per_kill"	"25"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_agility"	"32"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_damage"	"32"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_evasion_pct"	"8.5"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_attackspeed"	"20"
 			}
 		}
 	}
@@ -2417,6 +2735,145 @@
 			}
 		}
 	}
+	"item_standef_spiritjavelin"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_spiritjavelin"
+		"ScriptFile"	"items/item_standef_spiritjavelin.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_BASIC"
+		"AbilityCastRange"	"300"
+		"AbilityCastPoint"	"0"
+		"AbilityCooldown"	"35"
+		"ID"	"3139"
+		"ItemCost"	"750"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"xp_bonus_pct"	"25"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_damage"	"32"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_attackspeed"	"35"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"active_damage"	"2500"
+			}
+		}
+	}
+	"item_standef_spiritlace"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_spiritlace"
+		"ScriptFile"	"items/item_standef_spiritlace.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityCastPoint"	"0"
+		"AbilityCooldown"	"24"
+		"ID"	"3133"
+		"ItemCost"	"750"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"xp_bonus_pct"	"25"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_movement"	"70"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"active_bonus_movement"	"30"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"active_bonus_attackspeed"	"30"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"duration"	"12"
+			}
+		}
+	}
+	"item_standef_spiritpelt"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_spiritpelt"
+		"ScriptFile"	"items/item_standef_spiritpelt.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityCastPoint"	"0"
+		"AbilityCooldown"	"16"
+		"ID"	"3136"
+		"ItemCost"	"750"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"xp_bonus_pct"	"25"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_armor"	"16"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_health"	"500"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"active_health_regen"	"28"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"duration"	"8"
+			}
+		}
+	}
 	"item_standef_stoneaxe"
 	{
 		"BaseClass"	"item_lua"
@@ -2484,6 +2941,52 @@
 			{
 				"var_type"	"FIELD_INTEGER"
 				"bonus_attackspeed"	"80"
+			}
+		}
+	}
+	"item_standef_talisman"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_talisman"
+		"ScriptFile"	"items/item_standef_talisman.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"	"600"
+		"ID"	"3129"
+		"ItemCost"	"500"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_gold_per_kill"	"5"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"pulse_damage"	"15"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"pulse_range"	"600"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_intelligence"	"8"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_mana_regen"	"4"
 			}
 		}
 	}
@@ -2785,6 +3288,100 @@
 			}
 		}
 	}
+	"item_standef_windlace"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_windlace"
+		"ScriptFile"	"items/item_standef_windlace.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityCastPoint"	"0"
+		"AbilityCooldown"	"24"
+		"ID"	"3132"
+		"ItemCost"	"750"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"xp_bonus_pct"	"10"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_movement"	"45"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"active_bonus_movement"	"15"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"active_bonus_attackspeed"	"15"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"duration"	"8"
+			}
+		}
+	}
+	"item_standef_wolfpelt"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_wolfpelt"
+		"ScriptFile"	"items/item_standef_wolfpelt.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityCastPoint"	"0"
+		"AbilityCooldown"	"18"
+		"ID"	"3135"
+		"ItemCost"	"750"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"xp_bonus_pct"	"10"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_armor"	"8"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_health"	"175"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"active_health_regen"	"8"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"duration"	"6"
+			}
+		}
+	}
 	"item_standef_woodenaxe"
 	{
 		"BaseClass"	"item_lua"
@@ -2827,6 +3424,46 @@
 			{
 				"var_type"	"FIELD_INTEGER"
 				"cleave_distance"	"500"
+			}
+		}
+	}
+	"item_standef_wraithband"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_wraithband"
+		"ScriptFile"	"items/item_standef_wraithband.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3126"
+		"ItemCost"	"500"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_gold_per_kill"	"5"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_agility"	"8"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_damage"	"8"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_evasion_pct"	"4"
 			}
 		}
 	}

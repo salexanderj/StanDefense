@@ -33,6 +33,7 @@ function CGameSetup:init()
     GameMode:SetCustomHeroMaxLevel(100)
     GameMode:SetUseCustomHeroLevels(true)
     GameMode:SetCustomXPRequiredToReachNextLevel(HERO_LEVEL_XP_TABLE)
+    GameMode:SetCustomBackpackSwapCooldown(0)
 
     --disable music events
     GameRules:SetCustomGameAllowHeroPickMusic(false)
@@ -61,6 +62,7 @@ function CGameSetup:init()
     GameMode:SetCustomHeroMaxLevel(100)
     GameMode:SetUseCustomHeroLevels(true)
     GameMode:SetCustomXPRequiredToReachNextLevel(HERO_LEVEL_XP_TABLE)
+    GameMode:SetCustomBackpackSwapCooldown(0)
   end
 end
 

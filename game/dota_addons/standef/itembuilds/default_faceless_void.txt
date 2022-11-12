@@ -1,0 +1,48 @@
+"itembuilds"
+{
+	"author"		"Stan"
+	"Title"			"Executioner Build"
+
+	"Items"
+	{
+		"#DOTA_Item_Build_Starting_Items"
+		{
+			"item"	"item_standef_vampiricdraught"
+			"item"	"item_standef_healingsalve"
+			"item"	"item_standef_minorpotionofpower"
+		}
+			
+		"#DOTA_Item_Build_Early_Game"
+		{
+			"item"	"item_standef_bracer"
+			"item"	"item_standef_windlace"
+			"item"	"item_standef_wolfpelt"
+			"item"	"item_standef_charmedjavelin"
+		}
+		
+		"#DOTA_Item_Build_Mid_Items"
+		{
+			"item"	"item_standef_ringofhercules"
+			"item"	"item_standef_razorsharpsword"
+			"item"	"item_standef_enchantedboots"
+			"item"	"item_standef_titaniumarmor"
+			"item"	"item_standef_helmofcancer"
+		}
+		
+		"#DOTA_Item_Build_Late_Items"
+		{
+		"item"	"item_standef_burningbroach"
+		"item"	"item_standef_ungodlypenetrator"
+		"item"	"item_standef_deviousrapier"
+		"item"	"item_standef_ragehammer"
+		"item"	"item_standef_gemofopulance"
+		}	
+	
+		"#DOTA_Item_Build_Other_Items"
+		{
+		"item"	"item_standef_nuclearblade"
+		"item"	"item_standef_cloakofimpunity"
+		"item"	"item_standef_crownoftheimmortal"
+		}
+	}
+}

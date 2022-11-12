@@ -14,6 +14,9 @@
 
 	"attributes"
 	{
+		"item"		"item_standef_bracer"
+		"item"		"item_standef_wraithband"
+		"item"		"item_standef_talisman"
 		"item"		"item_standef_ringofhercules"
 		"item"		"item_standef_armbandofartemis"
 		"item"		"item_standef_eyeofzeus"	
@@ -21,6 +24,9 @@
 
 	"weapons_armor"
 	{
+		"item"		"item_standef_windlace"
+		"item"		"item_standef_wolfpelt"
+		"item"		"item_standef_charmedjavelin"
 		"item"		"item_standef_diamondaxe"
 		"item"		"item_standef_razorsharpsword"
 		"item"		"item_standef_titaniumarmor"
