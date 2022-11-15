@@ -6,6 +6,8 @@ require("neutral_creep_manager")
 require("constants")
 require("libraries/CosmeticLib")
 
+LinkLuaModifier("modifier_player_scaling", "modifiers/modifier_player_scaling", LUA_MODIFIER_MOTION_NONE)
+
 if CStanDefence == nil then
 	CStanDefence = class({})
 end
@@ -21,6 +23,8 @@ function Precache(context)
 	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_beastmaster.vsndevts", context)
 	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_invoker.vsndevts", context)
 	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_nightstalker.vsndevts", context)
+	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_centaur.vsndevts", context)
+	PrecacheResource("soundfile", "soundevents/game_sounds_heroes/game_sounds_pudge.vsndevts", context)
 
 
 	--CosmeticLib

@@ -9,6 +9,8 @@ function Spawn(entityKeyValues)
 		return
 	end
 
+	InitEntity(thisEntity)
+
 	thisEntity:SetThink(Update, "Update")
 end
 

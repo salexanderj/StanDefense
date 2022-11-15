@@ -150,6 +150,12 @@ LANE_CREEP_TABLE_BAD =
 	}					
 }
 
+LANE_BOSS_ABILITY_LEVELS = {
+	[1] = 0,
+	[2] = 2400,
+	[3] = 4200
+}
+
 HERO_ITEM_SETS = {
 	["npc_dota_hero_antimage"] = 
 	{

@@ -1,3 +1,5 @@
+require("utilities")
+
 function Spawn(entityKeyValues)
 	if not IsServer() then
 		return
@@ -7,8 +9,9 @@ function Spawn(entityKeyValues)
 		return
 	end
 
+	InitEntity(thisEntity)
+	
 	thisEntity:SetThink(Update, "Update")
-
 end
 
 function Update()

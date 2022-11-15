@@ -4,6 +4,10 @@ function modifier_lane_boss:IsHidden()
 	return false
 end
 
+function modifier_lane_boss:GetTexture()
+	return "boss_lane"
+end
+
 function modifier_lane_boss:GetAttributes()
 	return MODIFIER_ATTRIBUTE_PERMANENT
 end

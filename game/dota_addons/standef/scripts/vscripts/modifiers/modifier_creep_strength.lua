@@ -4,6 +4,10 @@ function modifier_creep_strength:IsHidden()
 	return false
 end
 
+function modifier_creep_strength:GetTexture()
+	return "creep_strength"
+end
+
 function modifier_creep_strength:GetAttributes()
 	return MODIFIER_ATTRIBUTE_PERMANENT
 end

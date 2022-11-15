@@ -1,649 +1,916 @@
-// Dota Heroes File
-"DOTAAbilities"
+"npc_abilities_custom"
 {
-	"Version"		"1"
-"hero_heretic_hunter_abduct"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_heretic_hunter/hero_heretic_hunter_abduct.lua"
-	"AbilityTextureName"					"hero_heretic_hunter_abduct"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
-	"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
-	"AbilityUnitTargetFlags" 				"DOTA_UNIT_TARGET_FLAG_NONE"
-	"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
-	"AbilityUnitDamageType"					"DAMAGE_TYPE_PHYSICAL"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"MaxLevel"			 					"7"
-	"RequiredLevel"							"1"
-	"LevelsBetweenUpgrades"					"3"
-
-	"AbilityCastPoint"						"0.1"
-	"AbilityCastAnimation"					"ACT_DOTA_CAST_ABILITY_2"
-	"AnimationPlaybackRate"					"1"
-	"AnimationIgnoresModelScale"			"1"
-    
-	"AbilityManaCost"						"40 55 70 85 90 105 120"
-	"AbilityCooldown"						"16.0 14.0 12.0 10.0 8.0 6.0 3.0"
-	"AbilityCastRange"						"800"
-	"AoERadius"								"250"
-	
-	"AbilitySpecial"
+	"boss_lane_assassin_passive"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/boss_lane_assassin/boss_lane_assassin_passive.lua"
+		"AbilityTextureName"	"boss_lane_assassin_passive"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityCooldown"	"10.0 8.0 5.0"
+		"MaxLevel"	"3"
+		"RequiredLevel"	"1"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_FLOAT"
-			"damage_per_agi_pct"	"50.0 100.0 150.0 200.0 250.0 300.0 400.0"
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"crit_pct"	"150 250 400"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"evasion_pct"	"10 15 30"
+			}
 		}
-		"02"
-		{
-			"var_type"		"FIELD_INTEGER"
-			"radius"	"150 200 250 300 350 400 450"
-		}
-	}}"hero_heretic_hunter_decimate"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_heretic_hunter/hero_heretic_hunter_decimate.lua"
-	"AbilityTextureName"					"hero_heretic_hunter_decimate"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-	"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
-	"AbilityUnitTargetFlags" 				"DOTA_UNIT_TARGET_FLAG_NONE"
-	"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
-	"AbilityUnitDamageType"					"DAMAGE_TYPE_PHYSICAL"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"MaxLevel"			 					"7"
-	"RequiredLevel"							"1"
-	"LevelsBetweenUpgrades"					"3"
-
-	"AbilityCastPoint"						"0.3"
-	"AbilityCastAnimation"					"ACT_DOTA_CAST_ABILITY_4"
-	"AnimationPlaybackRate"					"1"
-	"AnimationIgnoresModelScale"			"1"
-    
-	"AbilityManaCost"						"100 120 150 175 215 250 300"
-	"AbilityCooldown"						"28.0 26.0 24.0 22.0 22.0 18.0 12.0"
-	"AbilityCastRange"						"600"
-	
-	"AbilitySpecial"
+	}
+	"boss_lane_berserker_passive"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/boss_lane_berserker/boss_lane_berserker_passive.lua"
+		"AbilityTextureName"	"boss_lane_berserker_passive"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"3"
+		"RequiredLevel"	"1"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_INTEGER"
-			"damage"	"50 100 200 400 800 1200 1800"
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"magic_resist_pct"	"10 20 40"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"lifesteal_pct"	"15 20 40"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_pure_damage_pct"	"10 15 30"
+			}
 		}
-		"02"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"damage_per_agi_pct"	"100.0 150.0 200.0 300.0 400.0 500.0 650.0"
-		}
-		"03"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"heal_pct"	"2.0 4.0 6.0 8.0 10.0 12.0 14.0"
-		}
-	}}"hero_heretic_hunter_pray"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_heretic_hunter/hero_heretic_hunter_pray.lua"
-	"AbilityTextureName"					"hero_heretic_hunter_pray"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
-	"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_NONE"
-	"AbilityUnitTargetFlags" 				"DOTA_UNIT_TARGET_FLAG_NONE"
-	"AbilityUnitDamageType"					"DAMAGE_TYPE_PHYSICAL"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"MaxLevel"			 					"7"
-	"RequiredLevel"							"1"
-	"LevelsBetweenUpgrades"					"3"
-
-	"AbilityCastPoint"						"0.3"
-	"AbilityCastAnimation"					"ACT_DOTA_GENERIC_CHANNEL_1"
-	"AnimationPlaybackRate"					"1"
-	"AnimationIgnoresModelScale"			"1"
-    
-	"AbilityManaCost"						"100 120 150 175 215 250 300"
-	"AbilityCooldown"						"50.0 47.5 45.0 42.5 40.0 37.5 35.0"
-	"AbilityChannelTime"					"5.0 5.5 6.0 6.5 7.0 7.5 8"
-	"AbilityChanneledManaCostPerSecond"		"30 40 50 65 90 120 150"
-	
-	"AbilitySpecial"
+	}
+	"boss_lane_brute_passive"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/boss_lane_brute/boss_lane_brute_passive.lua"
+		"AbilityTextureName"	"boss_lane_brute_passive"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"3"
+		"RequiredLevel"	"1"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_FLOAT"
-			"regen_per_second_pct"	"1 2 3 4 5 6 7"
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_armor_reduction"	"8 16 40"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_mana_drain_pct"	"4 8 16"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_range"	"500 600 850"
+			}
 		}
-		"02"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"damage_resistance_pct"		"5 10 15 25 35 45 60"
-		}
-	}}"hero_heretic_hunter_favorofstan"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_heretic_hunter/hero_heretic_hunter_favorofstan.lua"
-	"AbilityTextureName"					"hero_heretic_hunter_favorofstan"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_PASSIVE"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"MaxLevel"			 					"7"
-	"RequiredLevel"							"1"
-	"LevelsBetweenUpgrades"					"10"
-	
-	"AbilitySpecial"
+	}
+	"boss_lane_captain_passive"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/boss_lane_captain/boss_lane_captain_passive.lua"
+		"AbilityTextureName"	"boss_lane_captain_passive"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"3"
+		"RequiredLevel"	"1"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_FLOAT"
-			"kills_per_stat"	"25 23 21 19 16 12 8"
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_armor_buff"	"10 15 30"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_movement_buff"	"30 60 120"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_attackspeed_buff"	"30 60 100"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_damage_self_heal_pct"	"15"
+			}
 		}
-	}}"hero_heretic_hunter_clobber"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_heretic_hunter/hero_heretic_hunter_clobber.lua"
-	"AbilityTextureName"					"hero_heretic_hunter_clobber"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE"
-	"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
-	"AbilityUnitTargetFlags" 				"DOTA_UNIT_TARGET_FLAG_NONE"
-	"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
-	"AbilityUnitDamageType"					"DAMAGE_TYPE_PHYSICAL"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"MaxLevel"			 					"5"
-	"RequiredLevel"							"10"
-	"LevelsBetweenUpgrades"					"10"
-
-	"AbilityCastPoint"						"0.3"
-	"AbilityCastAnimation"					"ACT_DOTA_SPAWN"
-	"AnimationPlaybackRate"					"1"
-	"AnimationIgnoresModelScale"			"1"
-    
-	"AbilityManaCost"						"150 200 250 300 350"
-	"AbilityCooldown"						"60.0 52.0 44.0 36.0 28.0"
-	"AbilityCastRange"						"250"
-	
-	"AbilitySpecial"
+	}
+	"boss_lane_crusher_passive"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/boss_lane_crusher/boss_lane_crusher_passive.lua"
+		"AbilityTextureName"	"boss_lane_crusher_passive"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"3"
+		"RequiredLevel"	"1"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_FLOAT"
-			"damage_agility_pct"	"500 1000 1500 2000 2500"
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"stun_chance_pct"	"30 40 60"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"stun_duration"	"0.75 1.0 1.5"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"magic_resist_pct"	"10 15 30"
+			}
 		}
-		"02"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"stun_duration"	"2.0 3.5 5.0 6.5 8.0"
-		}
-		"03"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"armor_reduction_pct"	"10 20 30 40 50"
-		}
-		"04"
-		{
-			"var_type"		"FIELD_INTEGER"
-			"radius"	"300 400 500 600 750"
-		}
-	}}"hero_heretic_hunter_stanswill"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_heretic_hunter/hero_heretic_hunter_stanswill.lua"
-	"AbilityTextureName"					"hero_heretic_hunter_stanswill"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
-	"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
-	"AbilityUnitTargetFlags" 				"DOTA_UNIT_TARGET_FLAG_NONE"
-	"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
-	"AbilityUnitDamageType"					"DAMAGE_TYPE_PHYSICAL"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"MaxLevel"			 					"3"
-	"RequiredLevel"							"25"
-	"LevelsBetweenUpgrades"					"15"
-
-	"AbilityCastPoint"						"1.0"
-	"AbilityCastAnimation"					"ACT_DOTA_VICTORY"
-	"AnimationPlaybackRate"					"1"
-	"AnimationIgnoresModelScale"			"1"
-    
-	"AbilityManaCost"						"400 600 800"
-	"AbilityCooldown"						"120.0 100.0 80.0"
-	"AbilityCastRange"						"99999"
-	
-	"AbilitySpecial"
+	}
+	"boss_lane_guard_passive"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/boss_lane_guard/boss_lane_guard_passive.lua"
+		"AbilityTextureName"	"boss_lane_guard_passive"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"3"
+		"RequiredLevel"	"1"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_FLOAT"
-			"crit_per_agi_pct"	"3.0 6.0 9.0"
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"status_resist_pct"	"20 40 80"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"magic_resist_pct"	"10 20 40"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"return_damage_pct"	"15 25 50"
+			}
 		}
-		"02"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"stun_per_str_pct"	"0.5 1.0 1.5"
-		}
-	}}"hero_executioner_instantaneousadaptation"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_executioner/hero_executioner_instantaneousadaptation.lua"
-	"AbilityTextureName"					"hero_executioner_instantaneousadaptation"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_TOGGLE"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"MaxLevel"			 					"7"
-	"RequiredLevel"							"1"
-	"LevelsBetweenUpgrades"					"3"
-
-	"AbilityCastPoint"						"0.0"
-	"AbilityCastAnimation"					"ACT_DOTA_CAST_ABILITY_2"
-	"AnimationPlaybackRate"					"1"
-	"AnimationIgnoresModelScale"			"1"
-    
-	"AbilityCooldown"						"10.0 9.0 8.0 7.0 6.0 5.0 4.0"
-	
-	"AbilitySpecial"
+	}
+	"boss_lane_horseman_passive"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/boss_lane_horseman/boss_lane_horseman_passive.lua"
+		"AbilityTextureName"	"boss_lane_horseman_passive"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"3"
+		"RequiredLevel"	"1"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_INTEGER"
-			"bonus_movement"	"150 175 200 225 250 275 300"
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"status_resist_pct"	"15 30 50"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aoe_damage_pct"	"25 50 100"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aoe_radius"	"225 275 400"
+			}
 		}
-		"02"
-		{
-			"var_type"		"FIELD_INTEGER"
-			"bonus_mana_regen_pct"	"1 2 3 4 5 6 7"
-		}
-	}}"hero_executioner_terrorecho"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_executioner/hero_executioner_terrorecho.lua"
-	"AbilityTextureName"					"hero_executioner_terrorecho"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
-	"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
-	"AbilityUnitTargetFlags" 				"DOTA_UNIT_TARGET_FLAG_NONE"
-	"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
-	"AbilityUnitDamageType"					"DAMAGE_TYPE_MAGICAL"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"AbilityCastAnimation"					"ACT_DOTA_ATTACK"
-	"AbilityCastPoint"						"0.5"
-	"MaxLevel"			 					"7"
-	"RequiredLevel"							"1"
-	"LevelsBetweenUpgrades"					"3"
-    
-	"AbilityManaCost"						"40 55 70 85 90 105 120"
-	"AbilityCooldown"						"35.0 30.0 27.0 25.0 21.0 18.0 15.0"
-	"AbilityCastRange"						"250"
-	
-	"AbilitySpecial"
+	}
+	"boss_lane_mage_passive"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/boss_lane_mage/boss_lane_mage_passive.lua"
+		"AbilityTextureName"	"boss_lane_mage_passive"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"3"
+		"RequiredLevel"	"1"
+		"AbilitySpecial"
 		{
-			"var_type"					"FIELD_INTEGER"
-			"damage_multiplier_pct"		"200 300 400 650 900 1050 1200"
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"magic_resist_pct"	"5 15 35"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_magic_damage_pct"	"20 40 70"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"silence_chance_pct"	"20 40 65"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"silence_duration"	"1.0 1.25 1.8"
+			}
 		}
-		"02"
-		{
-			"var_type"					"FIELD_INTEGER"
-			"mana_cost_pct"		"20"
-		}
-		"03"
-		{
-			"var_type"					"FIELD_INTEGER"
-			"radius"		"2000"
-		}
-	}}"hero_executioner_unimaginablestrength"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_executioner/hero_executioner_unimaginablestrength.lua"
-	"AbilityTextureName"					"hero_executioner_unimaginablestrength"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST"
-	"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
-	"AbilityUnitTargetFlags" 				"DOTA_UNIT_TARGET_FLAG_NONE"
-	"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
-	"AbilityUnitDamageType"					"DAMAGE_TYPE_PHYSICAL"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"AbilityCastAnimation"					""
-	"MaxLevel"			 					"7"
-	"RequiredLevel"							"1"
-	"LevelsBetweenUpgrades"					"3"
-    
-	"AbilityManaCost"						"40 55 70 85 90 105 120"
-	
-	"AbilitySpecial"
+	}
+	"boss_lane_sniper_passive"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/boss_lane_sniper/boss_lane_sniper_passive.lua"
+		"AbilityTextureName"	"boss_lane_sniper_passive"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"3"
+		"RequiredLevel"	"1"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_FLOAT"
-			"strength_damage_pct"	"25.0 50.0 75.0 100.0 125.0 150.0 175.0"
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"attack_slow_pct"	"35 45 65"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bleed_damage_pct"	"100 150 250"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"duration"	"2 3 5"
+			}
 		}
-		"02"
-		{
-			"var_type"				"FIELD_FLOAT"
-			"strength_stun_pct"		"0.05"
-		}
-		"03"
-		{
-			"var_type"				"FIELD_FLOAT"
-			"mana_cost_pct"		"5"
-		}
-	}}"hero_executioner_hammerofstan"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_executioner/hero_executioner_hammerofstan.lua"
-	"AbilityTextureName"					"hero_executioner_hammerofstan"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
-	"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
-	"AbilityUnitTargetFlags" 				"DOTA_UNIT_TARGET_FLAG_NONE"
-	"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
-	"AbilityUnitDamageType"					"DAMAGE_TYPE_MAGICAL"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"AbilityCastAnimation"					"ACT_DOTA_ATTACK"
-	"AbilityCastPoint"						"0.5"
-	"MaxLevel"			 					"5"
-	"RequiredLevel"							"10"
-	"LevelsBetweenUpgrades"					"10"
-    
-	"AbilityCooldown"						"50.0 40.0 30.0 20.0 10.0"
-	"AbilityCastRange"						"250"
-	
-	"AbilitySpecial"
+	}
+	"hero_deformed_cultist_crudetransmutation"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_deformed_cultist/hero_deformed_cultist_crudetransmutation.lua"
+		"AbilityTextureName"	"hero_deformed_cultist_crudetransmutation"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetFlags"	"DOTA_UNIT_TARGET_FLAG_NONE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_MAGICAL"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"7"
+		"RequiredLevel"	"1"
+		"LevelsBetweenUpgrades"	"3"
+		"AbilityCastPoint"	"0.1"
+		"AbilityCastAnimation"	"ACT_DOTA_CAST_ABILITY_2"
+		"AnimationPlaybackRate"	"1"
+		"AnimationIgnoresModelScale"	"1"
+		"AbilityManaCost"	"200 270 350 475 560 700 900"
+		"AbilityCooldown"	"50.0 47.5 45.0 42.5 40.0 35.0 30.0"
+		"AbilityCastRange"	"1200"
+		"AbilitySpecial"
 		{
-			"var_type"					"FIELD_INTEGER"
-			"damage"		"1000 2500 4000 6000 10000"
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"heal_pct"	"25.0 27.5 30.0 32.5 35.0 37.5 45"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"self_damage_pct"	"40.0 35.0 30.0 25.0 20.0 15.0 10.0"
+			}
 		}
-		"02"
-		{
-			"var_type"					"FIELD_INTEGER"
-			"strength_damage_pct"		"200 600 800 1000 1400"
-		}
-		"03"
-		{
-			"var_type"					"FIELD_INTEGER"
-			"mana_pct"		"33"
-		}
-		"04"
-		{
-			"var_type"					"FIELD_INTEGER"
-			"knockback_distance"		"300"
-		}
-	}}"hero_executioner_execute"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_executioner/hero_executioner_execute.lua"
-	"AbilityTextureName"					"hero_executioner_execute"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
-	"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
-	"AbilityUnitTargetFlags" 				"DOTA_UNIT_TARGET_FLAG_NONE"
-	"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
-	"AbilityUnitDamageType"					"DAMAGE_TYPE_MAGICAL"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"AbilityCastAnimation"					"ACT_DOTA_GENERIC_CHANNEL_1"
-	"MaxLevel"			 					"3"
-	"RequiredLevel"							"25"
-	"LevelsBetweenUpgrades"					"15"
-	"AbilityCastPoint"						"0.6"
-    
-	"AbilityCooldown"						"160.0 120.0 80.0"
-	"AbilityChannelTime"					"8.0"
-	"AbilityCastRange"						"250"
-	
-	"AbilitySpecial"
+	}
+	"hero_deformed_cultist_kneecapmassacre"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_deformed_cultist/hero_deformed_cultist_kneecapmassacre.lua"
+		"AbilityTextureName"	"hero_deformed_cultist_kneecapmassacre"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetFlags"	"DOTA_UNIT_TARGET_FLAG_NONE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_MAGICAL"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"5"
+		"RequiredLevel"	"10"
+		"LevelsBetweenUpgrades"	"10"
+		"AbilityCastPoint"	"0.3"
+		"AbilityCastAnimation"	"ACT_DOTA_CAST_ABILITY_1"
+		"AnimationPlaybackRate"	"1"
+		"AnimationIgnoresModelScale"	"1"
+		"AbilityManaCost"	"600 800 1000 1200 1500 1750 2500"
+		"AbilityCooldown"	"200 180 160 140 120"
+		"AbilitySpecial"
 		{
-			"var_type"					"FIELD_INTEGER"
-			"all_stat_damage_pct"		"4000 6000 8500"
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"damage"	"200 400 600 800 1000"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"movement_slow_pct"	"30 40 50 60 75"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"magic_resistance_reduction_pct"	"10 20 30 40 50"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"armor_reduction"	"15 25 35 45 60"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"base_duration"	"2.75 3.0 3.25 3.5 3.75"
+			}
+			"06"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"intelligence_duration_pct"	"0.25"
+			}
+			"07"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"800"
+			}
 		}
-		"02"
-		{
-			"var_type"					"FIELD_FLOAT"
-			"channel_time"		"8.0"
-		}
-	}}"hero_executioner_unstoppable"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_executioner/hero_executioner_unstoppable.lua"
-	"AbilityTextureName"					"hero_executioner_unstoppable"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_PASSIVE"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"MaxLevel"			 					"7"
-	"RequiredLevel"							"1"
-	"LevelsBetweenUpgrades"					"10"
-	
-	"AbilitySpecial"
+	}
+	"hero_deformed_cultist_mindcrusher"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_deformed_cultist/hero_deformed_cultist_mindcrusher.lua"
+		"AbilityTextureName"	"hero_deformed_cultist_mindcrusher"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetFlags"	"DOTA_UNIT_TARGET_FLAG_NONE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_PURE"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"3"
+		"RequiredLevel"	"25"
+		"LevelsBetweenUpgrades"	"15"
+		"AbilityCastPoint"	"0.3"
+		"AbilityCastAnimation"	"ACT_DOTA_CAST_ABILITY_4"
+		"AnimationPlaybackRate"	"1"
+		"AnimationIgnoresModelScale"	"1"
+		"AbilityManaCost"	"1250 1650 2750"
+		"AbilityCooldown"	"200.0 150.0 80.0"
+		"AbilityCastRange"	"1300"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_INTEGER"
-			"health_regen"	"5 10 15 20 25 35 50"
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"duration"	"5 7.5 10"
+			}
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"mana_as_anti_regen_pct"	"100"
+			}
 		}
-		"02"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"status_resistance_pct"	"4 8 16 24 32 40 48"
-		}
-	}}"hero_deformed_cultist_psychichemorrhage"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_deformed_cultist/hero_deformed_cultist_psychichemorrhage.lua"
-	"AbilityTextureName"					"hero_deformed_cultist_psychichemorrhage"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT"
-	"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
-	"AbilityUnitTargetFlags" 				"DOTA_UNIT_TARGET_FLAG_NONE"
-	"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
-	"AbilityUnitDamageType"					"DAMAGE_TYPE_MAGICAL"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"MaxLevel"			 					"7"
-	"RequiredLevel"							"1"
-	"LevelsBetweenUpgrades"					"3"
-
-	"AbilityCastPoint"						"0.3"
-	"AbilityCastAnimation"					"ACT_DOTA_CAST_ABILITY_4"
-	"AnimationPlaybackRate"					"1"
-	"AnimationIgnoresModelScale"			"1"
-    
-	"AbilityManaCost"						"75 125 175 210 285 380 450"
-	"AbilityCooldown"						"24.0 22.0 20.0 18.0 16.0 14.0 12.0"
-	"AbilityCastRange"						"800"
-	
-	"AbilitySpecial"
+	}
+	"hero_deformed_cultist_psychichemorrhage"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_deformed_cultist/hero_deformed_cultist_psychichemorrhage.lua"
+		"AbilityTextureName"	"hero_deformed_cultist_psychichemorrhage"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetFlags"	"DOTA_UNIT_TARGET_FLAG_NONE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_MAGICAL"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"7"
+		"RequiredLevel"	"1"
+		"LevelsBetweenUpgrades"	"3"
+		"AbilityCastPoint"	"0.3"
+		"AbilityCastAnimation"	"ACT_DOTA_CAST_ABILITY_4"
+		"AnimationPlaybackRate"	"1"
+		"AnimationIgnoresModelScale"	"1"
+		"AbilityManaCost"	"100 150 225 260 325 440 600"
+		"AbilityCooldown"	"24.0 22.0 20.0 18.0 16.0 14.0 12.0"
+		"AbilityCastRange"	"800"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_FLOAT"
-			"bleed_intelligence_damage_pct"	"60.0 80.0 100.0 120.0 140.0 160.0 200.0"
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bleed_intelligence_damage_pct"	"60.0 80.0 100.0 120.0 140.0 160.0 200.0"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"magic_resistance_reduction_pct"	"5 10 15 20 25 30 35"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"350"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"duration"	"4 5 6 7 8 9 10"
+			}
 		}
-		"02"
-		{
-			"var_type"		"FIELD_INTEGER"
-			"magic_resistance_reduction_pct"	"5 10 15 20 25 30 35"
-		}		
-		"03"
-		{
-			"var_type"		"FIELD_INTEGER"
-			"radius"	"350"
-		}
-		"04"
-		{
-			"var_type"		"FIELD_INTEGER"
-			"duration"	"4 5 6 7 8 9 10"
-		}
-	}}"hero_deformed_cultist_telepathiceruption"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_deformed_cultist/hero_deformed_cultist_telepathiceruption.lua"
-	"AbilityTextureName"					"hero_deformed_cultist_telepathiceruption"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT"
-	"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
-	"AbilityUnitTargetFlags" 				"DOTA_UNIT_TARGET_FLAG_NONE"
-	"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
-	"AbilityUnitDamageType"					"DAMAGE_TYPE_MAGICAL"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"MaxLevel"			 					"7"
-	"RequiredLevel"							"1"
-	"LevelsBetweenUpgrades"					"3"
-
-	"AbilityCastPoint"						"0.3"
-	"AbilityCastAnimation"					"ACT_DOTA_CAST_ABILITY_1"
-	"AnimationPlaybackRate"					"1"
-	"AnimationIgnoresModelScale"			"1"
-    
-	"AbilityManaCost"						"110 180 250 370 460 570 700"
-	"AbilityCooldown"						"18.0 17.0 16.0 15.0 14.0 13.0 12.0"
-	"AbilityCastRange"						"1000"
-	
-	"AbilitySpecial"
+	}
+	"hero_deformed_cultist_telepathiceruption"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_deformed_cultist/hero_deformed_cultist_telepathiceruption.lua"
+		"AbilityTextureName"	"hero_deformed_cultist_telepathiceruption"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetFlags"	"DOTA_UNIT_TARGET_FLAG_NONE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_MAGICAL"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"7"
+		"RequiredLevel"	"1"
+		"LevelsBetweenUpgrades"	"3"
+		"AbilityCastPoint"	"0.3"
+		"AbilityCastAnimation"	"ACT_DOTA_CAST_ABILITY_1"
+		"AnimationPlaybackRate"	"1"
+		"AnimationIgnoresModelScale"	"1"
+		"AbilityManaCost"	"135 210 300 450 530 615 800"
+		"AbilityCooldown"	"18.0 17.0 16.0 15.0 14.0 13.0 12.0"
+		"AbilityCastRange"	"1000"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_FLOAT"
-			"damage"	"150 250 350 500 700 900 1250"
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"damage"	"150 250 350 500 700 900 1250"
+			}
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"intelligence_damage_pct"	"50 75 125 165 215 280 375"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"stun_duration"	"1.0 1.25 1.5 1.75 2.0 2.25 2.5"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"200"
+			}
 		}
-		"01"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"intelligence_damage_pct"	"50 75 125 165 215 280 375"
-		}
-		"03"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"stun_duration"	"1.0 1.25 1.5 1.75 2.0 2.25 2.5"
-		}		
-		"04"
-		{
-			"var_type"		"FIELD_INTEGER"
-			"radius"	"200"
-		}
-	}}"hero_deformed_cultist_crudetransmutation"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_deformed_cultist/hero_deformed_cultist_crudetransmutation.lua"
-	"AbilityTextureName"					"hero_deformed_cultist_crudetransmutation"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
-	"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
-	"AbilityUnitTargetFlags" 				"DOTA_UNIT_TARGET_FLAG_NONE"
-	"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
-	"AbilityUnitDamageType"					"DAMAGE_TYPE_MAGICAL"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"MaxLevel"			 					"7"
-	"RequiredLevel"							"1"
-	"LevelsBetweenUpgrades"					"3"
-
-	"AbilityCastPoint"						"0.1"
-	"AbilityCastAnimation"					"ACT_DOTA_CAST_ABILITY_2"
-	"AnimationPlaybackRate"					"1"
-	"AnimationIgnoresModelScale"			"1"
-    
-	"AbilityManaCost"						"175 240 320 435 515 630 700"
-	"AbilityCooldown"						"50.0 47.5 45.0 42.5 40.0 35.0 30.0"
-	"AbilityCastRange"						"1200"
-	
-	"AbilitySpecial"
+	}
+	"hero_deformed_cultist_twistedmind"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_deformed_cultist/hero_deformed_cultist_twistedmind.lua"
+		"AbilityTextureName"	"hero_deformed_cultist_twistedmind"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"7"
+		"RequiredLevel"	"1"
+		"LevelsBetweenUpgrades"	"10"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_FLOAT"
-			"heal_pct"	"25.0 27.5 30.0 32.5 35.0 37.5 45"
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"regen_per_kill_pct"	"0.25 0.5 0.75 1.0 1.25 1.5 1.75"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"1000"
+			}
 		}
-		"02"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"self_damage_pct"	"40.0 35.0 30.0 25.0 20.0 15.0 10.0"
-		}
-	}}"hero_deformed_cultist_kneecapmassacre"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_deformed_cultist/hero_deformed_cultist_kneecapmassacre.lua"
-	"AbilityTextureName"					"hero_deformed_cultist_kneecapmassacre"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-	"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
-	"AbilityUnitTargetFlags" 				"DOTA_UNIT_TARGET_FLAG_NONE"
-	"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
-	"AbilityUnitDamageType"					"DAMAGE_TYPE_MAGICAL"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"MaxLevel"			 					"5"
-	"RequiredLevel"							"10"
-	"LevelsBetweenUpgrades"					"10"
-
-	"AbilityCastPoint"						"0.3"
-	"AbilityCastAnimation"					"ACT_DOTA_CAST_ABILITY_1"
-	"AnimationPlaybackRate"					"1"
-	"AnimationIgnoresModelScale"			"1"
-    
-	"AbilityManaCost"						"500 700 900 1100 1300 1500 1700"
-	"AbilityCooldown"						"200 180 160 140 120"
-	
-	"AbilitySpecial"
+	}
+	"hero_executioner_execute"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_executioner/hero_executioner_execute.lua"
+		"AbilityTextureName"	"hero_executioner_execute"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetFlags"	"DOTA_UNIT_TARGET_FLAG_NONE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_MAGICAL"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityCastAnimation"	"ACT_DOTA_GENERIC_CHANNEL_1"
+		"MaxLevel"	"3"
+		"RequiredLevel"	"25"
+		"LevelsBetweenUpgrades"	"15"
+		"AbilityCastPoint"	"0.6"
+		"AbilityCooldown"	"160.0 120.0 80.0"
+		"AbilityChannelTime"	"8"
+		"AbilityCastRange"	"250"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_INTEGER"
-			"damage"	"200 400 600 800 1000"
-		}	
-		"02"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"movement_slow_pct"	"30 40 50 60 75"
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"all_stat_damage_pct"	"4000 6000 8500"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"channel_time"	"8"
+			}
 		}
-		"03"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"magic_resistance_reduction_pct"	"10 20 30 40 50"
-		}
-		"04"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"armor_reduction"	"15 25 35 45 60"
-		}
-		"05"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"base_duration"	"2.75 3.0 3.25 3.5 3.75"
-		}
-		"06"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"intelligence_duration_pct"	"0.25"
-		}
-		"07"
-		{
-			"var_type"		"FIELD_INTEGER"
-			"radius"	"800"
-		}
-	}}"hero_deformed_cultist_mindcrusher"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_deformed_cultist/hero_deformed_cultist_mindcrusher.lua"
-	"AbilityTextureName"					"hero_deformed_cultist_mindcrusher"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
-	"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
-	"AbilityUnitTargetFlags" 				"DOTA_UNIT_TARGET_FLAG_NONE"
-	"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
-	"AbilityUnitDamageType"					"DAMAGE_TYPE_PURE"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"MaxLevel"			 					"3"
-	"RequiredLevel"							"25"
-	"LevelsBetweenUpgrades"					"15"
-
-	"AbilityCastPoint"						"0.3"
-	"AbilityCastAnimation"					"ACT_DOTA_CAST_ABILITY_4"
-	"AnimationPlaybackRate"					"1"
-	"AnimationIgnoresModelScale"			"1"
-    
-	"AbilityManaCost"						"1000 1500 2500"
-	"AbilityCooldown"						"200.0 150.0 80.0"
-	"AbilityCastRange"						"1300"
-	
-	"AbilitySpecial"
+	}
+	"hero_executioner_hammerofstan"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_executioner/hero_executioner_hammerofstan.lua"
+		"AbilityTextureName"	"hero_executioner_hammerofstan"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetFlags"	"DOTA_UNIT_TARGET_FLAG_NONE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_MAGICAL"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityCastAnimation"	"ACT_DOTA_ATTACK"
+		"AbilityCastPoint"	"0.5"
+		"MaxLevel"	"5"
+		"RequiredLevel"	"10"
+		"LevelsBetweenUpgrades"	"10"
+		"AbilityCooldown"	"50.0 40.0 30.0 20.0 10.0"
+		"AbilityCastRange"	"250"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_FLOAT"
-			"duration"	"5 7.5 10"
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"damage"	"1000 2500 4000 6000 10000"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"strength_damage_pct"	"200 600 800 1000 1400"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"mana_pct"	"33"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"knockback_distance"	"300"
+			}
 		}
-		"01"
-		{
-			"var_type"		"FIELD_FLOAT"
-			"mana_as_anti_regen_pct"	"100"
-		}
-	}}"hero_deformed_cultist_twistedmind"{	"BaseClass"								"ability_lua"
-	"ScriptFile"							"abilities/hero_deformed_cultist/hero_deformed_cultist_twistedmind.lua"
-	"AbilityTextureName"					"hero_deformed_cultist_twistedmind"
-	"AbilityBehavior"						"DOTA_ABILITY_BEHAVIOR_PASSIVE"
-
-	"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
-	"MaxLevel"			 					"7"
-	"RequiredLevel"							"1"
-	"LevelsBetweenUpgrades"					"10"
-	
-	"AbilitySpecial"
+	}
+	"hero_executioner_instantaneousadaptation"
 	{
-		"01"
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_executioner/hero_executioner_instantaneousadaptation.lua"
+		"AbilityTextureName"	"hero_executioner_instantaneousadaptation"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_TOGGLE"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"7"
+		"RequiredLevel"	"1"
+		"LevelsBetweenUpgrades"	"3"
+		"AbilityCastPoint"	"0"
+		"AbilityCastAnimation"	"ACT_DOTA_CAST_ABILITY_2"
+		"AnimationPlaybackRate"	"1"
+		"AnimationIgnoresModelScale"	"1"
+		"AbilityCooldown"	"10.0 9.0 8.0 7.0 6.0 5.0 4.0"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_FLOAT"
-			"regen_per_kill_pct"	"0.25 0.5 0.75 1.0 1.25 1.5 1.75"
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_movement"	"150 175 200 225 250 275 300"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_mana_regen_pct"	"1 2 3 4 5 6 7"
+			}
 		}
-		"02"
+	}
+	"hero_executioner_terrorecho"
+	{
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_executioner/hero_executioner_terrorecho.lua"
+		"AbilityTextureName"	"hero_executioner_terrorecho"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetFlags"	"DOTA_UNIT_TARGET_FLAG_NONE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_MAGICAL"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityCastAnimation"	"ACT_DOTA_ATTACK"
+		"AbilityCastPoint"	"0.5"
+		"MaxLevel"	"7"
+		"RequiredLevel"	"1"
+		"LevelsBetweenUpgrades"	"3"
+		"AbilityManaCost"	"40 55 70 85 90 105 120"
+		"AbilityCooldown"	"35.0 30.0 27.0 25.0 21.0 18.0 15.0"
+		"AbilityCastRange"	"250"
+		"AbilitySpecial"
 		{
-			"var_type"		"FIELD_INTEGER"
-			"radius"	"1000"
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"damage_multiplier_pct"	"200 300 400 650 900 1050 1200"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"mana_cost_pct"	"20"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"2000"
+			}
 		}
-	}}}
+	}
+	"hero_executioner_unimaginablestrength"
+	{
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_executioner/hero_executioner_unimaginablestrength.lua"
+		"AbilityTextureName"	"hero_executioner_unimaginablestrength"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetFlags"	"DOTA_UNIT_TARGET_FLAG_NONE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_PHYSICAL"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityCastAnimation"	""
+		"MaxLevel"	"7"
+		"RequiredLevel"	"1"
+		"LevelsBetweenUpgrades"	"3"
+		"AbilityManaCost"	"40 55 70 85 90 105 120"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"strength_damage_pct"	"25.0 50.0 75.0 100.0 125.0 150.0 175.0"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"strength_stun_pct"	"0.05"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"mana_cost_pct"	"5"
+			}
+		}
+	}
+	"hero_executioner_unstoppable"
+	{
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_executioner/hero_executioner_unstoppable.lua"
+		"AbilityTextureName"	"hero_executioner_unstoppable"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"7"
+		"RequiredLevel"	"1"
+		"LevelsBetweenUpgrades"	"10"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"health_regen"	"5 10 15 20 25 35 50"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"status_resistance_pct"	"4 8 16 24 32 40 48"
+			}
+		}
+	}
+	"hero_heretic_hunter_abduct"
+	{
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_heretic_hunter/hero_heretic_hunter_abduct.lua"
+		"AbilityTextureName"	"hero_heretic_hunter_abduct"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetFlags"	"DOTA_UNIT_TARGET_FLAG_NONE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_PHYSICAL"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"7"
+		"RequiredLevel"	"1"
+		"LevelsBetweenUpgrades"	"3"
+		"AbilityCastPoint"	"0.1"
+		"AbilityCastAnimation"	"ACT_DOTA_CAST_ABILITY_2"
+		"AnimationPlaybackRate"	"1"
+		"AnimationIgnoresModelScale"	"1"
+		"AbilityManaCost"	"40 55 70 85 90 105 120"
+		"AbilityCooldown"	"16.0 14.0 12.0 10.0 8.0 6.0 3.0"
+		"AbilityCastRange"	"800"
+		"AoERadius"	"250"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"damage_per_agi_pct"	"50.0 100.0 150.0 200.0 250.0 300.0 400.0"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"150 200 250 300 350 400 450"
+			}
+		}
+	}
+	"hero_heretic_hunter_clobber"
+	{
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_heretic_hunter/hero_heretic_hunter_clobber.lua"
+		"AbilityTextureName"	"hero_heretic_hunter_clobber"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetFlags"	"DOTA_UNIT_TARGET_FLAG_NONE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_PHYSICAL"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"5"
+		"RequiredLevel"	"10"
+		"LevelsBetweenUpgrades"	"10"
+		"AbilityCastPoint"	"0.3"
+		"AbilityCastAnimation"	"ACT_DOTA_SPAWN"
+		"AnimationPlaybackRate"	"1"
+		"AnimationIgnoresModelScale"	"1"
+		"AbilityManaCost"	"150 200 250 300 350"
+		"AbilityCooldown"	"60.0 52.0 44.0 36.0 28.0"
+		"AbilityCastRange"	"250"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"damage_agility_pct"	"500 1000 1500 2000 2500"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"stun_duration"	"2.0 3.5 5.0 6.5 8.0"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"armor_reduction_pct"	"10 20 30 40 50"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"radius"	"300 400 500 600 750"
+			}
+		}
+	}
+	"hero_heretic_hunter_decimate"
+	{
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_heretic_hunter/hero_heretic_hunter_decimate.lua"
+		"AbilityTextureName"	"hero_heretic_hunter_decimate"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetFlags"	"DOTA_UNIT_TARGET_FLAG_NONE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_PHYSICAL"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"7"
+		"RequiredLevel"	"1"
+		"LevelsBetweenUpgrades"	"3"
+		"AbilityCastPoint"	"0.3"
+		"AbilityCastAnimation"	"ACT_DOTA_CAST_ABILITY_4"
+		"AnimationPlaybackRate"	"1"
+		"AnimationIgnoresModelScale"	"1"
+		"AbilityManaCost"	"100 120 150 175 215 250 300"
+		"AbilityCooldown"	"28.0 26.0 24.0 22.0 22.0 18.0 12.0"
+		"AbilityCastRange"	"600"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"damage"	"50 100 200 400 800 1200 1800"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"damage_per_agi_pct"	"100.0 150.0 200.0 300.0 400.0 500.0 650.0"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"heal_pct"	"2.0 4.0 6.0 8.0 10.0 12.0 14.0"
+			}
+		}
+	}
+	"hero_heretic_hunter_favorofstan"
+	{
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_heretic_hunter/hero_heretic_hunter_favorofstan.lua"
+		"AbilityTextureName"	"hero_heretic_hunter_favorofstan"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"7"
+		"RequiredLevel"	"1"
+		"LevelsBetweenUpgrades"	"10"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"kills_per_stat"	"25 23 21 19 16 12 8"
+			}
+		}
+	}
+	"hero_heretic_hunter_pray"
+	{
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_heretic_hunter/hero_heretic_hunter_pray.lua"
+		"AbilityTextureName"	"hero_heretic_hunter_pray"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_NONE"
+		"AbilityUnitTargetFlags"	"DOTA_UNIT_TARGET_FLAG_NONE"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_PHYSICAL"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"7"
+		"RequiredLevel"	"1"
+		"LevelsBetweenUpgrades"	"3"
+		"AbilityCastPoint"	"0.3"
+		"AbilityCastAnimation"	"ACT_DOTA_GENERIC_CHANNEL_1"
+		"AnimationPlaybackRate"	"1"
+		"AnimationIgnoresModelScale"	"1"
+		"AbilityManaCost"	"100 120 150 175 215 250 300"
+		"AbilityCooldown"	"50.0 47.5 45.0 42.5 40.0 37.5 35.0"
+		"AbilityChannelTime"	"5.0 5.5 6.0 6.5 7.0 7.5 8"
+		"AbilityChanneledManaCostPerSecond"	"30 40 50 65 90 120 150"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"regen_per_second_pct"	"1 2 3 4 5 6 7"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"damage_resistance_pct"	"5 10 15 25 35 45 60"
+			}
+		}
+	}
+	"hero_heretic_hunter_stanswill"
+	{
+		"BaseClass"	"ability_lua"
+		"ScriptFile"	"abilities/hero_heretic_hunter/hero_heretic_hunter_stanswill.lua"
+		"AbilityTextureName"	"hero_heretic_hunter_stanswill"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetFlags"	"DOTA_UNIT_TARGET_FLAG_NONE"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitDamageType"	"DAMAGE_TYPE_PHYSICAL"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"	"3"
+		"RequiredLevel"	"25"
+		"LevelsBetweenUpgrades"	"15"
+		"AbilityCastPoint"	"1"
+		"AbilityCastAnimation"	"ACT_DOTA_VICTORY"
+		"AnimationPlaybackRate"	"1"
+		"AnimationIgnoresModelScale"	"1"
+		"AbilityManaCost"	"400 600 800"
+		"AbilityCooldown"	"120.0 100.0 80.0"
+		"AbilityCastRange"	"99999"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"crit_per_agi_pct"	"3.0 6.0 9.0"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"stun_per_str_pct"	"0.5 1.0 1.5"
+			}
+		}
+	}
+	"Version"	"1"
+}

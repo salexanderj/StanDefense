@@ -20,5 +20,5 @@ function modifier_item_standef_libertymedallion:GetAttributes()
 end
 
 function modifier_item_standef_libertymedallion:GetModifierStatusResistance()
-	return self:GetAbility():GetSpecialValueFor("bonus_status_resist_pct")
+	return self:GetAbility():GetSpecialValueFor("status_resist_pct")
 end

@@ -1,3 +1,9 @@
+function InitEntity(eEntity)
+        if IsServer() and eEntity.AddNewModifier then
+                eEntity:AddNewModifier(eEntity, nil, "modifier_player_scaling", {})
+        end
+end
+
 function EmitSoundOnAll(soundname)
         for i = 0, PlayerResource:GetPlayerCount() - 1 do
                 local ePlayer = PlayerResource:GetPlayer(i)
