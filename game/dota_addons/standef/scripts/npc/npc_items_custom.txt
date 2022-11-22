@@ -61,6 +61,19 @@
 			"01"	"item_standef_stoneaxe;item_standef_stoneaxe"
 		}
 	}
+	"item_recipe_standef_burningbreastplate"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3145"
+		"ItemRecipe"	"1"
+		"ItemCost"	"25000"
+		"ItemResult"	"item_standef_burningbreastplate"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_burningbroach;item_standef_ringofhercules;item_standef_ringofhercules"
+		}
+	}
 	"item_recipe_standef_burningbroach"
 	{
 		"BaseClass"	"item_datadriven"
@@ -134,6 +147,19 @@
 		"ItemRequirements"
 		{
 			"01"	"item_standef_helmofcancer;item_standef_omnicrystal"
+		}
+	}
+	"item_recipe_standef_demonlordsblade"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3151"
+		"ItemRecipe"	"1"
+		"ItemCost"	"11750"
+		"ItemResult"	"item_standef_demonlordsblade"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_ungodlypenetrator;item_standef_ungodlypenetrator;item_standef_razorsharpsword"
 		}
 	}
 	"item_recipe_standef_deviousrapier"
@@ -309,6 +335,32 @@
 			"01"	"item_standef_evilhelmet;item_standef_evilhelmet"
 		}
 	}
+	"item_recipe_standef_heroicarmor"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3155"
+		"ItemRecipe"	"1"
+		"ItemCost"	"4500"
+		"ItemResult"	"item_standef_heroicarmor"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_titaniumarmor;item_standef_mendingpendant;item_standef_orbofhealth"
+		}
+	}
+	"item_recipe_standef_immaculateclaymore"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3160"
+		"ItemRecipe"	"1"
+		"ItemCost"	"19875"
+		"ItemResult"	"item_standef_immaculateclaymore"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_ungodlypenetrator;item_standef_deviousrapier;item_standef_helmofcancer;item_standef_diamondaxe"
+		}
+	}
 	"item_recipe_standef_incandescentrock"
 	{
 		"BaseClass"	"item_datadriven"
@@ -331,6 +383,19 @@
 		"ItemRequirements"
 		{
 			"01"	"item_standef_maskofmadness;item_standef_maskofmadness"
+		}
+	}
+	"item_recipe_standef_inspiringheaddress"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3164"
+		"ItemRecipe"	"1"
+		"ItemCost"	"6600"
+		"ItemResult"	"item_standef_inspiringheaddress"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_titaniumarmor;item_standef_helmofcancer;item_standef_mendingpendant;item_standef_orbofhealth"
 		}
 	}
 	"item_recipe_standef_ironaxe"
@@ -381,6 +446,32 @@
 			"01"	"item_standef_morbidmask;item_standef_morbidmask"
 		}
 	}
+	"item_recipe_standef_motivatingmekanism"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3166"
+		"ItemRecipe"	"1"
+		"ItemCost"	"20000"
+		"ItemResult"	"item_standef_motivatingmekanism"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_inspiringheaddress;item_standef_helmofcancer;item_standef_libertymedallion"
+		}
+	}
+	"item_recipe_standef_novablade"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3149"
+		"ItemRecipe"	"1"
+		"ItemCost"	"22500"
+		"ItemResult"	"item_standef_novablade"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_novaorb;item_standef_armbandofartemis;item_standef_armbandofartemis"
+		}
+	}
 	"item_recipe_standef_novaorb"
 	{
 		"BaseClass"	"item_datadriven"
@@ -407,6 +498,19 @@
 			"01"	"item_standef_eyeofzeus;item_standef_energylens"
 		}
 	}
+	"item_recipe_standef_opulentboots"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3162"
+		"ItemRecipe"	"1"
+		"ItemCost"	"12000"
+		"ItemResult"	"item_standef_opulentboots"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_blessedboots;item_standef_gemofopulence"
+		}
+	}
 	"item_recipe_standef_platearmor"
 	{
 		"BaseClass"	"item_datadriven"
@@ -419,11 +523,24 @@
 			"01"	"item_standef_chainmailarmor;item_standef_chainmailarmor"
 		}
 	}
+	"item_recipe_standef_ragearmor"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3157"
+		"ItemRecipe"	"1"
+		"ItemCost"	"10500"
+		"ItemResult"	"item_standef_ragearmor"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_ragehammer;item_standef_heroicarmor"
+		}
+	}
 	"item_recipe_standef_ragehammer"
 	{
 		"BaseClass"	"item_datadriven"
 		"AbilityTextureName"	"item_recipe"
-		"ID"	"3108"
+		"ID"	"3158"
 		"ItemRecipe"	"1"
 		"ItemCost"	"1000"
 		"ItemResult"	"item_standef_ragehammer"
@@ -492,6 +609,19 @@
 			"01"	"item_standef_clothwraps;item_standef_clothwraps"
 		}
 	}
+	"item_recipe_standef_shardsofdivinemagic"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3147"
+		"ItemRecipe"	"1"
+		"ItemCost"	"12000"
+		"ItemResult"	"item_standef_shardsofdivinemagic"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_sliverofpuremagic;item_standef_eyeofzeus;item_standef_eyeofzeus"
+		}
+	}
 	"item_recipe_standef_sharpsword"
 	{
 		"BaseClass"	"item_datadriven"
@@ -514,6 +644,19 @@
 		"ItemRequirements"
 		{
 			"01"	"item_standef_buzzinggloves;item_standef_buzzinggloves"
+		}
+	}
+	"item_recipe_standef_siegeblade"
+	{
+		"BaseClass"	"item_datadriven"
+		"AbilityTextureName"	"item_recipe"
+		"ID"	"3153"
+		"ItemRecipe"	"1"
+		"ItemCost"	"8800"
+		"ItemResult"	"item_standef_siegeblade"
+		"ItemRequirements"
+		{
+			"01"	"item_standef_ragehammer;item_standef_ragehammer"
 		}
 	}
 	"item_recipe_standef_sliverofpuremagic"
@@ -725,7 +868,14 @@
 		"BaseClass"	"item_lua"
 		"AbilityTextureName"	"item_standef_blessedboots"
 		"ScriptFile"	"items/item_standef_blessedboots.lua"
-		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+		"AbilityCastAnimation"	"ACT_DOTA_GENERIC_CHANNEL_1"
+		"AnimationPlaybackRate"	"1"
+		"AnimationIgnoresModelScale"	"1"
+		"AbilityChannelTime"	"3"
+		"AbilityCastRange"	"0"
+		"AbilityCastPoint"	"0"
+		"AbilityCooldown"	"70"
 		"ID"	"3099"
 		"ItemCost"	"7500"
 		"ItemStackable"	"0"
@@ -742,11 +892,6 @@
 			{
 				"var_type"	"FIELD_INTEGER"
 				"bonus_movement"	"300"
-			}
-			"02"
-			{
-				"var_type"	"FIELD_INTEGER"
-				"bonus_movement_per_enemy"	"3"
 			}
 		}
 	}
@@ -888,6 +1033,46 @@
 			{
 				"var_type"	"FIELD_INTEGER"
 				"cleave_distance"	"550"
+			}
+		}
+	}
+	"item_standef_burningbreastplate"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_burningbreastplate"
+		"ScriptFile"	"items/item_standef_burningbreastplate.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3144"
+		"ItemCost"	"9000"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_strength"	"256"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_health_regen"	"64"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_health"	"4800"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"return_strength_mult_pct"	"100"
 			}
 		}
 	}
@@ -1177,7 +1362,7 @@
 			"04"
 			{
 				"var_type"	"FIELD_FLOAT"
-				"resurrection_chance_pct"	"10"
+				"resurrection_chance_pct"	"25"
 			}
 		}
 	}
@@ -1204,6 +1389,41 @@
 			{
 				"var_type"	"FIELD_INTEGER"
 				"bonus_movement_pct"	"5"
+			}
+		}
+	}
+	"item_standef_demonlordsblade"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_demonlordsblade"
+		"ScriptFile"	"items/item_standef_demonlordsblade.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3150"
+		"ItemCost"	"7000"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_damage"	"328"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"crit_chance_pct"	"5"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"crit_mult_pct"	"800"
 			}
 		}
 	}
@@ -1776,6 +1996,23 @@
 			}
 		}
 	}
+	"item_standef_goldenboulder"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_goldenboulder"
+		"ScriptFile"	"items/item_standef_goldenboulder.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3143"
+		"ItemCost"	"90000"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+	}
 	"item_standef_healingsalve"
 	{
 		"BaseClass"	"item_lua"
@@ -1836,6 +2073,91 @@
 			}
 		}
 	}
+	"item_standef_heroicarmor"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_heroicarmor"
+		"ScriptFile"	"items/item_standef_heroicarmor.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3154"
+		"ItemCost"	"4000"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_armor"	"30"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_health"	"2000"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_health_regen"	"16"
+			}
+		}
+	}
+	"item_standef_immaculateclaymore"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_immaculateclaymore"
+		"ScriptFile"	"items/item_standef_immaculateclaymore.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3159"
+		"ItemCost"	"7000"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_damage"	"180"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_attackspeed"	"120"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"proc_chance_pct"	"40"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"proc_mult_pct"	"140"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"proc_lifesteal_pct"	"40"
+			}
+			"06"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"proc_cleave_pct"	"40"
+			}
+		}
+	}
 	"item_standef_incandescentrock"
 	{
 		"BaseClass"	"item_lua"
@@ -1883,6 +2205,51 @@
 			{
 				"var_type"	"FIELD_FLOAT"
 				"lifesteal_pct"	"6"
+			}
+		}
+	}
+	"item_standef_inspiringheaddress"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_inspiringheaddress"
+		"ScriptFile"	"items/item_standef_inspiringheaddress.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3163"
+		"ItemCost"	"9000"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_armor"	"12"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_lifesteal"	"12"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_health_regen"	"8"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_health_pct"	"10"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_radius"	"600"
 			}
 		}
 	}
@@ -2097,6 +2464,74 @@
 			}
 		}
 	}
+	"item_standef_motivatingmekanism"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_motivatingmekanism"
+		"ScriptFile"	"items/item_standef_motivatingmekanism.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityCastPoint"	"0"
+		"AbilityCooldown"	"60"
+		"AbilityManaCost"	"750"
+		"ID"	"3165"
+		"ItemCost"	"9000"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_armor"	"24"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_lifesteal"	"24"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_health_regen"	"24"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_health_pct"	"20"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"aura_radius"	"800"
+			}
+			"06"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"active_resistance_pct"	"90"
+			}
+			"07"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"active_health_regen_pct"	"5"
+			}
+			"08"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"active_duration"	"3.5"
+			}
+			"09"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"active_radius"	"1000"
+			}
+		}
+	}
 	"item_standef_mysteriousbracelet"
 	{
 		"BaseClass"	"item_lua"
@@ -2119,6 +2554,51 @@
 			{
 				"var_type"	"FIELD_INTEGER"
 				"bonus_agility"	"4"
+			}
+		}
+	}
+	"item_standef_novablade"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_novablade"
+		"ScriptFile"	"items/item_standef_novablade.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3148"
+		"ItemCost"	"9000"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_agility"	"256"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_attackspeed"	"90"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_damage"	"120"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_evasion_pct"	"22.5"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"agility_armor_reduction_pct"	"4"
 			}
 		}
 	}
@@ -2269,6 +2749,53 @@
 			}
 		}
 	}
+	"item_standef_opulentboots"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_opulentboots"
+		"ScriptFile"	"items/item_standef_opulentboots.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+		"AbilityCastAnimation"	"ACT_DOTA_GENERIC_CHANNEL_1"
+		"AnimationPlaybackRate"	"1"
+		"AnimationIgnoresModelScale"	"1"
+		"AbilityChannelTime"	"3"
+		"AbilityCastRange"	"0"
+		"AbilityCastPoint"	"0"
+		"AbilityCooldown"	"35"
+		"ID"	"3161"
+		"ItemCost"	"7500"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_movement"	"375"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_strength"	"128"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_agility"	"128"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_intelligence"	"128"
+			}
+		}
+	}
 	"item_standef_orbofhealth"
 	{
 		"BaseClass"	"item_lua"
@@ -2369,6 +2896,56 @@
 			{
 				"var_type"	"FIELD_FLOAT"
 				"bonus_armor"	"12"
+			}
+		}
+	}
+	"item_standef_ragearmor"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_ragearmor"
+		"ScriptFile"	"items/item_standef_ragearmor.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3156"
+		"ItemCost"	"4000"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_armor"	"36"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_health"	"2500"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_health_regen"	"24"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_damage"	"96"
+			}
+			"05"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_building_damage_pct"	"35"
+			}
+			"06"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_building_resist_pct"	"65"
 			}
 		}
 	}
@@ -2608,6 +3185,46 @@
 			}
 		}
 	}
+	"item_standef_shardsofdivinemagic"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_shardsofdivinemagic"
+		"ScriptFile"	"items/item_standef_shardsofdivinemagic.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3146"
+		"ItemCost"	"9000"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_intelligence"	"256"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_mana_regen"	"24"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_INTEGER"
+				"bonus_mana"	"1600"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"cooldown_reduction_pct"	"17.5"
+			}
+		}
+	}
 	"item_standef_sharpstick"
 	{
 		"BaseClass"	"item_lua"
@@ -2705,6 +3322,46 @@
 			{
 				"var_type"	"FIELD_INTEGER"
 				"bonus_intelligence"	"4"
+			}
+		}
+	}
+	"item_standef_siegeblade"
+	{
+		"BaseClass"	"item_lua"
+		"AbilityTextureName"	"item_standef_siegeblade"
+		"ScriptFile"	"items/item_standef_siegeblade.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ID"	"3152"
+		"ItemCost"	"2000"
+		"ItemStackable"	"0"
+		"ItemShareability"	"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"	"0"
+		"ItemPurchasable"	"1"
+		"ItemKillable"	"0"
+		"ItemDroppable"	"1"
+		"ItemSellable"	"1"
+		"AllowedInBackpack"	"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_damage"	"200"
+			}
+			"02"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_building_damage_pct"	"125"
+			}
+			"03"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"non_building_damage_penalty_pct"	"80"
+			}
+			"04"
+			{
+				"var_type"	"FIELD_FLOAT"
+				"bonus_building_resist_pct"	"35"
 			}
 		}
 	}

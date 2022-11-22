@@ -41,21 +41,27 @@
 	
 	"basics"
 	{	
-		"item"		"item_standef_blessedboots"		
+		"item"		"item_standef_blessedboots"
+		"item"		"item_standef_opulentboots"			
 	}
 
 	"support"
 	{		
+		"item"		"item_standef_inspiringheaddress"
+		"item"		"item_standef_motivatingmekanism"		
 	}
 				
 	"magics"			
 	{
 		"item"		"item_standef_crownoftheimmortal"
+		"item"		"item_standef_spiritgem"	
 	}
 		
 	"defense"
 	{	
 		"item"		"item_standef_cloakofimpunity"
+		"item"		"item_standef_heroicarmor"
+		"item"		"item_standef_ragearmor"
 	}
 			
 	"weapons"
@@ -63,7 +69,10 @@
 		"item"		"item_standef_ungodlypenetrator"
 		"item"		"item_standef_deviousrapier"
 		"item"		"item_standef_nuclearblade"
-		"item"		"item_standef_ragehammer"		
+		"item"		"item_standef_ragehammer"
+		"item"		"item_standef_demonlordsblade"
+		"item"		"item_standef_immaculateclaymore"	
+		"item"		"item_standef_siegeblade"				
 	}
 					
 	"artifacts"
@@ -72,6 +81,10 @@
 		"item"		"item_standef_sliverofpuremagic"
 		"item"		"item_standef_novaorb"
 		"item"		"item_standef_gemofopulence"
+		"item"		"item_standef_burningbreastplate"
+		"item"		"item_standef_shardsofdivinemagic"
+		"item"		"item_standef_novablade"
+		"item"		"item_standef_goldenboulder"			
 	}
 
 	"sideshop1"

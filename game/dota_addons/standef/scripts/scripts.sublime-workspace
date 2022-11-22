@@ -4,6 +4,150 @@
 		"selected_items":
 		[
 			[
+				"P",
+				"ParticleManager"
+			],
+			[
+				"DOTA_UNIT_TARGET_TEAM_",
+				"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+			],
+			[
+				"GetEffec",
+				"GetEffectAttachType"
+			],
+			[
+				"Get",
+				"GetEffectName"
+			],
+			[
+				"modifier_",
+				"modifier_item_standef_inspiringheaddress_aura"
+			],
+			[
+				"fC",
+				"fCleaveDamageDealt"
+			],
+			[
+				"f",
+				"fLifestealPercent"
+			],
+			[
+				"fCL",
+				"fCleavePercentage"
+			],
+			[
+				"DAMA",
+				"DAMAGE_TYPE_PHYSICAL"
+			],
+			[
+				"PAA",
+				"PATTACH_ROOTBONE_FOLLOW"
+			],
+			[
+				"eT",
+				"eTargets"
+			],
+			[
+				"e",
+				"eAdditionalTargets"
+			],
+			[
+				"I",
+				"IsBuilding"
+			],
+			[
+				"DOTA",
+				"DOTA_TEAM_GOODGUYS"
+			],
+			[
+				"GetPlayerCo",
+				"GetPlayerCountForTeam"
+			],
+			[
+				"GetPlaerCount",
+				"GetPlayerCountForTeam"
+			],
+			[
+				"Ga",
+				"GameMode"
+			],
+			[
+				"Dota_",
+				"DOTA_TEAM_GOODGUYS"
+			],
+			[
+				"GetPl",
+				"GetPlayerCount"
+			],
+			[
+				"PA",
+				"PATTACH_ABSORIGIN_FOLLOW"
+			],
+			[
+				"GetEff",
+				"GetEffectAttachType"
+			],
+			[
+				"PATTACH_ABS",
+				"PATTACH_ABSORIGIN_FOLLOW"
+			],
+			[
+				"fSil",
+				"fSilenceDuration"
+			],
+			[
+				"fS",
+				"fSilenceChancePercent"
+			],
+			[
+				"DAMAGE",
+				"DAMAGE_TYPE_MAGICAL"
+			],
+			[
+				"DAMAGE_TYPE_P",
+				"DAMAGE_TYPE_PURE"
+			],
+			[
+				"fB",
+				"fBonusDamage"
+			],
+			[
+				"fL",
+				"fLifestealHeal"
+			],
+			[
+				"PAT",
+				"PATTACH_ROOTBONE_FOLLOW"
+			],
+			[
+				"GEt",
+				"GetAbility"
+			],
+			[
+				"G",
+				"GetParent"
+			],
+			[
+				"fR",
+				"fReturnDamage"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ATTACH",
+				"PATTACH_ABSORIGIN"
+			],
+			[
+				"GetEffect",
+				"GetEffectAttachType"
+			],
+			[
+				"fH",
+				"fHeal"
+			],
+			[
 				"GetAuraSear",
 				"GetAuraSearchTeam"
 			],
@@ -12,20 +156,8 @@
 				"GetTeam"
 			],
 			[
-				"PA",
-				"ParticleManager"
-			],
-			[
-				"G",
-				"GetParent"
-			],
-			[
 				"Em",
 				"EmitSoundOn"
-			],
-			[
-				"GEt",
-				"GetAbility"
 			],
 			[
 				"DOTA_TEAM",
@@ -44,20 +176,8 @@
 				"fDamage"
 			],
 			[
-				"fC",
-				"fChancePercent"
-			],
-			[
 				"stun_",
 				"stun_chance_pct"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"DAMAGE",
-				"DAMAGE_TYPE_PHYSICAL"
 			],
 			[
 				"fT",
@@ -68,20 +188,8 @@
 				"EmitSoundOn"
 			],
 			[
-				"Get",
-				"GetCaster"
-			],
-			[
 				"fTo",
 				"fTotalDamage"
-			],
-			[
-				"f",
-				"fTotalDuration"
-			],
-			[
-				"I",
-				"IsDebuff"
 			],
 			[
 				"b",
@@ -120,16 +228,8 @@
 				"eParent"
 			],
 			[
-				"GetPl",
-				"GetPlayer"
-			],
-			[
 				"GetP",
 				"GetParent"
-			],
-			[
-				"DOTA",
-				"DOTA_TEAM_GOODGUYS"
 			],
 			[
 				"EmitSoundOn",
@@ -142,14 +242,6 @@
 			[
 				"mod",
 				"modifier_item_standef_learningelixir"
-			],
-			[
-				"P",
-				"PATTACH_ABSORIGIN_FOLLOW"
-			],
-			[
-				"GetEff",
-				"GetEffectAttachType"
 			],
 			[
 				"DOTA_UNIT_TARGET_TEAM",
@@ -368,10 +460,6 @@
 				"fStrength"
 			],
 			[
-				"e",
-				"eSplitTargets"
-			],
-			[
 				"eOrigin",
 				"eOriginGroupTargets"
 			],
@@ -426,2164 +514,11 @@
 			[
 				"GetArmor",
 				"GetPhysicalArmorValue"
-			],
-			[
-				"A",
-				"AddNewModifier"
-			],
-			[
-				"iCu",
-				"iCurrentBonusStats"
-			],
-			[
-				"hero",
-				"hero_heretic_hunter_stanswill_modifier"
-			],
-			[
-				"iP",
-				"iParticleID"
-			],
-			[
-				"OnPhase",
-				"OnAbilityPhaseStart"
-			],
-			[
-				"v",
-				"vOffset"
-			],
-			[
-				"V",
-				"vCurrentForwardVector"
-			],
-			[
-				"GetA",
-				"GetAbsOrigin"
-			],
-			[
-				"eSt",
-				"eStanEntity"
-			],
-			[
-				"Ga",
-				"GameMode"
-			],
-			[
-				"Set",
-				"SetParticleControlEnt"
-			],
-			[
-				"PATT",
-				"PATTACH_ABSORIGIN_FOLLOW"
-			],
-			[
-				"fMove",
-				"fMovementMagnitude"
-			],
-			[
-				"Leng2",
-				"Length2D"
-			],
-			[
-				"fMax",
-				"fMaxTime"
-			],
-			[
-				"Prticl",
-				"ParticleManager"
-			],
-			[
-				"lua",
-				"LUA_MODIFIER_MOTION_NONE"
-			],
-			[
-				"Remo",
-				"RemoveModifierByName"
-			],
-			[
-				"GetCustomErro",
-				"GetCustomCastErrorLocation"
-			],
-			[
-				"CastFil",
-				"CastFilterResultLocation"
-			],
-			[
-				"Game",
-				"GameMode"
-			],
-			[
-				"vP",
-				"vProjectileLocation"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "npc/npc_abilities_custom/boss_lane_captain_passive.txt",
-			"settings":
-			{
-				"buffer_size": 662,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-			]
-		},
-		{
-			"file": "vscripts/abilities/boss_lane_captain/boss_lane_captain_passive.lua",
-			"settings":
-			{
-				"buffer_size": 619,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					1,
-					1,
-					"paste",
-					null,
-					"AQAAAAAAAAAAAAAAFAMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					10,
-					1,
-					"",
-					null,
-					"CAAAAPYCAAAAAAAA/QIAAAAAAAAIAAAAaG9yc2VtYW63AgAAAAAAAL4CAAAAAAAACAAAAGhvcnNlbWFumQEAAAAAAACgAQAAAAAAAAgAAABob3JzZW1hbvcAAAAAAAAA/gAAAAAAAAAIAAAAaG9yc2VtYW7GAAAAAAAAAM0AAAAAAAAACAAAAGhvcnNlbWFuhQAAAAAAAACMAAAAAAAAAAgAAABob3JzZW1hbnIAAAAAAAAAeQAAAAAAAAAIAAAAaG9yc2VtYW43AAAAAAAAAD4AAAAAAAAACAAAAGhvcnNlbWFu",
-					"AQAAAAAAAAABAAAANwAAAAAAAAA/AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					18,
-					3,
-					"left_delete",
-					null,
-					"AwAAAOAAAAAAAAAA4AAAAAAAAACfAAAAZnVuY3Rpb24gYm9zc19sYW5lX2NhcHRhaW5fcGFzc2l2ZTpQcmVjYWNoZShjb250ZXh0KQoJUHJlY2FjaGVSZXNvdXJjZSgic291bmRmaWxlIiwgInNvdW5kZXZlbnRzL2dhbWVfc291bmRzX2hlcm9lcy9nYW1lX3NvdW5kc19jZW50YXVyLnZzbmRldnRzIiwgY29udGV4dCkKZW5k3wAAAAAAAADfAAAAAAAAAAEAAAAK3gAAAAAAAADeAAAAAAAAAAEAAAAK",
-					"AQAAAAAAAAABAAAAfwEAAAAAAADgAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"contents": "LinkLuaModifier(\"boss_lane_captain_passive_modifier_aura\", \"modifiers/abilities/boss_lane_captain/boss_lane_captain_passive_modifier_aura\", LUA_MODIFIER_MOTION_NONE)\n\nboss_lane_captain_passive_modifier = class({})\n\nfunction boss_lane_captain_passive_modifier:IsHidden()\n\treturn false\nend\n\nfunction boss_lane_captain_passive_modifier:GetModifierAura()\n\treturn \"boss_lane_captain_passive_modifier_aura\"\nend\n\nfunction boss_lane_captain_passive_modifier:IsAura()\n\treturn true\nend\n\nfunction boss_lane_captain_passive_modifier:GetAuraRadius()\n\treturn 600\nend\n\nfunction boss_lane_captain_passive_modifier:GetAuraDuration()\n\treturn 3\nend\n\nfunction boss_lane_captain_passive_modifier:GetAuraSearchTeam()\n\treturn self:GetParent():GetTeam()\nend\n\nfunction boss_lane_captain_passive_modifier:GetAuraSearchType()\n\treturn DOTA_UNIT_TARGET_HERO + DOTA_UNIT_TARGET_BASIC\nend\n\nfunction boss_lane_captain_passive_modifier:GetAuraEntityReject(eEntity)\n\tif eEntity == self:GetParent() then\n\t\treturn true\n\telse\n\t\t\n\tend\nend",
-			"file": "vscripts/modifiers/abilities/boss_lane_captain/boss_lane_captain_passive_modifier.lua",
-			"file_size": 1042,
-			"file_write_time": 133129592800824449,
-			"settings":
-			{
-				"buffer_size": 1000,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					1,
-					1,
-					"paste",
-					null,
-					"AQAAAAAAAAAAAAAArAYAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					4,
-					1,
-					"",
-					null,
-					"BgAAAC8GAAAAAAAANgYAAAAAAAAIAAAAaG9yc2VtYW62BQAAAAAAAL0FAAAAAAAACAAAAGhvcnNlbWFuDwEAAAAAAAAWAQAAAAAAAAgAAABob3JzZW1hbo8AAAAAAAAAlgAAAAAAAAAIAAAAaG9yc2VtYW5EAAAAAAAAAEsAAAAAAAAACAAAAGhvcnNlbWFuCgAAAAAAAAARAAAAAAAAAAgAAABob3JzZW1hbg",
-					"AQAAAAAAAAABAAAAdgAAAAAAAAB2AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					15,
-					1,
-					"left_delete",
-					null,
-					"AQAAAPkAAAAAAAAA+QAAAAAAAACkBAAAZnVuY3Rpb24gYm9zc19sYW5lX2NhcHRhaW5fcGFzc2l2ZV9tb2RpZmllcjpPbkludGVydmFsVGhpbmsoKQoKCWxvY2FsIGlSYWRpdXMgPSBzZWxmOkdldEFiaWxpdHkoKTpHZXRTcGVjaWFsVmFsdWVGb3IoImFvZV9yYWRpdXMiKQoJbG9jYWwgaURhbWFnZSA9IHNlbGY6R2V0UGFyZW50KCk6R2V0QXR0YWNrRGFtYWdlKCkKCWxvY2FsIGZEYW1hZ2VQZXJjZW50ID0gc2VsZjpHZXRBYmlsaXR5KCk6R2V0U3BlY2lhbFZhbHVlRm9yKCJhb2VfZGFtYWdlX3BjdCIpCglsb2NhbCBmRGFtYWdlID0gaURhbWFnZSAqIChmRGFtYWdlUGVyY2VudCAvIDEwMCkKCglsb2NhbCBpVGFyZ2V0RmxhZ3MgPSBET1RBX1VOSVRfVEFSR0VUX0hFUk8gKyBET1RBX1VOSVRfVEFSR0VUX0JBU0lDCglsb2NhbCBlVGFyZ2V0cyA9IEZpbmRVbml0c0luUmFkaXVzKERPVEFfVEVBTV9CQURHVVlTLCBzZWxmOkdldFBhcmVudCgpOkdldEFic09yaWdpbigpLCBuaWwsIGlSYWRpdXMsIERPVEFfVU5JVF9UQVJHRVRfVEVBTV9FTkVNWSwgaVRhcmdldEZsYWdzLCAwLCBGSU5EX0FOWV9PUkRFUiwgZmFsc2UpCgoJaWYgI2VUYXJnZXRzID4gMCB0aGVuCgkJZm9yIGksIHYgaW4gaXBhaXJzKGVUYXJnZXRzKSBkbwoJCQlsb2NhbCBoT3B0aW9ucyA9IHsKCQkJCXZpY3RpbSA9IHYsCgkJCQlhdHRhY2tlciA9IHNlbGY6R2V0UGFyZW50KCksCgkJCQlkYW1hZ2UgPSBmRGFtYWdlLAoJCQkJZGFtYWdlX3R5cGUgPSBEQU1BR0VfVFlQRV9QSFlTSUNBTCwKCQkJCWRhbWFnZV9mbGFncyA9IERPVEFfREFNQUdFX0ZMQUdfTk9ORSwKCQkJCWFiaWxpdHkgPSBzZWxmOkdldEFiaWxpdHkoKQoJCQl9CgkJCUFwcGx5RGFtYWdlKGhPcHRpb25zKQkJCQoJCWVuZAoJZW5kCgoJRW1pdFNvdW5kT24oIkhlcm9fQ2VudGF1ci5Ib29mU3RvbXAiLCBzZWxmOkdldFBhcmVudCgpKQoKCWxvY2FsIHNQYXJ0aWNsZU5hbWUgPSAicGFydGljbGVzL2Vjb24vaXRlbXMvY2VudGF1ci9jZW50YXVyX3RpNi9jZW50YXVyX3RpNl93YXJzdG9tcF9zaG9ja3dhdmUudnBjZiIKCWxvY2FsIGlQYXJ0aWNsZUlEID0gUGFydGljbGVNYW5hZ2VyOkNyZWF0ZVBhcnRpY2xlKHNQYXJ0aWNsZU5hbWUsIFBBVFRBQ0hfQUJTT1JJR0lOX0ZPTExPVywgc2VsZjpHZXRQYXJlbnQoKSkKCVBhcnRpY2xlTWFuYWdlcjpSZWxlYXNlUGFydGljbGVJbmRleChpUGFydGljbGVJRCkKZW5k",
-					"AQAAAAAAAAABAAAAnQUAAAAAAAD5AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					27,
-					1,
-					"paste",
-					null,
-					"AgAAAEcBAAAAAAAAbQEAAAAAAAAAAAAAbQEAAAAAAABtAQAAAAAAACMAAABNT0RJRklFUl9QUk9QRVJUWV9TVEFUVVNfUkVTSVNUQU5DRQ",
-					"AQAAAAAAAAABAAAARwEAAAAAAABqAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					30,
-					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"AgAAAAUCAAAAAAAABgIAAAAAAAAAAAAABgIAAAAAAAAHAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAABQIAAAAAAAAFAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					31,
-					1,
-					"paste",
-					null,
-					"AQAAAAcCAAAAAAAAkAIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAABwIAAAAAAAAHAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					34,
-					3,
-					"left_delete",
-					null,
-					"AwAAAHYBAAAAAAAAdgEAAAAAAACPAAAAZnVuY3Rpb24gYm9zc19sYW5lX2NhcHRhaW5fcGFzc2l2ZV9tb2RpZmllcjpHZXRNb2RpZmllclN0YXR1c1Jlc2lzdGFuY2UoKQoJcmV0dXJuIHNlbGY6R2V0QWJpbGl0eSgpOkdldFNwZWNpYWxWYWx1ZUZvcigic3RhdHVzX3Jlc2lzdF9wY3QiKQplbmR1AQAAAAAAAHUBAAAAAAAAAQAAAAp0AQAAAAAAAHQBAAAAAAAAAQAAAAo",
-					"AQAAAAAAAAABAAAABQIAAAAAAAB2AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					41,
-					1,
-					"insert",
-					{
-						"characters": ","
-					},
-					"AQAAAG0BAAAAAAAAbgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAbQEAAAAAAABtAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					42,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAAG4BAAAAAAAAbwEAAAAAAAAAAAAAbwEAAAAAAABxAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAbgEAAAAAAABuAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					43,
-					1,
-					"paste",
-					null,
-					"AQAAAHEBAAAAAAAAmwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAcQEAAAAAAABxAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					46,
-					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"AgAAAC0CAAAAAAAALgIAAAAAAAAAAAAALgIAAAAAAAAvAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALQIAAAAAAAAtAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					47,
-					1,
-					"paste",
-					null,
-					"AQAAAC8CAAAAAAAAxAIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALwIAAAAAAAAvAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					52,
-					1,
-					"insert",
-					{
-						"characters": ","
-					},
-					"AQAAAJsBAAAAAAAAnAEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAmwEAAAAAAACbAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					53,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAAJwBAAAAAAAAnQEAAAAAAAAAAAAAnQEAAAAAAACfAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAnAEAAAAAAACcAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					54,
-					1,
-					"paste",
-					null,
-					"AQAAAJ8BAAAAAAAAywEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAnwEAAAAAAACfAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					57,
-					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"AgAAAPQCAAAAAAAA9QIAAAAAAAAAAAAA9QIAAAAAAAD2AgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA9AIAAAAAAAD0AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					58,
-					1,
-					"paste",
-					null,
-					"AQAAAPYCAAAAAAAAkgMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA9gIAAAAAAAD2AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					68,
-					2,
-					"left_delete",
-					null,
-					"AgAAAG8BAAAAAAAAbwEAAAAAAABcAAAACQlNT0RJRklFUl9QUk9QRVJUWV9NT1ZFU1BFRURfQk9OVVNfQ09OU1RBTlQsCgkJTU9ESUZJRVJfUFJPUEVSVFlfQVRUQUNLU1BFRURfQk9OVVNfQ09OU1RBTlRuAQAAAAAAAG4BAAAAAAAAAQAAAAo",
-					"AQAAAAAAAAABAAAAywEAAAAAAABvAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					71,
-					1,
-					"left_delete",
-					null,
-					"AQAAAG0BAAAAAAAAbQEAAAAAAAABAAAALA",
-					"AQAAAAAAAAABAAAAbgEAAAAAAABuAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					78,
-					2,
-					"left_delete",
-					null,
-					"AgAAAHYBAAAAAAAAdgEAAAAAAAC+AQAAZnVuY3Rpb24gbW9kaWZpZXJfaXRlbV9zdGFuZGVmX2FybW9yX29ubHk6R2V0TW9kaWZpZXJQaHlzaWNhbEFybW9yQm9udXMoKQoJcmV0dXJuIHNlbGY6R2V0QWJpbGl0eSgpOkdldFNwZWNpYWxWYWx1ZUZvcigiYm9udXNfYXJtb3IiKQplbmQKCmZ1bmN0aW9uIG1vZGlmaWVyX2l0ZW1fc3RhbmRlZl9tb3Zlc3BlZWRfb25seTpHZXRNb2RpZmllck1vdmVTcGVlZEJvbnVzX0NvbnN0YW50KCkKCXJldHVybiBzZWxmOkdldEFiaWxpdHkoKTpHZXRTcGVjaWFsVmFsdWVGb3IoImJvbnVzX21vdmVtZW50IikKZW5kCgpmdW5jdGlvbiBtb2RpZmllcl9pdGVtX3N0YW5kZWZfYXR0YWNrc3BlZWRfb25seTpHZXRNb2RpZmllckF0dGFja1NwZWVkQm9udXNfQ29uc3RhbnQoKQoJcmV0dXJuIHNlbGY6R2V0QWJpbGl0eSgpOkdldFNwZWNpYWxWYWx1ZUZvcigiYm9udXNfYXR0YWNrc3BlZWQiKQplbmR1AQAAAAAAAHUBAAAAAAAAAQAAAAo",
-					"AQAAAAAAAAABAAAANAMAAAAAAAB2AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					84,
-					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					86,
-					1,
-					"paste",
-					null,
-					"AQAAAAAAAAAAAAAApgAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					91,
-					1,
-					"paste",
-					null,
-					"AgAAABEAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA4AAAAAAAAACgAAABib3NzX2xhbmVfc25pcGVyX3Bhc3NpdmVfbW9kaWZpZXJfZGVidWZm",
-					"AQAAAAAAAAABAAAAEQAAAAAAAAA5AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					94,
-					1,
-					"insert",
-					{
-						"characters": "captain"
-					},
-					"CAAAAFoAAAAAAAAAWwAAAAAAAAAAAAAAWwAAAAAAAABbAAAAAAAAAAYAAABzbmlwZXJbAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAXQAAAAAAAAAAAAAAXQAAAAAAAABeAAAAAAAAAAAAAABeAAAAAAAAAF8AAAAAAAAAAAAAAF8AAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABhAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAYAAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					99,
-					1,
-					"paste",
-					null,
-					"AgAAAGIAAAAAAAAAiQAAAAAAAAAAAAAAiQAAAAAAAACJAAAAAAAAACgAAABib3NzX2xhbmVfc25pcGVyX3Bhc3NpdmVfbW9kaWZpZXJfZGVidWZm",
-					"AQAAAAAAAAABAAAAYgAAAAAAAACKAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					108,
-					1,
-					"left_delete",
-					null,
-					"AQAAAJ4BAAAAAAAAngEAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAnwEAAAAAAACfAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					111,
-					1,
-					"left_delete",
-					null,
-					"AQAAAJ8BAAAAAAAAnwEAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAoAEAAAAAAACgAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					118,
-					1,
-					"left_delete",
-					null,
-					"AQAAAKABAAAAAAAAoAEAAAAAAAB5AAAAZnVuY3Rpb24gYm9zc19sYW5lX2NhcHRhaW5fcGFzc2l2ZV9tb2RpZmllcjpEZWNsYXJlRnVuY3Rpb25zKCkKCglyZXR1cm4gewoJCU1PRElGSUVSX1BST1BFUlRZX1BIWVNJQ0FMX0FSTU9SX0JPTlVTCgl9CmVuZA",
-					"AQAAAAAAAAABAAAAGQIAAAAAAACgAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					121,
-					2,
-					"left_delete",
-					null,
-					"AgAAACEBAAAAAAAAIQEAAAAAAAB/AAAAZnVuY3Rpb24gYm9zc19sYW5lX2NhcHRhaW5fcGFzc2l2ZV9tb2RpZmllcjpPbkNyZWF0ZWQoKQoJaWYgbm90IElzU2VydmVyKCkgdGhlbiByZXR1cm4gZW5kCgoJc2VsZjpTdGFydEludGVydmFsVGhpbmsoMS41KQplbmQKCiABAAAAAAAAIAEAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAoAEAAAAAAAAhAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					122,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAACABAAAAAAAAIQEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAIAEAAAAAAAAgAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					137,
-					1,
-					"left_delete",
-					null,
-					"AQAAACEBAAAAAAAAIQEAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAIgEAAAAAAAAiAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					138,
-					1,
-					"insert",
-					{
-						"characters": "function"
-					},
-					"CAAAACEBAAAAAAAAIgEAAAAAAAAAAAAAIgEAAAAAAAAjAQAAAAAAAAAAAAAjAQAAAAAAACQBAAAAAAAAAAAAACQBAAAAAAAAJQEAAAAAAAAAAAAAJQEAAAAAAAAmAQAAAAAAAAAAAAAmAQAAAAAAACcBAAAAAAAAAAAAACcBAAAAAAAAKAEAAAAAAAAAAAAAKAEAAAAAAAApAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAIQEAAAAAAAAhAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					139,
-					1,
-					"insert",
-					{
-						"characters": " bo"
-					},
-					"AwAAACkBAAAAAAAAKgEAAAAAAAAAAAAAKgEAAAAAAAArAQAAAAAAAAAAAAArAQAAAAAAACwBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAKQEAAAAAAAApAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					140,
-					1,
-					"insert_completion",
-					{
-						"completion": "boss_lane_captain_passive_modifier",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "boss_lane_captain_passive_modifier"
-					},
-					"AgAAACoBAAAAAAAAKgEAAAAAAAACAAAAYm8qAQAAAAAAAEwBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALAEAAAAAAAAsAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					141,
-					1,
-					"insert",
-					{
-						"characters": ":"
-					},
-					"AQAAAEwBAAAAAAAATQEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAATAEAAAAAAABMAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					142,
-					1,
-					"insert",
-					{
-						"characters": "GetM<"
-					},
-					"BQAAAE0BAAAAAAAATgEAAAAAAAAAAAAATgEAAAAAAABPAQAAAAAAAAAAAABPAQAAAAAAAFABAAAAAAAAAAAAAFABAAAAAAAAUQEAAAAAAAAAAAAAUQEAAAAAAABSAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAATQEAAAAAAABNAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					143,
-					1,
-					"left_delete",
-					null,
-					"AQAAAFEBAAAAAAAAUQEAAAAAAAABAAAAPA",
-					"AQAAAAAAAAABAAAAUgEAAAAAAABSAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					144,
-					1,
-					"insert",
-					{
-						"characters": "odifierAU"
-					},
-					"CQAAAFEBAAAAAAAAUgEAAAAAAAAAAAAAUgEAAAAAAABTAQAAAAAAAAAAAABTAQAAAAAAAFQBAAAAAAAAAAAAAFQBAAAAAAAAVQEAAAAAAAAAAAAAVQEAAAAAAABWAQAAAAAAAAAAAABWAQAAAAAAAFcBAAAAAAAAAAAAAFcBAAAAAAAAWAEAAAAAAAAAAAAAWAEAAAAAAABZAQAAAAAAAAAAAABZAQAAAAAAAFoBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAUQEAAAAAAABRAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					145,
-					1,
-					"left_delete",
-					null,
-					"AQAAAFkBAAAAAAAAWQEAAAAAAAABAAAAVQ",
-					"AQAAAAAAAAABAAAAWgEAAAAAAABaAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					146,
-					1,
-					"insert",
-					{
-						"characters": "ura"
-					},
-					"AwAAAFkBAAAAAAAAWgEAAAAAAAAAAAAAWgEAAAAAAABbAQAAAAAAAAAAAABbAQAAAAAAAFwBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAWQEAAAAAAABZAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					147,
-					1,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AQAAAFwBAAAAAAAAXgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAXAEAAAAAAABcAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					149,
-					1,
-					"insert",
-					{
-						"characters": "\nreturn"
-					},
-					"CAAAAF4BAAAAAAAAXwEAAAAAAAAAAAAAXwEAAAAAAABgAQAAAAAAAAAAAABgAQAAAAAAAGEBAAAAAAAAAAAAAGEBAAAAAAAAYgEAAAAAAAAAAAAAYgEAAAAAAABjAQAAAAAAAAAAAABjAQAAAAAAAGQBAAAAAAAAAAAAAGQBAAAAAAAAZQEAAAAAAAAAAAAAZQEAAAAAAABmAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAXgEAAAAAAABeAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					150,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAGYBAAAAAAAAZwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAZgEAAAAAAABmAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					159,
-					1,
-					"insert_snippet",
-					{
-						"contents": "\"$0\""
-					},
-					"AQAAAGcBAAAAAAAAaQEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAZwEAAAAAAABnAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					160,
-					1,
-					"paste",
-					null,
-					"AQAAAGgBAAAAAAAAjwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAaAEAAAAAAABoAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					162,
-					1,
-					"insert",
-					{
-						"characters": "\nend"
-					},
-					"BwAAAJABAAAAAAAAkQEAAAAAAAAAAAAAkQEAAAAAAACSAQAAAAAAAAAAAACSAQAAAAAAAJMBAAAAAAAAAAAAAJMBAAAAAAAAlAEAAAAAAAAAAAAAlAEAAAAAAACVAQAAAAAAAAAAAACRAQAAAAAAAJEBAAAAAAAAAQAAAAmRAQAAAAAAAJEBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAkAEAAAAAAACQAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					163,
-					1,
-					"insert",
-					{
-						"characters": "\n\nfunction"
-					},
-					"CgAAAJQBAAAAAAAAlQEAAAAAAAAAAAAAlQEAAAAAAACWAQAAAAAAAAAAAACWAQAAAAAAAJcBAAAAAAAAAAAAAJcBAAAAAAAAmAEAAAAAAAAAAAAAmAEAAAAAAACZAQAAAAAAAAAAAACZAQAAAAAAAJoBAAAAAAAAAAAAAJoBAAAAAAAAmwEAAAAAAAAAAAAAmwEAAAAAAACcAQAAAAAAAAAAAACcAQAAAAAAAJ0BAAAAAAAAAAAAAJ0BAAAAAAAAngEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlAEAAAAAAACUAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					164,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAJ4BAAAAAAAAnwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAngEAAAAAAACeAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					165,
-					1,
-					"insert_completion",
-					{
-						"completion": "boss_lane_captain_passive_modifier",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": true,
-						"trigger": "boss_lane_captain_passive_modifier"
-					},
-					"AQAAAJ8BAAAAAAAAwQEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAnwEAAAAAAACfAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					166,
-					1,
-					"insert",
-					{
-						"characters": ":IsA"
-					},
-					"BAAAAMEBAAAAAAAAwgEAAAAAAAAAAAAAwgEAAAAAAADDAQAAAAAAAAAAAADDAQAAAAAAAMQBAAAAAAAAAAAAAMQBAAAAAAAAxQEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAwQEAAAAAAADBAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					167,
-					1,
-					"insert",
-					{
-						"characters": "ura"
-					},
-					"AwAAAMUBAAAAAAAAxgEAAAAAAAAAAAAAxgEAAAAAAADHAQAAAAAAAAAAAADHAQAAAAAAAMgBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAxQEAAAAAAADFAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					168,
-					1,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AQAAAMgBAAAAAAAAygEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAyAEAAAAAAADIAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					170,
-					1,
-					"insert",
-					{
-						"characters": "\nreturn"
-					},
-					"CAAAAMoBAAAAAAAAywEAAAAAAAAAAAAAywEAAAAAAADMAQAAAAAAAAAAAADMAQAAAAAAAM0BAAAAAAAAAAAAAM0BAAAAAAAAzgEAAAAAAAAAAAAAzgEAAAAAAADPAQAAAAAAAAAAAADPAQAAAAAAANABAAAAAAAAAAAAANABAAAAAAAA0QEAAAAAAAAAAAAA0QEAAAAAAADSAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAygEAAAAAAADKAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					171,
-					1,
-					"insert",
-					{
-						"characters": " true"
-					},
-					"BQAAANIBAAAAAAAA0wEAAAAAAAAAAAAA0wEAAAAAAADUAQAAAAAAAAAAAADUAQAAAAAAANUBAAAAAAAAAAAAANUBAAAAAAAA1gEAAAAAAAAAAAAA1gEAAAAAAADXAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA0gEAAAAAAADSAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					172,
-					1,
-					"insert",
-					{
-						"characters": "\nend"
-					},
-					"BwAAANcBAAAAAAAA2AEAAAAAAAAAAAAA2AEAAAAAAADZAQAAAAAAAAAAAADZAQAAAAAAANoBAAAAAAAAAAAAANoBAAAAAAAA2wEAAAAAAAAAAAAA2wEAAAAAAADcAQAAAAAAAAAAAADYAQAAAAAAANgBAAAAAAAAAQAAAAnYAQAAAAAAANgBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA1wEAAAAAAADXAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					173,
-					1,
-					"insert",
-					{
-						"characters": "\n\nfunction"
-					},
-					"CgAAANsBAAAAAAAA3AEAAAAAAAAAAAAA3AEAAAAAAADdAQAAAAAAAAAAAADdAQAAAAAAAN4BAAAAAAAAAAAAAN4BAAAAAAAA3wEAAAAAAAAAAAAA3wEAAAAAAADgAQAAAAAAAAAAAADgAQAAAAAAAOEBAAAAAAAAAAAAAOEBAAAAAAAA4gEAAAAAAAAAAAAA4gEAAAAAAADjAQAAAAAAAAAAAADjAQAAAAAAAOQBAAAAAAAAAAAAAOQBAAAAAAAA5QEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2wEAAAAAAADbAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					174,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAOUBAAAAAAAA5gEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA5QEAAAAAAADlAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					175,
-					1,
-					"insert_completion",
-					{
-						"completion": "boss_lane_captain_passive_modifier",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": true,
-						"trigger": "boss_lane_captain_passive_modifier"
-					},
-					"AQAAAOYBAAAAAAAACAIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA5gEAAAAAAADmAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					176,
-					1,
-					"insert",
-					{
-						"characters": ":Get"
-					},
-					"BAAAAAgCAAAAAAAACQIAAAAAAAAAAAAACQIAAAAAAAAKAgAAAAAAAAAAAAAKAgAAAAAAAAsCAAAAAAAAAAAAAAsCAAAAAAAADAIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAACAIAAAAAAAAIAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					177,
-					1,
-					"insert",
-					{
-						"characters": "au"
-					},
-					"AgAAAAwCAAAAAAAADQIAAAAAAAAAAAAADQIAAAAAAAAOAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAADAIAAAAAAAAMAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					178,
-					2,
-					"left_delete",
-					null,
-					"AgAAAA0CAAAAAAAADQIAAAAAAAABAAAAdQwCAAAAAAAADAIAAAAAAAABAAAAYQ",
-					"AQAAAAAAAAABAAAADgIAAAAAAAAOAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					179,
-					1,
-					"insert",
-					{
-						"characters": "Aura"
-					},
-					"BAAAAAwCAAAAAAAADQIAAAAAAAAAAAAADQIAAAAAAAAOAgAAAAAAAAAAAAAOAgAAAAAAAA8CAAAAAAAAAAAAAA8CAAAAAAAAEAIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAADAIAAAAAAAAMAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					180,
-					1,
-					"insert",
-					{
-						"characters": "Radius"
-					},
-					"BgAAABACAAAAAAAAEQIAAAAAAAAAAAAAEQIAAAAAAAASAgAAAAAAAAAAAAASAgAAAAAAABMCAAAAAAAAAAAAABMCAAAAAAAAFAIAAAAAAAAAAAAAFAIAAAAAAAAVAgAAAAAAAAAAAAAVAgAAAAAAABYCAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAEAIAAAAAAAAQAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					181,
-					1,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AQAAABYCAAAAAAAAGAIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAFgIAAAAAAAAWAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					183,
-					1,
-					"insert",
-					{
-						"characters": "\nreturn"
-					},
-					"CAAAABgCAAAAAAAAGQIAAAAAAAAAAAAAGQIAAAAAAAAaAgAAAAAAAAAAAAAaAgAAAAAAABsCAAAAAAAAAAAAABsCAAAAAAAAHAIAAAAAAAAAAAAAHAIAAAAAAAAdAgAAAAAAAAAAAAAdAgAAAAAAAB4CAAAAAAAAAAAAAB4CAAAAAAAAHwIAAAAAAAAAAAAAHwIAAAAAAAAgAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAGAIAAAAAAAAYAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					184,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAACACAAAAAAAAIQIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAIAIAAAAAAAAgAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					185,
-					1,
-					"insert",
-					{
-						"characters": "600"
-					},
-					"AwAAACECAAAAAAAAIgIAAAAAAAAAAAAAIgIAAAAAAAAjAgAAAAAAAAAAAAAjAgAAAAAAACQCAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAIQIAAAAAAAAhAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					186,
-					1,
-					"insert",
-					{
-						"characters": "\nend"
-					},
-					"BwAAACQCAAAAAAAAJQIAAAAAAAAAAAAAJQIAAAAAAAAmAgAAAAAAAAAAAAAmAgAAAAAAACcCAAAAAAAAAAAAACcCAAAAAAAAKAIAAAAAAAAAAAAAKAIAAAAAAAApAgAAAAAAAAAAAAAlAgAAAAAAACUCAAAAAAAAAQAAAAklAgAAAAAAACUCAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAJAIAAAAAAAAkAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					187,
-					1,
-					"insert",
-					{
-						"characters": "\n\nfunction"
-					},
-					"CgAAACgCAAAAAAAAKQIAAAAAAAAAAAAAKQIAAAAAAAAqAgAAAAAAAAAAAAAqAgAAAAAAACsCAAAAAAAAAAAAACsCAAAAAAAALAIAAAAAAAAAAAAALAIAAAAAAAAtAgAAAAAAAAAAAAAtAgAAAAAAAC4CAAAAAAAAAAAAAC4CAAAAAAAALwIAAAAAAAAAAAAALwIAAAAAAAAwAgAAAAAAAAAAAAAwAgAAAAAAADECAAAAAAAAAAAAADECAAAAAAAAMgIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAKAIAAAAAAAAoAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					188,
-					1,
-					"insert",
-					{
-						"characters": " bo"
-					},
-					"AwAAADICAAAAAAAAMwIAAAAAAAAAAAAAMwIAAAAAAAA0AgAAAAAAAAAAAAA0AgAAAAAAADUCAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAMgIAAAAAAAAyAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					189,
-					1,
-					"insert_completion",
-					{
-						"completion": "boss_lane_captain_passive_modifier",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "boss_lane_captain_passive_modifier"
-					},
-					"AgAAADMCAAAAAAAAMwIAAAAAAAACAAAAYm8zAgAAAAAAAFUCAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANQIAAAAAAAA1AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					190,
-					1,
-					"insert",
-					{
-						"characters": ":GetAura"
-					},
-					"CAAAAFUCAAAAAAAAVgIAAAAAAAAAAAAAVgIAAAAAAABXAgAAAAAAAAAAAABXAgAAAAAAAFgCAAAAAAAAAAAAAFgCAAAAAAAAWQIAAAAAAAAAAAAAWQIAAAAAAABaAgAAAAAAAAAAAABaAgAAAAAAAFsCAAAAAAAAAAAAAFsCAAAAAAAAXAIAAAAAAAAAAAAAXAIAAAAAAABdAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAVQIAAAAAAABVAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					191,
-					1,
-					"insert",
-					{
-						"characters": "SearchTeam"
-					},
-					"CgAAAF0CAAAAAAAAXgIAAAAAAAAAAAAAXgIAAAAAAABfAgAAAAAAAAAAAABfAgAAAAAAAGACAAAAAAAAAAAAAGACAAAAAAAAYQIAAAAAAAAAAAAAYQIAAAAAAABiAgAAAAAAAAAAAABiAgAAAAAAAGMCAAAAAAAAAAAAAGMCAAAAAAAAZAIAAAAAAAAAAAAAZAIAAAAAAABlAgAAAAAAAAAAAABlAgAAAAAAAGYCAAAAAAAAAAAAAGYCAAAAAAAAZwIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAXQIAAAAAAABdAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					192,
-					1,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AQAAAGcCAAAAAAAAaQIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAZwIAAAAAAABnAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					194,
-					1,
-					"insert",
-					{
-						"characters": "\nreturn"
-					},
-					"CAAAAGkCAAAAAAAAagIAAAAAAAAAAAAAagIAAAAAAABrAgAAAAAAAAAAAABrAgAAAAAAAGwCAAAAAAAAAAAAAGwCAAAAAAAAbQIAAAAAAAAAAAAAbQIAAAAAAABuAgAAAAAAAAAAAABuAgAAAAAAAG8CAAAAAAAAAAAAAG8CAAAAAAAAcAIAAAAAAAAAAAAAcAIAAAAAAABxAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAaQIAAAAAAABpAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					195,
-					1,
-					"insert",
-					{
-						"characters": " dot"
-					},
-					"BAAAAHECAAAAAAAAcgIAAAAAAAAAAAAAcgIAAAAAAABzAgAAAAAAAAAAAABzAgAAAAAAAHQCAAAAAAAAAAAAAHQCAAAAAAAAdQIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAcQIAAAAAAABxAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					196,
-					3,
-					"left_delete",
-					null,
-					"AwAAAHQCAAAAAAAAdAIAAAAAAAABAAAAdHMCAAAAAAAAcwIAAAAAAAABAAAAb3ICAAAAAAAAcgIAAAAAAAABAAAAZA",
-					"AQAAAAAAAAABAAAAdQIAAAAAAAB1AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					197,
-					1,
-					"insert",
-					{
-						"characters": "DOTA_"
-					},
-					"BQAAAHICAAAAAAAAcwIAAAAAAAAAAAAAcwIAAAAAAAB0AgAAAAAAAAAAAAB0AgAAAAAAAHUCAAAAAAAAAAAAAHUCAAAAAAAAdgIAAAAAAAAAAAAAdgIAAAAAAAB3AgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAcgIAAAAAAAByAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					198,
-					5,
-					"left_delete",
-					null,
-					"BQAAAHYCAAAAAAAAdgIAAAAAAAABAAAAX3UCAAAAAAAAdQIAAAAAAAABAAAAQXQCAAAAAAAAdAIAAAAAAAABAAAAVHMCAAAAAAAAcwIAAAAAAAABAAAAT3ICAAAAAAAAcgIAAAAAAAABAAAARA",
-					"AQAAAAAAAAABAAAAdwIAAAAAAAB3AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					199,
-					1,
-					"insert",
-					{
-						"characters": "self:GetA"
-					},
-					"CQAAAHICAAAAAAAAcwIAAAAAAAAAAAAAcwIAAAAAAAB0AgAAAAAAAAAAAAB0AgAAAAAAAHUCAAAAAAAAAAAAAHUCAAAAAAAAdgIAAAAAAAAAAAAAdgIAAAAAAAB3AgAAAAAAAAAAAAB3AgAAAAAAAHgCAAAAAAAAAAAAAHgCAAAAAAAAeQIAAAAAAAAAAAAAeQIAAAAAAAB6AgAAAAAAAAAAAAB6AgAAAAAAAHsCAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAcgIAAAAAAAByAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					200,
-					1,
-					"left_delete",
-					null,
-					"AQAAAHoCAAAAAAAAegIAAAAAAAABAAAAQQ",
-					"AQAAAAAAAAABAAAAewIAAAAAAAB7AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					201,
-					1,
-					"insert",
-					{
-						"characters": "P"
-					},
-					"AQAAAHoCAAAAAAAAewIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAegIAAAAAAAB6AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					202,
-					1,
-					"insert_completion",
-					{
-						"completion": "GetParent",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "GetParent"
-					},
-					"AgAAAHcCAAAAAAAAdwIAAAAAAAAEAAAAR2V0UHcCAAAAAAAAgAIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAewIAAAAAAAB7AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					203,
-					1,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AQAAAIACAAAAAAAAggIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAgAIAAAAAAACAAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					205,
-					1,
-					"insert",
-					{
-						"characters": ":GEt"
-					},
-					"BAAAAIICAAAAAAAAgwIAAAAAAAAAAAAAgwIAAAAAAACEAgAAAAAAAAAAAACEAgAAAAAAAIUCAAAAAAAAAAAAAIUCAAAAAAAAhgIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAggIAAAAAAACCAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					206,
-					1,
-					"insert",
-					{
-						"characters": "T"
-					},
-					"AQAAAIYCAAAAAAAAhwIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAhgIAAAAAAACGAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					207,
-					1,
-					"insert_completion",
-					{
-						"completion": "GetTeam",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "GetTeam"
-					},
-					"AgAAAIMCAAAAAAAAgwIAAAAAAAAEAAAAR0V0VIMCAAAAAAAAigIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAhwIAAAAAAACHAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					208,
-					1,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AQAAAIoCAAAAAAAAjAIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAigIAAAAAAACKAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					210,
-					1,
-					"insert",
-					{
-						"characters": "\nemd"
-					},
-					"BQAAAIwCAAAAAAAAjQIAAAAAAAAAAAAAjQIAAAAAAACOAgAAAAAAAAAAAACOAgAAAAAAAI8CAAAAAAAAAAAAAI8CAAAAAAAAkAIAAAAAAAAAAAAAkAIAAAAAAACRAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAjAIAAAAAAACMAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					211,
-					2,
-					"left_delete",
-					null,
-					"AgAAAJACAAAAAAAAkAIAAAAAAAABAAAAZI8CAAAAAAAAjwIAAAAAAAABAAAAbQ",
-					"AQAAAAAAAAABAAAAkQIAAAAAAACRAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					212,
-					1,
-					"insert",
-					{
-						"characters": "nd"
-					},
-					"BAAAAI8CAAAAAAAAkAIAAAAAAAAAAAAAkAIAAAAAAACRAgAAAAAAAAAAAACNAgAAAAAAAI0CAAAAAAAAAQAAAAmNAgAAAAAAAI0CAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAjwIAAAAAAACPAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					213,
-					1,
-					"insert",
-					{
-						"characters": "\n\nfunction"
-					},
-					"CgAAAJACAAAAAAAAkQIAAAAAAAAAAAAAkQIAAAAAAACSAgAAAAAAAAAAAACSAgAAAAAAAJMCAAAAAAAAAAAAAJMCAAAAAAAAlAIAAAAAAAAAAAAAlAIAAAAAAACVAgAAAAAAAAAAAACVAgAAAAAAAJYCAAAAAAAAAAAAAJYCAAAAAAAAlwIAAAAAAAAAAAAAlwIAAAAAAACYAgAAAAAAAAAAAACYAgAAAAAAAJkCAAAAAAAAAAAAAJkCAAAAAAAAmgIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAkAIAAAAAAACQAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					214,
-					1,
-					"insert",
-					{
-						"characters": " boss"
-					},
-					"BQAAAJoCAAAAAAAAmwIAAAAAAAAAAAAAmwIAAAAAAACcAgAAAAAAAAAAAACcAgAAAAAAAJ0CAAAAAAAAAAAAAJ0CAAAAAAAAngIAAAAAAAAAAAAAngIAAAAAAACfAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAmgIAAAAAAACaAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					215,
-					1,
-					"insert_completion",
-					{
-						"completion": "boss_lane_captain_passive_modifier",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "boss_lane_captain_passive_modifier"
-					},
-					"AgAAAJsCAAAAAAAAmwIAAAAAAAAEAAAAYm9zc5sCAAAAAAAAvQIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAnwIAAAAAAACfAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					216,
-					1,
-					"insert",
-					{
-						"characters": ":Getu"
-					},
-					"BQAAAL0CAAAAAAAAvgIAAAAAAAAAAAAAvgIAAAAAAAC/AgAAAAAAAAAAAAC/AgAAAAAAAMACAAAAAAAAAAAAAMACAAAAAAAAwQIAAAAAAAAAAAAAwQIAAAAAAADCAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAvQIAAAAAAAC9AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					217,
-					1,
-					"left_delete",
-					null,
-					"AQAAAMECAAAAAAAAwQIAAAAAAAABAAAAdQ",
-					"AQAAAAAAAAABAAAAwgIAAAAAAADCAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					218,
-					1,
-					"insert",
-					{
-						"characters": "AuraSearchType"
-					},
-					"DgAAAMECAAAAAAAAwgIAAAAAAAAAAAAAwgIAAAAAAADDAgAAAAAAAAAAAADDAgAAAAAAAMQCAAAAAAAAAAAAAMQCAAAAAAAAxQIAAAAAAAAAAAAAxQIAAAAAAADGAgAAAAAAAAAAAADGAgAAAAAAAMcCAAAAAAAAAAAAAMcCAAAAAAAAyAIAAAAAAAAAAAAAyAIAAAAAAADJAgAAAAAAAAAAAADJAgAAAAAAAMoCAAAAAAAAAAAAAMoCAAAAAAAAywIAAAAAAAAAAAAAywIAAAAAAADMAgAAAAAAAAAAAADMAgAAAAAAAM0CAAAAAAAAAAAAAM0CAAAAAAAAzgIAAAAAAAAAAAAAzgIAAAAAAADPAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAwQIAAAAAAADBAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					219,
-					1,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AQAAAM8CAAAAAAAA0QIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAzwIAAAAAAADPAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					221,
-					1,
-					"insert",
-					{
-						"characters": "\nreturn"
-					},
-					"CAAAANECAAAAAAAA0gIAAAAAAAAAAAAA0gIAAAAAAADTAgAAAAAAAAAAAADTAgAAAAAAANQCAAAAAAAAAAAAANQCAAAAAAAA1QIAAAAAAAAAAAAA1QIAAAAAAADWAgAAAAAAAAAAAADWAgAAAAAAANcCAAAAAAAAAAAAANcCAAAAAAAA2AIAAAAAAAAAAAAA2AIAAAAAAADZAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA0QIAAAAAAADRAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					222,
-					1,
-					"insert",
-					{
-						"characters": " DOTA_UNIT_"
-					},
-					"CwAAANkCAAAAAAAA2gIAAAAAAAAAAAAA2gIAAAAAAADbAgAAAAAAAAAAAADbAgAAAAAAANwCAAAAAAAAAAAAANwCAAAAAAAA3QIAAAAAAAAAAAAA3QIAAAAAAADeAgAAAAAAAAAAAADeAgAAAAAAAN8CAAAAAAAAAAAAAN8CAAAAAAAA4AIAAAAAAAAAAAAA4AIAAAAAAADhAgAAAAAAAAAAAADhAgAAAAAAAOICAAAAAAAAAAAAAOICAAAAAAAA4wIAAAAAAAAAAAAA4wIAAAAAAADkAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2QIAAAAAAADZAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					223,
-					1,
-					"insert",
-					{
-						"characters": "T"
-					},
-					"AQAAAOQCAAAAAAAA5QIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA5AIAAAAAAADkAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					224,
-					1,
-					"left_delete",
-					null,
-					"AQAAAOQCAAAAAAAA5AIAAAAAAAABAAAAVA",
-					"AQAAAAAAAAABAAAA5QIAAAAAAADlAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					228,
-					1,
-					"paste",
-					null,
-					"AgAAANoCAAAAAAAACAMAAAAAAAAAAAAACAMAAAAAAAAIAwAAAAAAAAoAAABET1RBX1VOSVRf",
-					"AQAAAAAAAAABAAAA5AIAAAAAAADaAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					229,
-					1,
-					"insert",
-					{
-						"characters": "\nend"
-					},
-					"BwAAAAgDAAAAAAAACQMAAAAAAAAAAAAACQMAAAAAAAAKAwAAAAAAAAAAAAAKAwAAAAAAAAsDAAAAAAAAAAAAAAsDAAAAAAAADAMAAAAAAAAAAAAADAMAAAAAAAANAwAAAAAAAAAAAAAJAwAAAAAAAAkDAAAAAAAAAQAAAAkJAwAAAAAAAAkDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAACAMAAAAAAAAIAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					232,
-					1,
-					"insert",
-					{
-						"characters": "\n\nfunction"
-					},
-					"CgAAAAwDAAAAAAAADQMAAAAAAAAAAAAADQMAAAAAAAAOAwAAAAAAAAAAAAAOAwAAAAAAAA8DAAAAAAAAAAAAAA8DAAAAAAAAEAMAAAAAAAAAAAAAEAMAAAAAAAARAwAAAAAAAAAAAAARAwAAAAAAABIDAAAAAAAAAAAAABIDAAAAAAAAEwMAAAAAAAAAAAAAEwMAAAAAAAAUAwAAAAAAAAAAAAAUAwAAAAAAABUDAAAAAAAAAAAAABUDAAAAAAAAFgMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAADAMAAAAAAAAMAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					233,
-					1,
-					"insert",
-					{
-						"characters": " bo"
-					},
-					"AwAAABYDAAAAAAAAFwMAAAAAAAAAAAAAFwMAAAAAAAAYAwAAAAAAAAAAAAAYAwAAAAAAABkDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAFgMAAAAAAAAWAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					234,
-					1,
-					"insert_completion",
-					{
-						"completion": "boss_lane_captain_passive_modifier",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "boss_lane_captain_passive_modifier"
-					},
-					"AgAAABcDAAAAAAAAFwMAAAAAAAACAAAAYm8XAwAAAAAAADkDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAGQMAAAAAAAAZAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					235,
-					1,
-					"insert",
-					{
-						"characters": ":"
-					},
-					"AQAAADkDAAAAAAAAOgMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAOQMAAAAAAAA5AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					236,
-					1,
-					"paste",
-					null,
-					"AQAAADoDAAAAAAAATQMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAOgMAAAAAAAA6AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					237,
-					1,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AQAAAE0DAAAAAAAATwMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAATQMAAAAAAABNAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					240,
-					1,
-					"insert",
-					{
-						"characters": "eEntity"
-					},
-					"BwAAAE4DAAAAAAAATwMAAAAAAAAAAAAATwMAAAAAAABQAwAAAAAAAAAAAABQAwAAAAAAAFEDAAAAAAAAAAAAAFEDAAAAAAAAUgMAAAAAAAAAAAAAUgMAAAAAAABTAwAAAAAAAAAAAABTAwAAAAAAAFQDAAAAAAAAAAAAAFQDAAAAAAAAVQMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAATgMAAAAAAABOAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					242,
-					1,
-					"insert",
-					{
-						"characters": "\nend"
-					},
-					"BQAAAFYDAAAAAAAAVwMAAAAAAAAAAAAAVwMAAAAAAABYAwAAAAAAAAAAAABYAwAAAAAAAFkDAAAAAAAAAAAAAFkDAAAAAAAAWgMAAAAAAAAAAAAAWgMAAAAAAABbAwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAVgMAAAAAAABWAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					244,
-					1,
-					"left_delete",
-					null,
-					"AQAAAFcDAAAAAAAAVwMAAAAAAAABAAAACQ",
-					"AQAAAAAAAAABAAAAWAMAAAAAAABYAwAAAAAAAAAAAAAAgEBA"
-				],
-				[
-					245,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAFcDAAAAAAAAWAMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAVwMAAAAAAABXAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					247,
-					1,
-					"reindent",
-					null,
-					"AQAAAFcDAAAAAAAAWAMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAVwMAAAAAAABXAwAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					248,
-					1,
-					"insert",
-					{
-						"characters": "if"
-					},
-					"AgAAAFgDAAAAAAAAWQMAAAAAAAAAAAAAWQMAAAAAAABaAwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAWAMAAAAAAABYAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					249,
-					1,
-					"insert",
-					{
-						"characters": " eE"
-					},
-					"AwAAAFoDAAAAAAAAWwMAAAAAAAAAAAAAWwMAAAAAAABcAwAAAAAAAAAAAABcAwAAAAAAAF0DAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAWgMAAAAAAABaAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					250,
-					1,
-					"insert_completion",
-					{
-						"completion": "eEntity",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "eEntity"
-					},
-					"AgAAAFsDAAAAAAAAWwMAAAAAAAACAAAAZUVbAwAAAAAAAGIDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAXQMAAAAAAABdAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					251,
-					1,
-					"insert",
-					{
-						"characters": " =="
-					},
-					"AwAAAGIDAAAAAAAAYwMAAAAAAAAAAAAAYwMAAAAAAABkAwAAAAAAAAAAAABkAwAAAAAAAGUDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAYgMAAAAAAABiAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					252,
-					1,
-					"insert",
-					{
-						"characters": " self:G"
-					},
-					"BwAAAGUDAAAAAAAAZgMAAAAAAAAAAAAAZgMAAAAAAABnAwAAAAAAAAAAAABnAwAAAAAAAGgDAAAAAAAAAAAAAGgDAAAAAAAAaQMAAAAAAAAAAAAAaQMAAAAAAABqAwAAAAAAAAAAAABqAwAAAAAAAGsDAAAAAAAAAAAAAGsDAAAAAAAAbAMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAZQMAAAAAAABlAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					253,
-					1,
-					"insert_completion",
-					{
-						"completion": "GetParent",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "GetParent"
-					},
-					"AgAAAGsDAAAAAAAAawMAAAAAAAABAAAAR2sDAAAAAAAAdAMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAbAMAAAAAAABsAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					254,
-					1,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AQAAAHQDAAAAAAAAdgMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAdAMAAAAAAAB0AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					260,
-					1,
-					"insert",
-					{
-						"characters": " then"
-					},
-					"BQAAAHYDAAAAAAAAdwMAAAAAAAAAAAAAdwMAAAAAAAB4AwAAAAAAAAAAAAB4AwAAAAAAAHkDAAAAAAAAAAAAAHkDAAAAAAAAegMAAAAAAAAAAAAAegMAAAAAAAB7AwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAdgMAAAAAAAB2AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					262,
-					1,
-					"insert",
-					{
-						"characters": "\nreturn"
-					},
-					"CQAAAHsDAAAAAAAAfAMAAAAAAAAAAAAAfAMAAAAAAAB9AwAAAAAAAAAAAAB9AwAAAAAAAH4DAAAAAAAAAAAAAH4DAAAAAAAAfwMAAAAAAAAAAAAAfwMAAAAAAACAAwAAAAAAAAAAAACAAwAAAAAAAIEDAAAAAAAAAAAAAIEDAAAAAAAAggMAAAAAAAAAAAAAggMAAAAAAACDAwAAAAAAAAAAAACDAwAAAAAAAIQDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAewMAAAAAAAB7AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					263,
-					1,
-					"insert",
-					{
-						"characters": " false"
-					},
-					"BgAAAIQDAAAAAAAAhQMAAAAAAAAAAAAAhQMAAAAAAACGAwAAAAAAAAAAAACGAwAAAAAAAIcDAAAAAAAAAAAAAIcDAAAAAAAAiAMAAAAAAAAAAAAAiAMAAAAAAACJAwAAAAAAAAAAAACJAwAAAAAAAIoDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAhAMAAAAAAACEAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					264,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAAIoDAAAAAAAAiwMAAAAAAAAAAAAAiwMAAAAAAACNAwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAigMAAAAAAACKAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					265,
-					1,
-					"left_delete",
-					null,
-					"AQAAAIwDAAAAAAAAjAMAAAAAAAABAAAACQ",
-					"AQAAAAAAAAABAAAAjQMAAAAAAACNAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					266,
-					1,
-					"insert",
-					{
-						"characters": "end"
-					},
-					"AwAAAIwDAAAAAAAAjQMAAAAAAAAAAAAAjQMAAAAAAACOAwAAAAAAAAAAAACOAwAAAAAAAI8DAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAjAMAAAAAAACMAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					267,
-					1,
-					"insert",
-					{
-						"characters": "\nreturn"
-					},
-					"CAAAAI8DAAAAAAAAkAMAAAAAAAAAAAAAkAMAAAAAAACRAwAAAAAAAAAAAACRAwAAAAAAAJIDAAAAAAAAAAAAAJIDAAAAAAAAkwMAAAAAAAAAAAAAkwMAAAAAAACUAwAAAAAAAAAAAACUAwAAAAAAAJUDAAAAAAAAAAAAAJUDAAAAAAAAlgMAAAAAAAAAAAAAlgMAAAAAAACXAwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAjwMAAAAAAACPAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					268,
-					1,
-					"insert",
-					{
-						"characters": " true"
-					},
-					"BQAAAJcDAAAAAAAAmAMAAAAAAAAAAAAAmAMAAAAAAACZAwAAAAAAAAAAAACZAwAAAAAAAJoDAAAAAAAAAAAAAJoDAAAAAAAAmwMAAAAAAAAAAAAAmwMAAAAAAACcAwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlwMAAAAAAACXAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					270,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAAI8DAAAAAAAAkAMAAAAAAAAAAAAAkAMAAAAAAACRAwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAjwMAAAAAAACPAwAAAAAAAAAAAAAAAF9A"
-				],
-				[
-					280,
-					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"AwAAACkCAAAAAAAAKgIAAAAAAAAAAAAAkQMAAAAAAACRAwAAAAAAAAEAAAAJKgIAAAAAAAArAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAKQIAAAAAAAApAgAAAAAAAAAAAAAAADlA"
-				],
-				[
-					282,
-					1,
-					"insert",
-					{
-						"characters": "function"
-					},
-					"CAAAACoCAAAAAAAAKwIAAAAAAAAAAAAAKwIAAAAAAAAsAgAAAAAAAAAAAAAsAgAAAAAAAC0CAAAAAAAAAAAAAC0CAAAAAAAALgIAAAAAAAAAAAAALgIAAAAAAAAvAgAAAAAAAAAAAAAvAgAAAAAAADACAAAAAAAAAAAAADACAAAAAAAAMQIAAAAAAAAAAAAAMQIAAAAAAAAyAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAKgIAAAAAAAAqAgAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					283,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAADICAAAAAAAAMwIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAMgIAAAAAAAAyAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					284,
-					1,
-					"insert_completion",
-					{
-						"completion": "boss_lane_captain_passive_modifier",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": true,
-						"trigger": "boss_lane_captain_passive_modifier"
-					},
-					"AQAAADMCAAAAAAAAVQIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAMwIAAAAAAAAzAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					285,
-					1,
-					"insert",
-					{
-						"characters": ":"
-					},
-					"AQAAAFUCAAAAAAAAVgIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAVQIAAAAAAABVAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					286,
-					1,
-					"paste",
-					null,
-					"AQAAAFYCAAAAAAAAZQIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAVgIAAAAAAABWAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					287,
-					1,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AQAAAGUCAAAAAAAAZwIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAZQIAAAAAAABlAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					289,
-					1,
-					"insert",
-					{
-						"characters": "\nreturn"
-					},
-					"CAAAAGcCAAAAAAAAaAIAAAAAAAAAAAAAaAIAAAAAAABpAgAAAAAAAAAAAABpAgAAAAAAAGoCAAAAAAAAAAAAAGoCAAAAAAAAawIAAAAAAAAAAAAAawIAAAAAAABsAgAAAAAAAAAAAABsAgAAAAAAAG0CAAAAAAAAAAAAAG0CAAAAAAAAbgIAAAAAAAAAAAAAbgIAAAAAAABvAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAZwIAAAAAAABnAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					290,
-					1,
-					"insert",
-					{
-						"characters": " 3"
-					},
-					"AgAAAG8CAAAAAAAAcAIAAAAAAAAAAAAAcAIAAAAAAABxAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAbwIAAAAAAABvAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					291,
-					1,
-					"insert",
-					{
-						"characters": "\nend"
-					},
-					"BwAAAHECAAAAAAAAcgIAAAAAAAAAAAAAcgIAAAAAAABzAgAAAAAAAAAAAABzAgAAAAAAAHQCAAAAAAAAAAAAAHQCAAAAAAAAdQIAAAAAAAAAAAAAdQIAAAAAAAB2AgAAAAAAAAAAAAByAgAAAAAAAHICAAAAAAAAAQAAAAlyAgAAAAAAAHICAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAcQIAAAAAAABxAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					296,
-					1,
-					"insert",
-					{
-						"characters": "true"
-					},
-					"BQAAANIDAAAAAAAA0wMAAAAAAAAAAAAA0wMAAAAAAADTAwAAAAAAAAUAAABmYWxzZdMDAAAAAAAA1AMAAAAAAAAAAAAA1AMAAAAAAADVAwAAAAAAAAAAAADVAwAAAAAAANYDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA0gMAAAAAAADXAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					298,
-					4,
-					"left_delete",
-					null,
-					"BAAAAOgDAAAAAAAA6AMAAAAAAAABAAAAZecDAAAAAAAA5wMAAAAAAAABAAAAdeYDAAAAAAAA5gMAAAAAAAABAAAAcuUDAAAAAAAA5QMAAAAAAAABAAAAdA",
-					"AQAAAAAAAAABAAAA6QMAAAAAAADpAwAAAAAAAAAAAAAAoGNA"
-				],
-				[
-					299,
-					1,
-					"insert",
-					{
-						"characters": "false"
-					},
-					"BQAAAOUDAAAAAAAA5gMAAAAAAAAAAAAA5gMAAAAAAADnAwAAAAAAAAAAAADnAwAAAAAAAOgDAAAAAAAAAAAAAOgDAAAAAAAA6QMAAAAAAAAAAAAA6QMAAAAAAADqAwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA5QMAAAAAAADlAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					300,
-					15,
-					"left_delete",
-					null,
-					"DwAAAOkDAAAAAAAA6QMAAAAAAAABAAAAZegDAAAAAAAA6AMAAAAAAAABAAAAc+cDAAAAAAAA5wMAAAAAAAABAAAAbOYDAAAAAAAA5gMAAAAAAAABAAAAYeUDAAAAAAAA5QMAAAAAAAABAAAAZuQDAAAAAAAA5AMAAAAAAAABAAAAIOMDAAAAAAAA4wMAAAAAAAABAAAAbuIDAAAAAAAA4gMAAAAAAAABAAAAcuEDAAAAAAAA4QMAAAAAAAABAAAAdeADAAAAAAAA4AMAAAAAAAABAAAAdN8DAAAAAAAA3wMAAAAAAAABAAAAZd4DAAAAAAAA3gMAAAAAAAABAAAAct0DAAAAAAAA3QMAAAAAAAABAAAACdwDAAAAAAAA3AMAAAAAAAABAAAACtsDAAAAAAAA2wMAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAA6gMAAAAAAADqAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					310,
-					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"BQAAANsDAAAAAAAA3AMAAAAAAAAAAAAA3AMAAAAAAADdAwAAAAAAAAAAAADdAwAAAAAAAN4DAAAAAAAAAAAAAN4DAAAAAAAA3wMAAAAAAAAAAAAA3AMAAAAAAADcAwAAAAAAAAEAAAAJ",
-					"AQAAAAAAAAABAAAA2wMAAAAAAADbAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					311,
-					1,
-					"insert",
-					{
-						"characters": "return"
-					},
-					"BgAAAN4DAAAAAAAA3wMAAAAAAAAAAAAA3wMAAAAAAADgAwAAAAAAAAAAAADgAwAAAAAAAOEDAAAAAAAAAAAAAOEDAAAAAAAA4gMAAAAAAAAAAAAA4gMAAAAAAADjAwAAAAAAAAAAAADjAwAAAAAAAOQDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA3gMAAAAAAADeAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					312,
-					1,
-					"insert",
-					{
-						"characters": " Unit"
-					},
-					"BQAAAOQDAAAAAAAA5QMAAAAAAAAAAAAA5QMAAAAAAADmAwAAAAAAAAAAAADmAwAAAAAAAOcDAAAAAAAAAAAAAOcDAAAAAAAA6AMAAAAAAAAAAAAA6AMAAAAAAADpAwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA5AMAAAAAAADkAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					313,
-					1,
-					"insert_completion",
-					{
-						"completion": "UnitFilter(${1:handle handle_1}, ${2:int int_2}, ${3:int int_3}, ${4:int int_4}, ${5:int int_5})",
-						"format": "snippet",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "UnitFilter"
-					},
-					"AgAAAOUDAAAAAAAA5QMAAAAAAAAEAAAAVW5pdOUDAAAAAAAALAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA6QMAAAAAAADpAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					314,
-					1,
-					"insert",
-					{
-						"characters": "eE"
-					},
-					"AwAAAPADAAAAAAAA8QMAAAAAAAAAAAAA8QMAAAAAAADxAwAAAAAAAA8AAABoYW5kbGUgaGFuZGxlXzHxAwAAAAAAAPIDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA8AMAAAAAAAD/AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					315,
-					1,
-					"insert_completion",
-					{
-						"completion": "eEntity",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "eEntity"
-					},
-					"AgAAAPADAAAAAAAA8AMAAAAAAAACAAAAZUXwAwAAAAAAAPcDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA8gMAAAAAAADyAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					323,
-					1,
-					"left_delete",
-					null,
-					"AQAAANwDAAAAAAAA3AMAAAAAAABIAAAACglyZXR1cm4gVW5pdEZpbHRlcihlRW50aXR5LCBpbnQgaW50XzIsIGludCBpbnRfMywgaW50IGludF80LCBpbnQgaW50XzUp",
-					"AQAAAAAAAAABAAAAJAQAAAAAAADcAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					324,
-					1,
-					"reindent",
-					null,
-					"AQAAANwDAAAAAAAA3QMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA3AMAAAAAAADcAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					325,
-					5,
-					"left_delete",
-					null,
-					"BQAAANwDAAAAAAAA3AMAAAAAAAABAAAACdsDAAAAAAAA2wMAAAAAAAABAAAACtoDAAAAAAAA2gMAAAAAAAABAAAAZNkDAAAAAAAA2QMAAAAAAAABAAAAbtgDAAAAAAAA2AMAAAAAAAABAAAAZQ",
-					"AQAAAAAAAAABAAAA3QMAAAAAAADdAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					326,
-					1,
-					"insert",
-					{
-						"characters": "else"
-					},
-					"BAAAANgDAAAAAAAA2QMAAAAAAAAAAAAA2QMAAAAAAADaAwAAAAAAAAAAAADaAwAAAAAAANsDAAAAAAAAAAAAANsDAAAAAAAA3AMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA2AMAAAAAAADYAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					327,
-					1,
-					"insert",
-					{
-						"characters": " return"
-					},
-					"BwAAANwDAAAAAAAA3QMAAAAAAAAAAAAA3QMAAAAAAADeAwAAAAAAAAAAAADeAwAAAAAAAN8DAAAAAAAAAAAAAN8DAAAAAAAA4AMAAAAAAAAAAAAA4AMAAAAAAADhAwAAAAAAAAAAAADhAwAAAAAAAOIDAAAAAAAAAAAAAOIDAAAAAAAA4wMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA3AMAAAAAAADcAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					328,
-					1,
-					"left_delete",
-					null,
-					"AQAAAOIDAAAAAAAA4gMAAAAAAAABAAAAbg",
-					"AQAAAAAAAAABAAAA4wMAAAAAAADjAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					329,
-					1,
-					"insert",
-					{
-						"characters": "e"
-					},
-					"AQAAAOIDAAAAAAAA4wMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA4gMAAAAAAADiAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					330,
-					1,
-					"left_delete",
-					null,
-					"AQAAAOIDAAAAAAAA4gMAAAAAAAABAAAAZQ",
-					"AQAAAAAAAAABAAAA4wMAAAAAAADjAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					331,
-					1,
-					"insert",
-					{
-						"characters": "n"
-					},
-					"AQAAAOIDAAAAAAAA4wMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA4gMAAAAAAADiAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					332,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAOMDAAAAAAAA5AMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA4wMAAAAAAADjAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					333,
-					7,
-					"left_delete",
-					null,
-					"BwAAAOMDAAAAAAAA4wMAAAAAAAABAAAAIOIDAAAAAAAA4gMAAAAAAAABAAAAbuEDAAAAAAAA4QMAAAAAAAABAAAAcuADAAAAAAAA4AMAAAAAAAABAAAAdd8DAAAAAAAA3wMAAAAAAAABAAAAdN4DAAAAAAAA3gMAAAAAAAABAAAAZd0DAAAAAAAA3QMAAAAAAAABAAAAcg",
-					"AQAAAAAAAAABAAAA5AMAAAAAAADkAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					334,
-					1,
-					"insert",
-					{
-						"characters": "\nend"
-					},
-					"CAAAAN0DAAAAAAAA3gMAAAAAAAAAAAAA3gMAAAAAAADfAwAAAAAAAAAAAADfAwAAAAAAAOADAAAAAAAAAAAAAOADAAAAAAAA4QMAAAAAAAAAAAAA4QMAAAAAAADiAwAAAAAAAAAAAADiAwAAAAAAAOMDAAAAAAAAAAAAAN4DAAAAAAAA3gMAAAAAAAACAAAACQneAwAAAAAAAN8DAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA3QMAAAAAAADdAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					337,
-					1,
-					"insert",
-					{
-						"characters": "\nretur"
-					},
-					"BwAAANwDAAAAAAAA3QMAAAAAAAAAAAAA3QMAAAAAAADeAwAAAAAAAAAAAADeAwAAAAAAAN8DAAAAAAAAAAAAAN8DAAAAAAAA4AMAAAAAAAAAAAAA4AMAAAAAAADhAwAAAAAAAAAAAADhAwAAAAAAAOIDAAAAAAAAAAAAAOIDAAAAAAAA4wMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA3AMAAAAAAADcAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					338,
-					5,
-					"left_delete",
-					null,
-					"BQAAAOIDAAAAAAAA4gMAAAAAAAABAAAAcuEDAAAAAAAA4QMAAAAAAAABAAAAdeADAAAAAAAA4AMAAAAAAAABAAAAdN8DAAAAAAAA3wMAAAAAAAABAAAAZd4DAAAAAAAA3gMAAAAAAAABAAAAcg",
-					"AQAAAAAAAAABAAAA4wMAAAAAAADjAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					339,
-					1,
-					"insert",
-					{
-						"characters": "\treturn"
-					},
-					"BwAAAN4DAAAAAAAA3wMAAAAAAAAAAAAA3wMAAAAAAADgAwAAAAAAAAAAAADgAwAAAAAAAOEDAAAAAAAAAAAAAOEDAAAAAAAA4gMAAAAAAAAAAAAA4gMAAAAAAADjAwAAAAAAAAAAAADjAwAAAAAAAOQDAAAAAAAAAAAAAOQDAAAAAAAA5QMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA3gMAAAAAAADeAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					340,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAOUDAAAAAAAA5gMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA5QMAAAAAAADlAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					341,
-					1,
-					"insert",
-					{
-						"characters": "eE"
-					},
-					"AgAAAOYDAAAAAAAA5wMAAAAAAAAAAAAA5wMAAAAAAADoAwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA5gMAAAAAAADmAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					342,
-					1,
-					"insert_completion",
-					{
-						"completion": "eEntity",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "eEntity"
-					},
-					"AgAAAOYDAAAAAAAA5gMAAAAAAAACAAAAZUXmAwAAAAAAAO0DAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA6AMAAAAAAADoAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					343,
-					1,
-					"insert",
-					{
-						"characters": ":GetTE"
-					},
-					"BgAAAO0DAAAAAAAA7gMAAAAAAAAAAAAA7gMAAAAAAADvAwAAAAAAAAAAAADvAwAAAAAAAPADAAAAAAAAAAAAAPADAAAAAAAA8QMAAAAAAAAAAAAA8QMAAAAAAADyAwAAAAAAAAAAAADyAwAAAAAAAPMDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA7QMAAAAAAADtAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					345,
-					1,
-					"insert_completion",
-					{
-						"completion": "GetTeam",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "GetTeam"
-					},
-					"AgAAAO4DAAAAAAAA7gMAAAAAAAAFAAAAR2V0VEXuAwAAAAAAAPUDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA8wMAAAAAAADzAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					346,
-					1,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AQAAAPUDAAAAAAAA9wMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA9QMAAAAAAAD1AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					348,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAPcDAAAAAAAA+AMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA9wMAAAAAAAD3AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					349,
-					1,
-					"left_delete",
-					null,
-					"AQAAAPcDAAAAAAAA9wMAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAA+AMAAAAAAAD4AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					350,
-					1,
-					"insert",
-					{
-						"characters": "="
-					},
-					"AQAAAPcDAAAAAAAA+AMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA9wMAAAAAAAD3AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					351,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAPgDAAAAAAAA+QMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA+AMAAAAAAAD4AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					352,
-					2,
-					"left_delete",
-					null,
-					"AgAAAPgDAAAAAAAA+AMAAAAAAAABAAAAIPcDAAAAAAAA9wMAAAAAAAABAAAAPQ",
-					"AQAAAAAAAAABAAAA+QMAAAAAAAD5AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					353,
-					1,
-					"insert",
-					{
-						"characters": " =="
-					},
-					"AwAAAPcDAAAAAAAA+AMAAAAAAAAAAAAA+AMAAAAAAAD5AwAAAAAAAAAAAAD5AwAAAAAAAPoDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA9wMAAAAAAAD3AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					354,
-					1,
-					"insert",
-					{
-						"characters": " self:GetA"
-					},
-					"CgAAAPoDAAAAAAAA+wMAAAAAAAAAAAAA+wMAAAAAAAD8AwAAAAAAAAAAAAD8AwAAAAAAAP0DAAAAAAAAAAAAAP0DAAAAAAAA/gMAAAAAAAAAAAAA/gMAAAAAAAD/AwAAAAAAAAAAAAD/AwAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAQQAAAAAAAAAAAAAAQQAAAAAAAACBAAAAAAAAAAAAAACBAAAAAAAAAMEAAAAAAAAAAAAAAMEAAAAAAAABAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA+gMAAAAAAAD6AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					355,
-					1,
-					"insert",
-					{
-						"characters": "uraSear"
-					},
-					"BwAAAAQEAAAAAAAABQQAAAAAAAAAAAAABQQAAAAAAAAGBAAAAAAAAAAAAAAGBAAAAAAAAAcEAAAAAAAAAAAAAAcEAAAAAAAACAQAAAAAAAAAAAAACAQAAAAAAAAJBAAAAAAAAAAAAAAJBAAAAAAAAAoEAAAAAAAAAAAAAAoEAAAAAAAACwQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAABAQAAAAAAAAEBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					357,
-					1,
-					"insert_completion",
-					{
-						"completion": "GetAuraSearchTeam",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "GetAuraSearchTeam"
-					},
-					"AgAAAAAEAAAAAAAAAAQAAAAAAAALAAAAR2V0QXVyYVNlYXIABAAAAAAAABEEAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAACwQAAAAAAAALBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					358,
-					1,
-					"insert_snippet",
-					{
-						"contents": "($0)"
-					},
-					"AQAAABEEAAAAAAAAEwQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAEQQAAAAAAAARBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					360,
-					1,
-					"insert",
-					{
-						"characters": " and"
-					},
-					"BAAAABMEAAAAAAAAFAQAAAAAAAAAAAAAFAQAAAAAAAAVBAAAAAAAAAAAAAAVBAAAAAAAABYEAAAAAAAAAAAAABYEAAAAAAAAFwQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAEwQAAAAAAAATBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					361,
-					1,
-					"insert",
-					{
-						"characters": " E"
-					},
-					"AgAAABcEAAAAAAAAGAQAAAAAAAAAAAAAGAQAAAAAAAAZBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAFwQAAAAAAAAXBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					362,
-					1,
-					"left_delete",
-					null,
-					"AQAAABgEAAAAAAAAGAQAAAAAAAABAAAARQ",
-					"AQAAAAAAAAABAAAAGQQAAAAAAAAZBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					363,
-					1,
-					"insert",
-					{
-						"characters": "eE"
-					},
-					"AgAAABgEAAAAAAAAGQQAAAAAAAAAAAAAGQQAAAAAAAAaBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAGAQAAAAAAAAYBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					364,
-					1,
-					"insert_completion",
-					{
-						"completion": "eEntity",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "eEntity"
-					},
-					"AgAAABgEAAAAAAAAGAQAAAAAAAACAAAAZUUYBAAAAAAAAB8EAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAGgQAAAAAAAAaBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					365,
-					1,
-					"insert",
-					{
-						"characters": ":GetType"
-					},
-					"CAAAAB8EAAAAAAAAIAQAAAAAAAAAAAAAIAQAAAAAAAAhBAAAAAAAAAAAAAAhBAAAAAAAACIEAAAAAAAAAAAAACIEAAAAAAAAIwQAAAAAAAAAAAAAIwQAAAAAAAAkBAAAAAAAAAAAAAAkBAAAAAAAACUEAAAAAAAAAAAAACUEAAAAAAAAJgQAAAAAAAAAAAAAJgQAAAAAAAAnBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAHwQAAAAAAAAfBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					368,
-					47,
-					"left_delete",
-					null,
-					"LwAAABgEAAAAAAAAGAQAAAAAAAAQAAAAZUVudGl0eTpHZXRUeXBlIBcEAAAAAAAAFwQAAAAAAAABAAAAIBYEAAAAAAAAFgQAAAAAAAABAAAAZBUEAAAAAAAAFQQAAAAAAAABAAAAbhQEAAAAAAAAFAQAAAAAAAABAAAAYRMEAAAAAAAAEwQAAAAAAAABAAAAIBIEAAAAAAAAEgQAAAAAAAABAAAAKREEAAAAAAAAEQQAAAAAAAABAAAAKBAEAAAAAAAAEAQAAAAAAAABAAAAbQ8EAAAAAAAADwQAAAAAAAABAAAAYQ4EAAAAAAAADgQAAAAAAAABAAAAZQ0EAAAAAAAADQQAAAAAAAABAAAAVAwEAAAAAAAADAQAAAAAAAABAAAAaAsEAAAAAAAACwQAAAAAAAABAAAAYwoEAAAAAAAACgQAAAAAAAABAAAAcgkEAAAAAAAACQQAAAAAAAABAAAAYQgEAAAAAAAACAQAAAAAAAABAAAAZQcEAAAAAAAABwQAAAAAAAABAAAAUwYEAAAAAAAABgQAAAAAAAABAAAAYQUEAAAAAAAABQQAAAAAAAABAAAAcgQEAAAAAAAABAQAAAAAAAABAAAAdQMEAAAAAAAAAwQAAAAAAAABAAAAQQIEAAAAAAAAAgQAAAAAAAABAAAAdAEEAAAAAAAAAQQAAAAAAAABAAAAZQAEAAAAAAAAAAQAAAAAAAABAAAAR/8DAAAAAAAA/wMAAAAAAAABAAAAOv4DAAAAAAAA/gMAAAAAAAABAAAAZv0DAAAAAAAA/QMAAAAAAAABAAAAbPwDAAAAAAAA/AMAAAAAAAABAAAAZfsDAAAAAAAA+wMAAAAAAAABAAAAc/oDAAAAAAAA+gMAAAAAAAABAAAAIPkDAAAAAAAA+QMAAAAAAAABAAAAPfgDAAAAAAAA+AMAAAAAAAABAAAAPfcDAAAAAAAA9wMAAAAAAAABAAAAIPYDAAAAAAAA9gMAAAAAAAABAAAAKfUDAAAAAAAA9QMAAAAAAAABAAAAKPQDAAAAAAAA9AMAAAAAAAABAAAAbfMDAAAAAAAA8wMAAAAAAAABAAAAYfIDAAAAAAAA8gMAAAAAAAABAAAAZfEDAAAAAAAA8QMAAAAAAAABAAAAVPADAAAAAAAA8AMAAAAAAAABAAAAdO8DAAAAAAAA7wMAAAAAAAABAAAAZe4DAAAAAAAA7gMAAAAAAAABAAAAR+0DAAAAAAAA7QMAAAAAAAABAAAAOuwDAAAAAAAA7AMAAAAAAAABAAAAeesDAAAAAAAA6wMAAAAAAAABAAAAdOoDAAAAAAAA6gMAAAAAAAABAAAAaQ",
-					"AQAAAAAAAAABAAAAKAQAAAAAAAAYBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					369,
-					12,
-					"left_delete",
-					null,
-					"DAAAAOkDAAAAAAAA6QMAAAAAAAABAAAAdOgDAAAAAAAA6AMAAAAAAAABAAAAbucDAAAAAAAA5wMAAAAAAAABAAAAReYDAAAAAAAA5gMAAAAAAAABAAAAZeUDAAAAAAAA5QMAAAAAAAABAAAAIOQDAAAAAAAA5AMAAAAAAAABAAAAbuMDAAAAAAAA4wMAAAAAAAABAAAAcuIDAAAAAAAA4gMAAAAAAAABAAAAdeEDAAAAAAAA4QMAAAAAAAABAAAAdOADAAAAAAAA4AMAAAAAAAABAAAAZd8DAAAAAAAA3wMAAAAAAAABAAAAct4DAAAAAAAA3gMAAAAAAAABAAAACQ",
-					"AQAAAAAAAAABAAAA6gMAAAAAAADqAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					370,
-					1,
-					"insert",
-					{
-						"characters": "\t"
-					},
-					"AQAAAN4DAAAAAAAA3wMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA3gMAAAAAAADeAwAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "vscripts/modifiers/abilities/boss_lane_captain/boss_lane_captain_passive_modifier_aura.lua",
-			"settings":
-			{
-				"buffer_size": 823,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					1,
-					1,
-					"paste",
-					null,
-					"AQAAAAAAAAAAAAAAkgMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
-					1,
-					"insert",
-					{
-						"characters": "_aura"
-					},
-					"BQAAACIAAAAAAAAAIwAAAAAAAAAAAAAAIwAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACUAAAAAAAAAAAAAACUAAAAAAAAAJgAAAAAAAAAAAAAAJgAAAAAAAAAnAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAIgAAAAAAAAAiAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"paste",
-					null,
-					"AgAAAD4AAAAAAAAAZQAAAAAAAAAAAAAAZQAAAAAAAABlAAAAAAAAACIAAABib3NzX2xhbmVfY2FwdGFpbl9wYXNzaXZlX21vZGlmaWVy",
-					"AQAAAAAAAAABAAAAPgAAAAAAAABgAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					21,
-					1,
-					"paste",
-					null,
-					"AgAAAI0AAAAAAAAAtAAAAAAAAAAAAAAAtAAAAAAAAAC0AAAAAAAAACIAAABib3NzX2xhbmVfY2FwdGFpbl9wYXNzaXZlX21vZGlmaWVy",
-					"AQAAAAAAAAABAAAAjQAAAAAAAACvAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					26,
-					1,
-					"paste",
-					null,
-					"AgAAABMBAAAAAAAAOgEAAAAAAAAAAAAAOgEAAAAAAAA6AQAAAAAAACIAAABib3NzX2xhbmVfY2FwdGFpbl9wYXNzaXZlX21vZGlmaWVy",
-					"AQAAAAAAAAABAAAAEwEAAAAAAAA1AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					31,
-					1,
-					"paste",
-					null,
-					"AgAAAPEBAAAAAAAAGAIAAAAAAAAAAAAAGAIAAAAAAAAYAgAAAAAAACAAAABtb2RpZmllcl9pdGVtX3N0YW5kZWZfYXJtb3Jfb25seQ",
-					"AQAAAAAAAAABAAAA8QEAAAAAAAARAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					36,
-					1,
-					"paste",
-					null,
-					"AgAAAIMCAAAAAAAAqgIAAAAAAAAAAAAAqgIAAAAAAACqAgAAAAAAACQAAABtb2RpZmllcl9pdGVtX3N0YW5kZWZfbW92ZXNwZWVkX29ubHk",
-					"AQAAAAAAAAABAAAAgwIAAAAAAACnAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					45,
-					1,
-					"paste",
-					null,
-					"AgAAAB0DAAAAAAAARAMAAAAAAAAAAAAARAMAAAAAAABEAwAAAAAAACYAAABtb2RpZmllcl9pdGVtX3N0YW5kZWZfYXR0YWNrc3BlZWRfb25seQ",
-					"AQAAAAAAAAABAAAAHQMAAAAAAABDAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					50,
-					1,
-					"paste",
-					null,
-					"AgAAAGcCAAAAAAAAdgIAAAAAAAAAAAAAdgIAAAAAAAB2AgAAAAAAAAsAAABib251c19hcm1vcg",
-					"AQAAAAAAAAABAAAAZwIAAAAAAAByAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					55,
-					1,
-					"paste",
-					null,
-					"AgAAAAIDAAAAAAAAFAMAAAAAAAAAAAAAFAMAAAAAAAAUAwAAAAAAAA4AAABib251c19tb3ZlbWVudA",
-					"AQAAAAAAAAABAAAAAgMAAAAAAAAQAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					62,
-					1,
-					"paste",
-					null,
-					"AgAAAKIDAAAAAAAAtwMAAAAAAAAAAAAAtwMAAAAAAAC3AwAAAAAAABEAAABib251c19hdHRhY2tzcGVlZA",
-					"AQAAAAAAAAABAAAAogMAAAAAAACzAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					67,
-					1,
-					"left_delete",
-					null,
-					"AQAAAAYBAAAAAAAABgEAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAABwEAAAAAAAAHAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					69,
-					1,
-					"left_delete",
-					null,
-					"AQAAAAYBAAAAAAAABgEAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAABwEAAAAAAAAHAQAAAAAAAAAAAAAAADlA"
-				],
-				[
-					90,
-					2,
-					"left_delete",
-					null,
-					"AgAAAIQAAAAAAAAAhAAAAAAAAACDAAAAZnVuY3Rpb24gYm9zc19sYW5lX2NhcHRhaW5fcGFzc2l2ZV9tb2RpZmllcl9hdXJhOk9uQ3JlYXRlZCgpCglpZiBub3QgSXNTZXJ2ZXIoKSB0aGVuIHJldHVybiBlbmQKCglzZWxmOlN0YXJ0SW50ZXJ2YWxUaGluaygxLjUpCmVuZAqDAAAAAAAAAIMAAAAAAAAAAQAAAAo",
-					"AQAAAAAAAAABAAAABwEAAAAAAACEAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -2627,153 +562,143 @@
 	[
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/abilities",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/abilities/boss_lane_captain",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/abilities/boss_lane_sniper",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/abilities/hero_heretic_hunter",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_captain",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_horseman",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_sniper",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items"
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/shops"
 	],
 	"file_history":
 	[
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_crownoftheimmortal.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/resource/addon_english.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_inspiringheaddress.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_opulentboots.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_opulentboots.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_ragearmor.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/shops/main_shops.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_burningbreastplate.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_motivatingmekanism.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_motivatingmekanism.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_motivatingmekanism_active.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_motivatingmekanism_aura.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_inspiringheaddress_aura.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_motivatingmekanism.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_inspiringheaddress.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/modifier_item_standef_motivatingmekanism.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_omnicrown.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_inspiringheaddress.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_inspiringheaddress.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_immaculateclaymore.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_immaculateclaymore.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_immaculateclaymore.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_immaculateclaymore.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_demonlordsblade.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_demonlordsblade.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_demonlordsblade.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_blessedboots.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_blessedboots.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_blessedboots.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_opulentboots.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_siegeblade.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_siegeblade.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_siegeblade.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/modifier_item_standef_siegeblade.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_burningbreastplate.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_burningbreastplate.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_ragearmor.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_ragearmor.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_heroicarmor.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_heroicarmor.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_heroicarmor.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_novablade_armor_reduction.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_novaorb.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_novablade.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_novablade.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_shardsofdivinemagic.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_shardsofdivinemagic.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_burningbreasplate.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_burningbreasplate.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_motivatingmekanism.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_opulentboots.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_gemofopulence.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_ragehammer.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_ragearmor.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_heroicarmor.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_siegeblade.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_demonlordsblade.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_novablade.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_novablade.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_shardsofdivinemagic.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_shardsofdivinemagic.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_burningbreastplate.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_goldenboulder.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/hero_deformed_cultist/hero_deformed_cultist_mindcrusher_modifier.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/lane_boss_manager.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/hero_executioner/hero_executioner_unimaginablestrength_modifier.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/hero_executioner_instantaneousadaptation.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_heroes_custom.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/hero_executioner_execute.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/hero_executioner_terrorecho.txt",
+		"/C/Users/samco/Downloads/message.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/hero_deformed_cultist_telepathiceruption.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/hero_deformed_cultist_mindcrusher.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/hero_deformed_cultist_psychichemorrhage.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_bracer.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_enchantedbracer.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/player_manager.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/addon_game_mode.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/modifier_player_scaling.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/hero_deformed_cultist_kneecapmassacre.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/hero_deformed_cultist_crudetransmutation.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_enchantedtalisman.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_enchantedwraithband.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_enchantedbracer.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_talisman.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_wraithband.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_bracer.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/neutral_base.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/utilities.lua",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/abilities/boss_lane_horseman/boss_lane_horseman_passive.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_horseman/boss_lane_horseman_passive_modifier.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/boss_lane_horseman_passive.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_libertymedallion.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_crusher/boss_lane_crusher_passive_modifier.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/abilities/boss_lane_crusher/boss_lane_crusher_passive.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/boss_lane_crusher_passive.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_sniper/boss_lane_sniper_passive_modifier.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_sniper/boss_lane_sniper_passive_modifier_debuff.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/boss_lane_sniper_passive.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/abilities/boss_lane_sniper/boss_lane_sniper_passive.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/abilities/boss_lane_assassin/boss_lane_assassin_passive.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_assassin/boss_lane_assassin_passive_modifier_invisibility.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/boss_lane_assassin_passive.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_assassin/boss_lane_assassin_passive_modifier.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_assassin.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_berserker.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_brute.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_captain.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_crusher.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_guard.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_horseman.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_mage.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_sniper.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/constants_tables.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/modifier_lane_boss.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/boss_lane_mage_passive.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/lane_creep_good_base.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/lane_creep_bad_base.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/boss_lane.lua",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/boss_lane_brute_passive.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/boss_lane_berserker_passive.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/boss_lane_guard_passive.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/boss_lane_captain_passive.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/modifier_creep_strength.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/resource/addon_english.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_spiritgem.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_spiritgem.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_spiritgem.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_spiritjavelin.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_spiritgem.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/lane_creep_manager.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_elixiroflearning.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_minorpotionofpower.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_vampiricdraught.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_healingsalve.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_tomeofagility.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_tomeofpotential.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_tomeofintelligence.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_tomeofstrength.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_tomeofagility.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_tomeofintelligence.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_tomeofpotential.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_tomeofstrength.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/lane_boss_manager.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/game_setup.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_override.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/itembuilds/default_generic.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/shops/main_shops.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_enchantedwraithband.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_enchantedtalisman.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_enchantedbracer.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_spiritjavelin.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_spiritpelt.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_spiritlace.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_titaniumarmor.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_twitchingbracelet.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_vibratingbracelet.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_warmredring.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_charmedjavelin.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_spiritjavelin.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_charmedjavelin.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_wolfpelt.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_charmedjavelin.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_spiritpelt.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_wolfpelt.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_wolfpelt_active.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_windlace_active.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_spiritlace.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_windlace.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_windlace.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_bracer.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_talisman.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_wraithband.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_enchantedtalisman.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_enchantedwraithband.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_enchantedbracer.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_talisman.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_enchantedtalisman.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/abilities/hero_heretic_hunter/hero_heretic_hunter_decimate.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_talisman.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_enchantedtalisman.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_enchantedwraithband.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_wraithband.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_enchantedwraithband.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_wraithband.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_bracer.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_enchantedbracer.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_lifesteal_only.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_bracer.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_enchantedbracer.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_spiritpelt.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_wolfpelt.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_spiritlace.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_windlace.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/boss_lane.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/(BACKUP 1-30-41 PM)npc_units_custom.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/boss_lane_horseman_passive.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/constants.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/lane_creep_bad_base.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/npc/lane_creep_good_base.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/(BACKUP 12-11-26 PM)npc_units_custom.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_stan.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/addon_game_mode.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_elixiroflearning.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_daggerofswiftness.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_elixiroflearning.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_minorpotionofpower.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_healingsalve.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_minorpotionofpower.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_energylens.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_healingsalve.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_learningelixir.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_vampiricdraught.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_vampiricdraught.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_axe.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_learningelixir.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_intelligence_only.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/items/item_standef_woodenaxe.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_diamondaxe.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_ironaxe.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_woodenaxe.txt"
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/constants_tables.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/boss_lane_crusher_passive.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/boss_lane_sniper_passive.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/boss_lane_assassin_passive.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/abilities/boss_lane_brute/boss_lane_brute_passive.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_brute/boss_lane_brute_passive_modifier_aura.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_brute/boss_lane_brute_passive_modifier.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/abilities/boss_lane_mage/boss_lane_mage_passive.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_mage/boss_lane_mage_passive_modifier.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/boss_lane_mage_passive.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_berserker/boss_lane_berserker_passive_modifier.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_berserker.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/abilities/boss_lane_berserker/boss_lane_berserker_passive.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_guard/boss_lane_guard_passive_modifier.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/abilities/boss_lane_guard/boss_lane_guard_passive.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_captain/boss_lane_captain_passive_modifier.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/abilities/boss_lane_captain/boss_lane_captain_passive.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_captain/boss_lane_captain_passive_modifier_aura.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_sniper.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_horseman.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_mage.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_guard.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_crusher.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_captain.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_brute.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_assassin.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_horseman/boss_lane_horseman_passive_modifier.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_libertymedallion.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_crusher/boss_lane_crusher_passive_modifier.lua"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -2787,6 +712,42 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"inspiringheaddress",
+			"blessed",
+			"deviousrapier",
+			"ungodlypenetrator",
+			"ragearmor",
+			"ragehammer",
+			"sliverofpuremagic",
+			"orb",
+			"broach",
+			"modifier_item_standef_motivatingmekanism_aura",
+			"inspiringheaddress",
+			"omnicrown",
+			"novablade",
+			"fLifestealPercent",
+			"eCaster",
+			"ungodlypenetrator",
+			"blessedboots",
+			"end_pfx",
+			"start_pfx",
+			"ragehammer",
+			"burningbreasplate",
+			"burningbreastplate",
+			"burningbreasplate",
+			"heroicarmor",
+			"shardsofdivinemagic",
+			"bentpole",
+			"burningbroach",
+			"blessedboots",
+			"novaorb",
+			"sliverofpuremagic",
+			"burningbroach",
+			"captain",
+			"mage",
+			"berserker",
+			"guard",
+			"captain",
 			"horseman",
 			"crusher",
 			"sniper",
@@ -2878,43 +839,7 @@
 			"modifier_item_standef_phasegem",
 			"item_standef_phasegem",
 			"modifier_item_standef_phasegem",
-			"item_standef_phasegem",
-			"modifier_item_standef_phasegem",
-			"item_standef_phasegem",
-			"modifier_item_standef_phasegem",
-			"item_standef_phasegem",
-			"modifier_item_standef_phasegem",
-			"item_standef_phasegem",
-			"modifier_item_standef_phasegem",
-			"item_standef_phasegem",
-			"modifier_modifier_item_standef_orbofhealth",
-			"item_standef_phasegem",
-			"modifier_item_standef_phasegem",
-			"item_standef_phasegem",
-			"modifier_item_standef_phasegem",
-			"item_standef_phasegem",
-			"modifier_item_standef_agility_only",
-			"bad",
-			"fMaxFo",
-			"npc_dota_creep",
-			"models/creeps/neutral_creeps/n_creep_troll_dark_b/n_creep_troll_dark_b.vmdl",
-			"modifier_item_standef_attackspeed_only",
-			"shadows",
-			"book",
-			"stygian",
-			"sygian",
-			"ninja",
-			"powder",
-			"fae",
-			"\"\t",
-			"{\n  \t\t\"ItemPurchasable\"   \"0\"\n  \t\t\"ItemIsNeutralDrop\"\t\"0\"\n  \t\t\"ItemDroppable\"\t\"0\"\n\t}\n",
-			"\t{\n  \t\t\"ItemPurchasable\"   \"0\"\n  \t\t\"ItemIsNeutralDrop\"\t\"0\"\n  \t\t\"ItemDroppable\"\t\"0\"\n\t}",
-			"\"ItemIsNeutralDrop\"\t\"0\"",
-			"shovel",
-			"arcane",
-			"\"ItemPurchasable\"   \"0\"",
-			"modifier_item_constant_strength_only",
-			"modifier_item_constant_movespeed_only"
+			"item_standef_phasegem"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -2922,6 +847,38 @@
 		"regex": false,
 		"replace_history":
 		[
+			"motivatingmekanism",
+			"opulent",
+			"immaculateclaymore",
+			"demonlordsblade",
+			"heroicarmor",
+			"siegeblade",
+			"ragearmor",
+			"shardsofdivinemagic",
+			"blade",
+			"breastplate",
+			"modifier_item_standef_motivatingmekanism_active",
+			"motivatingmekanism",
+			"inspiringheaddress",
+			"fLifestealPercentage",
+			"eParent",
+			"immaculateclaymore",
+			"demonlordsblade",
+			"opulentboots",
+			"iParticleID",
+			"siegeblade",
+			"buringbreastplate",
+			"siegeblade",
+			"burningbreastplate",
+			"ragearmor",
+			"heroicarmor",
+			"novablade",
+			"shardsofdivinemagic",
+			"burningbreasplate",
+			"brute",
+			"mage",
+			"berserker",
+			"guard",
 			"captain",
 			"horseman",
 			"crusher",
@@ -3017,36 +974,7 @@
 			"item_standef_energycondenser",
 			"modifier_item_standef_pendantofmending",
 			"item_standef_pendantofmending",
-			"modifier_item_standef_phasegem",
-			"npc_dota_creature",
-			"modifier_item_standef_armor_only",
-			"\"\t\"REMOVE\"",
-			"",
-			"\"ItemIsNeutralDrop\"\t\"0\"\n  \t\t\"ItemDroppable\"\t\"0\"",
-			"\"ItemPurchasable\"   \"0\"\n  \t\t\"ItemIsNeutralDrop\"\t\"0\"",
-			"\"ItemPurchasable\"   \"0\"\n  \t\t\"ItemIsNeutralDrop\"\t\"1\"",
-			"\"ItemPurchasable\"   \"0\"\n  \t\t\"ItemIsNeutralDrop\"\t\t\t\t\"1\"",
-			"modifier_item_standef_strength_only",
-			"modifier_item_standef_movespeed_only",
-			"modifier_item_standef_lifesteal_only",
-			"modifier_item_standef_intelligence_only",
-			"modifier_item_standef_damage_only",
-			"bStatFlags",
-			"FFunctions",
-			"CModifier",
-			"\"AttackAnimationPoint\"\t\t\"0.1\"",
-			"modifier_item_constant_strength_only",
-			"modifier_item_constant_movespeed_only",
-			"modifier_item_constant_lifesteal_only",
-			"modifier_item_constant_intelligence_only",
-			"modifier_item_constant_damage_only",
-			"\"CombatClassDefend\"\t\t\t\"DOTA_COMBAT_CLASS_DEFEND_BASIC\"",
-			"\"CombatClassDefend\"\t\t\t\"DOTA_COMBAT_CLASS_DEFEND_BASIC\"\n",
-			"\t\t\t\n\t{\n  \t\t\"ItemPurchasable\"   \"0\"\n\t}\n",
-			"DOTA_COMBAT_CLASS_ATTACK_BASIC",
-			"CStanDefence",
-			"CNeutralCreepManager",
-			"CLaneCreepManager"
+			"modifier_item_standef_phasegem"
 		],
 		"reverse": false,
 		"scrollbar_highlights": true,
@@ -3061,131 +989,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "npc/npc_abilities_custom/boss_lane_captain_passive.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 662,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								534,
-								555
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "vscripts/abilities/boss_lane_captain/boss_lane_captain_passive.lua",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 619,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								619,
-								619
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "vscripts/modifiers/abilities/boss_lane_captain/boss_lane_captain_passive_modifier.lua",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1000,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1000,
-								1000
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "vscripts/modifiers/abilities/boss_lane_captain/boss_lane_captain_passive_modifier_aura.lua",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 823,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								353,
-								353
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -3195,7 +998,7 @@
 	},
 	"input":
 	{
-		"height": 48.0
+		"height": 39.0
 	},
 	"layout":
 	{
@@ -3232,7 +1035,7 @@
 	"project": "scripts.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -3270,7 +1073,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 358.0,
+	"side_bar_width": 346.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

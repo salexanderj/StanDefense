@@ -1,12 +1,12 @@
-LinkLuaModifier("modifier_item_standef_blessedboots", "modifiers/items/modifier_item_standef_blessedboots", LUA_MODIFIER_MOTION_NONE)
+LinkLuaModifier("modifier_item_standef_opulentboots", "modifiers/items/modifier_item_standef_opulentboots", LUA_MODIFIER_MOTION_NONE)
 
-item_standef_blessedboots = class({})
+item_standef_opulentboots = class({})
 
-function item_standef_blessedboots:GetIntrinsicModifierName()
-	return "modifier_item_standef_blessedboots"
+function item_standef_opulentboots:GetIntrinsicModifierName()
+	return "modifier_item_standef_opulentboots"
 end
 
-function item_standef_blessedboots:OnSpellStart()
+function item_standef_opulentboots:OnSpellStart()
 
 	local sTeleportStartParticle = "particles/items2_fx/teleport_start.vpcf"
 	local sTeleportEndParticle = "particles/items2_fx/teleport_end.vpcf"
@@ -34,7 +34,7 @@ function item_standef_blessedboots:OnSpellStart()
 	ParticleManager:SetParticleControlEnt(self.iEndParticleID, 3, eCaster, PATTACH_CUSTOMORIGIN, "attach_hitloc", vTargetPosition, true)
 end
 
-function item_standef_blessedboots:OnChannelFinish(bInterrupted)
+function item_standef_opulentboots:OnChannelFinish(bInterrupted)
 	local eCaster = self:GetCaster()
 
 	if bInterrupted then

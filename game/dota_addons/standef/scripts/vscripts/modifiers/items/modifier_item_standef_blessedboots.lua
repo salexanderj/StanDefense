@@ -15,32 +15,6 @@ function modifier_item_standef_blessedboots:DeclareFunctions()
 	}
 end
 
-function modifier_item_standef_blessedboots:OnCreated(eventInfo)
-	self.iBonusMovespeedPer = self:GetAbility():GetSpecialValueFor("bonus_movement_per_enemy")
-	self.iBonusMovespeedBase = self:GetAbility():GetSpecialValueFor("bonus_movement")
-
-	self.iTotalBonusMovespeed = self.iBonusMovespeedBase
-
-	self.eParent = self:GetParent()
-
-	self:StartIntervalThink(0.5)
-end
-
-function modifier_item_standef_blessedboots:OnIntervalThink()
-
-	if not self.GetTeam then
-		return
-	end
-
-	local fEnemies = FindUnitsInRadius(self.eParent:GetTeam(), self.eParent:GetAbsOrigin(), nil, 500, DOTA_UNIT_TARGET_TEAM_ENEMY, DOTA_UNIT_TARGET_ALL, 0, 0, false)
-
-	local fTotalBonusMovespeed = self.iBonusMovespeedBase + (self.iBonusMovespeedPer * #fEnemies)
-
-	if self.eParent.CalculateStatBonus then
-		self.eParent:CalculateStatBonus(false)
-	end
-end
-
 function modifier_item_standef_blessedboots:GetModifierMoveSpeedBonus_Constant()
-	return self.iTotalBonusMovespeed
+	return self:GetAbility():GetSpecialValueFor("bonus_movement")
 end

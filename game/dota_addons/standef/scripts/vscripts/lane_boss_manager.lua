@@ -92,12 +92,14 @@ end
 function CLaneBossManager:GetMultiplier()
 	local fCurrentTime = GameRules:GetDOTATime(false, false)
 	local iMinute = (1/60) * fCurrentTime
-	local iScaledMinute = math.max(iMinute - 10, 0)
-	if iMinute <= 30 then
-		return CLaneBossManager:LinearFunction(iScaledMinute)
-	else
-		return CLaneBossManager:ExponentionalFunction(iScaledMinute)
-	end
+	-- local iScaledMinute = math.max(iMinute - 10, 0)
+	-- if iMinute <= 30 then
+	-- 	return CLaneBossManager:LinearFunction(iScaledMinute)
+	-- else
+	-- 	return CLaneBossManager:ExponentionalFunction(iScaledMinute)
+	-- end
+	local fValue = CLaneBossManager:ExponentionalFunction(iMinute)
+	return math.max(0, fValue)
 end
 
 function CLaneBossManager:LinearFunction(iValue)
@@ -105,5 +107,5 @@ function CLaneBossManager:LinearFunction(iValue)
 end
 
 function CLaneBossManager:ExponentionalFunction(iValue)
-	return 1 + ((1/8) * (iValue ^ 1.25) - 5)
+	return 1 + ((1/50) * (iValue ^ 1.75) - 2.125)
 end

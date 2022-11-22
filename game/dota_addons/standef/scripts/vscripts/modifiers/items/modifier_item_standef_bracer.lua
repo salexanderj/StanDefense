@@ -36,7 +36,8 @@ function modifier_item_standef_bracer:OnAttackLanded(eventInfo)
 	if not IsServer() or
 		not eventInfo.attacker or
 	   eventInfo.target ~= self:GetParent() or
-	   eventInfo.target:IsIllusion() then
+	   eventInfo.target:IsIllusion() or
+	   eventInfo.attacker:IsBuilding() then
 		return
 	end
 

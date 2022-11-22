@@ -4,7 +4,7 @@ require("lane_creep_manager")
 require("lane_boss_manager")
 require("neutral_creep_manager")
 require("constants")
-require("libraries/CosmeticLib")
+-- require("libraries/CosmeticLib")
 
 LinkLuaModifier("modifier_player_scaling", "modifiers/modifier_player_scaling", LUA_MODIFIER_MOTION_NONE)
 
@@ -28,9 +28,9 @@ function Precache(context)
 
 
 	--CosmeticLib
-	PrecacheResource("model", "models/development/invisiblebox.vmdl", context)
-	PrecacheResource("model_folder", "models/heroes/antimage", context)
-	PrecacheResource("model_folder", "models/items/antimage", context)
+	-- PrecacheResource("model", "models/development/invisiblebox.vmdl", context)
+	-- PrecacheResource("model_folder", "models/heroes/antimage", context)
+	-- PrecacheResource("model_folder", "models/items/antimage", context)
 end
 
 -- Create the game mode when we activate

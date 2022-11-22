@@ -47,10 +47,11 @@ function hero_executioner_unimaginablestrength_modifier:OnAttackLanded(eventInfo
 	local bFlags = {
 		not IsServer(),
 		eventInfo.attacker ~= self.eCaster,
-		eventInfo.attacker:IsIllusion()
+		eventInfo.attacker:IsIllusion(),
+		eventInfo.target:IsBuilding()
 	}
 
-	if bFlags[1] or bFlags[2] or bFlags[3] then
+	if bFlags[1] or bFlags[2] or bFlags[3] or bFlags[4] then
 		return
 	end
 

@@ -371,7 +371,7 @@
 		"AnimationPlaybackRate"	"1"
 		"AnimationIgnoresModelScale"	"1"
 		"AbilityManaCost"	"1250 1650 2750"
-		"AbilityCooldown"	"200.0 150.0 80.0"
+		"AbilityCooldown"	"250.0 200.0 120.0"
 		"AbilityCastRange"	"1300"
 		"AbilitySpecial"
 		{
@@ -383,7 +383,7 @@
 			"01"
 			{
 				"var_type"	"FIELD_FLOAT"
-				"mana_as_anti_regen_pct"	"100"
+				"mana_as_anti_regen_pct"	"35"
 			}
 		}
 	}
@@ -405,7 +405,7 @@
 		"AbilityCastAnimation"	"ACT_DOTA_CAST_ABILITY_4"
 		"AnimationPlaybackRate"	"1"
 		"AnimationIgnoresModelScale"	"1"
-		"AbilityManaCost"	"100 150 225 260 325 440 600"
+		"AbilityManaCost"	"120 170 240 280 345 460 635"
 		"AbilityCooldown"	"24.0 22.0 20.0 18.0 16.0 14.0 12.0"
 		"AbilityCastRange"	"800"
 		"AbilitySpecial"
@@ -413,7 +413,7 @@
 			"01"
 			{
 				"var_type"	"FIELD_FLOAT"
-				"bleed_intelligence_damage_pct"	"60.0 80.0 100.0 120.0 140.0 160.0 200.0"
+				"bleed_intelligence_damage_pct"	"30.0 40.0 50.0 60.0 70.0 80.0 100.0"
 			}
 			"02"
 			{
@@ -428,7 +428,7 @@
 			"04"
 			{
 				"var_type"	"FIELD_INTEGER"
-				"duration"	"4 5 6 7 8 9 10"
+				"duration"	"6 8 10 12 14 16 18"
 			}
 		}
 	}
@@ -463,7 +463,7 @@
 			"01"
 			{
 				"var_type"	"FIELD_FLOAT"
-				"intelligence_damage_pct"	"50 75 125 165 215 280 375"
+				"intelligence_damage_pct"	"50 75 125 175 225 325 425"
 			}
 			"03"
 			{
@@ -525,7 +525,7 @@
 			"01"
 			{
 				"var_type"	"FIELD_INTEGER"
-				"all_stat_damage_pct"	"4000 6000 8500"
+				"all_stat_damage_pct"	"5000 7000 10000"
 			}
 			"02"
 			{
@@ -596,12 +596,12 @@
 			"01"
 			{
 				"var_type"	"FIELD_INTEGER"
-				"bonus_movement"	"150 175 200 225 250 275 300"
+				"bonus_movement"	"200 225 250 275 300 325 375"
 			}
 			"02"
 			{
 				"var_type"	"FIELD_INTEGER"
-				"bonus_mana_regen_pct"	"1 2 3 4 5 6 7"
+				"bonus_mana_regen_pct"	"2 3 4 5 6 7 8"
 			}
 		}
 	}
@@ -622,14 +622,14 @@
 		"RequiredLevel"	"1"
 		"LevelsBetweenUpgrades"	"3"
 		"AbilityManaCost"	"40 55 70 85 90 105 120"
-		"AbilityCooldown"	"35.0 30.0 27.0 25.0 21.0 18.0 15.0"
+		"AbilityCooldown"	"40.0 37.5 32.5 30.0 27.5.0 25.0 20.0"
 		"AbilityCastRange"	"250"
 		"AbilitySpecial"
 		{
 			"01"
 			{
 				"var_type"	"FIELD_INTEGER"
-				"damage_multiplier_pct"	"200 300 400 650 900 1050 1200"
+				"damage_multiplier_pct"	"175 275 350 600 800 925 1050"
 			}
 			"02"
 			{

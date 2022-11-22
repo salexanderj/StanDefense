@@ -1,5 +1,5 @@
 require("constants_tables")
-require("libraries/CosmeticLib")
+-- require("libraries/CosmeticLib")
 
 LinkLuaModifier("modifier_courier", "modifiers/modifier_courier", LUA_MODIFIER_MOTION_NONE)
 LinkLuaModifier("modifier_custom_movespeed_maximum", "modifiers/modifier_custom_movespeed_maximum", LUA_MODIFIER_MOTION_NONE)
@@ -36,11 +36,11 @@ function CPlayerManager:OnHeroPicked(eventInfo)
 	eHero:AddNewModifier(eHero, nil, "modifier_custom_movespeed_maximum", {})
 
 	--Replace items with selected item sets
-	for k, v in pairs(HERO_ITEM_SETS) do
-		if eHero:GetName() == k then
-			for k, v in pairs(v) do
-				CosmeticLib:ReplaceWithSlotName(eHero, k, v)
-			end
-		end
-	end
+	-- for k, v in pairs(HERO_ITEM_SETS) do
+	-- 	if eHero:GetName() == k then
+	-- 		for k, v in pairs(v) do
+	-- 			CosmeticLib:ReplaceWithSlotName(eHero, k, v)
+	-- 		end
+	-- 	end
+	-- end
 end
