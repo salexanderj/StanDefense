@@ -34,7 +34,7 @@ end
 function modifier_lane_boss:OnIntervalThink()
 	local fLowestDist = (GameRules.eStanEntity:GetAbsOrigin() - self.eParent:GetAbsOrigin()):Length2D();
 
-	if(fLowestDist > 12500) then
+	if(fLowestDist > 9000) then
 		for i = 0, PlayerResource:GetPlayerCount() - 1 do
 			local ePlayer = PlayerResource:GetPlayer(i)
 			local eHero = ePlayer:GetAssignedHero()
@@ -45,10 +45,8 @@ function modifier_lane_boss:OnIntervalThink()
 			end
 		end
 	end
-	
 
-
-	if(fLowestDist > 12500) then
+	if(fLowestDist > 9000) then
 		self.iBonusMovespeed = 2500
 	else
 		self.iBonusMovespeed = 0

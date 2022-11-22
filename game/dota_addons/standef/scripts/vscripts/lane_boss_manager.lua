@@ -43,6 +43,10 @@ function CLaneBossManager:SpawnLaneBoss()
 
 	local eSpawner = Entities:FindByName(nil, "bad_spawner")
 	local eWaypoint = Entities:FindByName(nil, "path_bad_1")
+	if CLaneBossManager:CheckSecondBarracks() then 
+		eSpawner = Entities:FindByName(nil, "forward_spawn_2") 
+		eWaypoint = Entities:FindByName(nil, "path_bad_98")
+  end
 
 	local eBoss = CLaneBossManager:CreateBoss(tChoice["name"], eSpawner:GetAbsOrigin(), eWaypoint)
 	CLaneBossManager:SetBossStats(eBoss);
@@ -99,7 +103,7 @@ function CLaneBossManager:GetMultiplier()
 	-- 	return CLaneBossManager:ExponentionalFunction(iScaledMinute)
 	-- end
 	local fValue = CLaneBossManager:ExponentionalFunction(iMinute)
-	return math.max(0, fValue)
+	return math.max(1, fValue)
 end
 
 function CLaneBossManager:LinearFunction(iValue)
@@ -108,4 +112,17 @@ end
 
 function CLaneBossManager:ExponentionalFunction(iValue)
 	return 1 + ((1/90) * (iValue ^ 1.75) - 1.625)
+end
+
+function CLaneBossManager:CheckSecondBarracks()
+  local eBarracksMelee1 = Entities:FindByName(nil, "enemy_barracks_melee_2")
+  local eBarracksMelee2 = Entities:FindByName(nil, "enemy_barracks_melee_3")
+  local eBarracksRanged = Entities:FindByName(nil, "enemy_barracks_ranged_2")
+
+  if eBarracksMelee1 == nil or eBarracksMelee2 == nil or eBarracksRanged == nil then
+    return false
+  elseif eBarracksMelee1:IsAlive() and eBarracksMelee2:IsAlive() and eBarracksRanged:IsAlive() then
+    return true
+  end
+  return false
 end

@@ -519,82 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "vscripts/lane_boss_manager.lua",
-			"settings":
-			{
-				"buffer_size": 3758,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					5,
-					1,
-					"insert",
-					{
-						"characters": " *"
-					},
-					"AgAAAMYKAAAAAAAAxwoAAAAAAAAAAAAAxwoAAAAAAADICgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAxgoAAAAAAADGCgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
-					1,
-					"insert",
-					{
-						"characters": " ."
-					},
-					"AgAAAMgKAAAAAAAAyQoAAAAAAAAAAAAAyQoAAAAAAADKCgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAyAoAAAAAAADICgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					7,
-					1,
-					"left_delete",
-					null,
-					"AQAAAMkKAAAAAAAAyQoAAAAAAAABAAAALg",
-					"AQAAAAAAAAABAAAAygoAAAAAAADKCgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					8,
-					1,
-					"insert",
-					{
-						"characters": "0.5"
-					},
-					"AwAAAMkKAAAAAAAAygoAAAAAAAAAAAAAygoAAAAAAADLCgAAAAAAAAAAAADLCgAAAAAAAMwKAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAyQoAAAAAAADJCgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					15,
-					1,
-					"left_delete",
-					null,
-					"AQAAAIwOAAAAAAAAjA4AAAAAAAABAAAANQ",
-					"AQAAAAAAAAABAAAAjQ4AAAAAAACNDgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"insert",
-					{
-						"characters": "9"
-					},
-					"AQAAAIwOAAAAAAAAjQ4AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAjA4AAAAAAACMDgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					19,
-					1,
-					"paste",
-					null,
-					"AgAAAKQOAAAAAAAAqQ4AAAAAAAAAAAAAqQ4AAAAAAACpDgAAAAAAAAUAAAAyLjEyNQ",
-					"AQAAAAAAAAABAAAAqQ4AAAAAAACkDgAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -642,6 +566,9 @@
 	],
 	"file_history":
 	[
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom.txt",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/lane_boss_manager.lua",
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/modifier_lane_boss.lua",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_crownoftheimmortal.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/resource/addon_english.txt",
@@ -707,7 +634,6 @@
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_recipe_standef_burningbreastplate.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_goldenboulder.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/hero_deformed_cultist/hero_deformed_cultist_mindcrusher_modifier.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/lane_boss_manager.lua",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/hero_executioner/hero_executioner_unimaginablestrength_modifier.lua",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom/hero_executioner_instantaneousadaptation.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_heroes_custom.txt",
@@ -767,9 +693,7 @@
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_crusher.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_captain.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_brute.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_assassin.txt",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_horseman/boss_lane_horseman_passive_modifier.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_libertymedallion.lua"
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_assassin.txt"
 	],
 	"find":
 	{
@@ -1064,38 +988,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "vscripts/lane_boss_manager.lua",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3758,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2697,
-								2697
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1225.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],

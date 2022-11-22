@@ -418,7 +418,7 @@
 			"02"
 			{
 				"var_type"	"FIELD_INTEGER"
-				"magic_resistance_reduction_pct"	"5 10 15 20 25 30 35"
+				"magic_resistance_reduction_pct"	"25"
 			}
 			"03"
 			{
@@ -838,7 +838,7 @@
 			"01"
 			{
 				"var_type"	"FIELD_FLOAT"
-				"kills_per_stat"	"25 23 21 19 16 12 8"
+				"kills_per_stat"	"13 11 9 7 5 3"
 			}
 		}
 	}
