@@ -79,7 +79,7 @@ function CLaneBossManager:SetBossStats(eBoss)
 	eBoss:SetBaseMaxHealth(iOriginalHealth * fMultiplier)
 	eBoss:SetMaxHealth(iOriginalHealth * fMultiplier)
 	eBoss:SetHealth(iOriginalHealth * fMultiplier)
-	eBoss:SetBaseHealthRegen(fOriginalHealthRegen * fMultiplier)
+	eBoss:SetBaseHealthRegen(fOriginalHealthRegen * fMultiplier * 0.5)
 	eBoss:SetMaxMana(iOriginalMana * fMultiplier)
 	eBoss:SetBaseManaRegen(iOriginalManaRegen * fMultiplier)
 	eBoss:SetPhysicalArmorBaseValue(fOriginalArmor * fMultiplier * 0.5)
@@ -107,5 +107,5 @@ function CLaneBossManager:LinearFunction(iValue)
 end
 
 function CLaneBossManager:ExponentionalFunction(iValue)
-	return 1 + ((1/50) * (iValue ^ 1.75) - 2.125)
+	return 1 + ((1/90) * (iValue ^ 1.75) - 1.625)
 end

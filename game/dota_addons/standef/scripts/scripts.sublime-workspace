@@ -519,6 +519,82 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "vscripts/lane_boss_manager.lua",
+			"settings":
+			{
+				"buffer_size": 3758,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": " *"
+					},
+					"AgAAAMYKAAAAAAAAxwoAAAAAAAAAAAAAxwoAAAAAAADICgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxgoAAAAAAADGCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": " ."
+					},
+					"AgAAAMgKAAAAAAAAyQoAAAAAAAAAAAAAyQoAAAAAAADKCgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyAoAAAAAAADICgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMkKAAAAAAAAyQoAAAAAAAABAAAALg",
+					"AQAAAAAAAAABAAAAygoAAAAAAADKCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "0.5"
+					},
+					"AwAAAMkKAAAAAAAAygoAAAAAAAAAAAAAygoAAAAAAADLCgAAAAAAAAAAAADLCgAAAAAAAMwKAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyQoAAAAAAADJCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIwOAAAAAAAAjA4AAAAAAAABAAAANQ",
+					"AQAAAAAAAAABAAAAjQ4AAAAAAACNDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "9"
+					},
+					"AQAAAIwOAAAAAAAAjQ4AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAjA4AAAAAAACMDgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"paste",
+					null,
+					"AgAAAKQOAAAAAAAAqQ4AAAAAAAAAAAAAqQ4AAAAAAACpDgAAAAAAAAUAAAAyLjEyNQ",
+					"AQAAAAAAAAABAAAAqQ4AAAAAAACkDgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -562,11 +638,11 @@
 	[
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/shops"
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts"
 	],
 	"file_history":
 	[
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_abilities_custom.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_crownoftheimmortal.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/resource/addon_english.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_items_custom/item_standef_inspiringheaddress.txt",
@@ -693,12 +769,11 @@
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_brute.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/npc/npc_units_custom/npc_standef_boss_lane_assassin.txt",
 		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_horseman/boss_lane_horseman_passive_modifier.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_libertymedallion.lua",
-		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/abilities/boss_lane_crusher/boss_lane_crusher_passive_modifier.lua"
+		"/D/SteamLibrary/steamapps/common/dota 2 beta/game/dota_addons/standef/scripts/vscripts/modifiers/items/modifier_item_standef_libertymedallion.lua"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -989,6 +1064,38 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "vscripts/lane_boss_manager.lua",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2697,
+								2697
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
